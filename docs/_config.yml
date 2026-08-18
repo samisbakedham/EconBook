@@ -1,0 +1,13 @@
+title: Terminal Value
+tagline: What Death Was Doing for the Economy, and What Happens When We Stop It
+author: Samuel Safahi
+description: >-
+  Mortality is load bearing economic infrastructure. It sets the discount rate,
+  turns over capital, turns over ideas, prices risk, and creates vacancy.
+  Radical life extension removes all five at once, and none of them has a backup.
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+exclude:
+  - build-site.sh

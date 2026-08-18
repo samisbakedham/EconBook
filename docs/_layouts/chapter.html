@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<p class="eyebrow"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+{% if page.chapnum %}<p class="eyebrow">Chapter {{ page.chapnum }}</p>{% endif %}
+<h2>{{ page.title }}</h2>
+{{ content }}
+<nav class="pager">
+  <span>{% if page.prev %}<a href="{{ page.prev | relative_url }}">&larr; Previous</a>{% endif %}</span>
+  <span class="home"><a href="{{ '/' | relative_url }}">Contents</a></span>
+  <span>{% if page.next %}<a href="{{ page.next | relative_url }}">Next &rarr;</a>{% endif %}</span>
+</nav>

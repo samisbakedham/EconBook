@@ -1,0 +1,143 @@
+---
+layout: chapter
+title: "Notes"
+prev: "/chapters/terminal-value.html"
+permalink: /chapters/notes.html
+---
+
+
+Items marked **[verified]** have been checked against a source. Items marked **[unverified]** are written from memory and still need checking before publication. Items marked **[my calculation]** are arithmetic I performed rather than findings I am reporting, and are flagged as such in the text.
+
+---
+
+### Chapter 1. The Boundary Condition
+
+1. Rational bubbles in infinite horizon and overlapping generations models. The foundational treatment is Tirole, "Asset Bubbles and Overlapping Generations," Econometrica, 1985. **[unverified]**
+2. Transversality and no-Ponzi conditions. Standard in any graduate macroeconomics text. Cite a specific textbook treatment rather than the folk version. **[unverified]**
+3. Samuelson, "An Exact Consumption-Loan Model of Interest with or without the Social Contrivance of Money," Journal of Political Economy, 1958. Samuelson's own comparison of the arrangement to a chain letter should be quoted directly. **[unverified]**
+4. Life expectancy at birth in developed countries, roughly thirties to roughly eighties since 1850, driven overwhelmingly by declines in infant and child mortality rather than by extension of adult life. Needs a demographic source with the decomposition made explicit. **[unverified]**
+5. Jeanne Calment, born 21 February 1875, died 4 August 1997, aged 122 years and 164 days. The only person ever verified to have reached 120, 121 or 122, and more than three years clear of the next verified case. Record still standing. **[verified]**
+
+### Chapter 2. Assume a Longer Life
+
+1. Calment, as above. **[verified]**
+2. Life expectancy decomposition. An earlier draft of this chapter claimed the gains since 1850 were "almost entirely a story about children." That is the popular correction to the popular error, and it is itself wrong. Mortality fell at every age. In England in 1841 a five-year-old could expect to live about fifty-five more years; today a five-year-old can expect to reach eighty-two, a gain of more than twenty-five years measured from an age that excludes infant mortality entirely. Our World in Data addresses this misconception directly. The chapter has been rewritten to say that adult life really was extended, and that what has not moved is the ceiling. **[verified, and corrected]**
+3. Fries, "Aging, Natural Death, and the Compression of Morbidity," New England Journal of Medicine, volume 303, pages 130 to 135, 1980. **[verified]**
+4. Rectangularization of the survival curve. Fries and Crapo developed the rectangular curve idea in later work. **[verified as to attribution; a demographic source for the current shape is still needed]**
+5. López-Otín et al., "The Hallmarks of Aging," Cell, 2013, listing nine hallmarks. "Hallmarks of aging: an expanding universe," Cell, 2023, expanding the list to twelve by adding disabled macroautophagy, chronic inflammation and dysbiosis. **[verified]**
+6. Senescent cell clearance. Baker et al., 2016, using genetic ablation in INK-ATTAC mice, reported reduced age-related tissue dysfunction and extended lifespan. Xu et al., Nature Medicine, 2018, reported that dasatinib plus quercetin improved physical function and increased lifespan in old mice. Human trials are early, small and disease-specific. **[verified]**
+7. Ocampo et al., "In Vivo Amelioration of Age-Associated Hallmarks by Partial Reprogramming," Cell, 2016. Cyclic induction, two days on and five days off, avoiding the tumor formation caused by continuous expression. An earlier draft implied the lifespan result applied to normal aged mice. It does not. The roughly thirty percent lifespan extension was in a Hutchinson-Gilford progeria model. In normal old mice the demonstrated effect was improved regeneration of muscle and pancreatic tissue. Corrected in the text. **[verified, and corrected]**
+8. Rapamycin. NIA Interventions Testing Program, reported in Nature, 2009. Treatment begun at twenty months of age extended median lifespan by about nine percent in males and thirteen percent in females, with maximum lifespan up about nine and fourteen percent respectively. First pharmacological agent shown to extend lifespan in a mammal. Note that other reported figures, such as twenty-eight and thirty-eight percent, measure remaining life from the start of treatment rather than total lifespan, and should not be quoted without that qualification. **[verified]**
+9. TAME. A proposed six-year trial of approximately 3,000 adults aged 65 to 79, coordinated by Wake Forest and championed by the American Federation for Aging Research, requiring roughly 75 million dollars. As of 2026 it remains awaiting funding and has not launched. The structural obstacle is that metformin is off patent, so no sponsor can own the result. No efficacy results exist. **[verified]**
+10. Failure of translation from short-lived models. Caloric restriction extends mouse lifespan by forty percent or more, with far smaller effects in primates and no comparable human result. The evolutionary explanation offered in the text, that short-lived species carry more cheap unrealized maintenance, is a standard argument in the field but is presented here without a specific citation and should get one. **[verified as to the translation record; the evolutionary explanation unverified]**
+11. The claim that no intervention has been shown to extend maximum human lifespan. This is a strong negative and the text stakes a lot on it. It is consistent with everything found in the sources above, but it should be checked once more immediately before publication, since it is the single claim most likely to be overtaken by events. **[verified as of drafting]**
+
+### Chapter 3. The Price of Time
+
+1. The 1648 perpetual bond of the Hoogheemraadschap Lekdijk Bovendams, issued on goatskin on 15 May 1648 to Niclaes de Meijer for 1,000 Carolus guilders, to fund repairs to flood defences on the Lek. Original rate 5 percent, reduced to 3.5 and then 2.5 percent in the seventeenth century. Yale purchased it in 2003 for its history of finance archive; a curator collected roughly 136 euros in twelve years of arrears in 2015. One of five known to survive. **[verified]**
+2. British consols. On 1 February 2015 the Treasury redeemed 218 million pounds of 4% Consols, the first redemption of undated UK debt in sixty-seven years; the remaining undated gilts were redeemed at par on 5 July 2015, clearing them from the portfolio entirely. The 4% Consols had been issued by Churchill in 1927, largely to refinance First World War National War Bonds, which had in turn absorbed older obligations including an 1853 Gladstone bond consolidating South Sea Company capital stock. An earlier draft said these bonds "financed the Napoleonic campaigns," which is a looser claim than the record supports; the text now follows the documented chain back to the South Sea Bubble instead, which is both accurate and more striking. **[verified, and corrected]**
+3. Ramsey, "A Mathematical Theory of Saving," Economic Journal, December 1928, written when he was twenty-five. He died on 19 January 1930, aged twenty-six. The quoted phrase is exact: discounting later enjoyments in comparison with earlier ones is "a practice which is ethically indefensible and arises merely from the weakness of the imagination." Keynes's obituary called the paper one of the most remarkable contributions to mathematical economics ever made. **[verified]**
+4. Blanchard, "Debt, Deficits, and Finite Horizons," Journal of Political Economy, 1985. The perpetual youth model treats mortality as a constant hazard entering the effective discount rate. **[unverified]**
+5. r-star estimates. Laubach and Williams (2003) and Holston, Laubach and Williams (2016). US estimates ran between roughly 2 and 2.5 percent from the 1990s through the mid 2000s and fell to about 0.5 percent around 2009, remaining there for years. Recent estimates for Canada, the euro area, the United Kingdom and the United States are the lowest of the past three decades. Longer lifespans and falling birth rates are both cited among the drivers. **[verified]**
+6. Rachel and Smith, "Secular drivers of the global real interest rate," Bank of England Staff Working Paper 571, 2015. Also Carvalho, Ferrero and Nechio on demographics and real rates. **[unverified]**
+7. Stern Review, 2006. Pure time preference set at 0.1 percent per year, chosen explicitly to represent the probability that humanity ceases to exist in a given year. Stern's overall social discount rate was about 1.4 percent. Nordhaus worked with rates of roughly 4 to 5 percent and argued that Stern's conclusions do not survive substitution of market-consistent assumptions. **[verified]**
+8. The rise in developed world house prices attributable to rate compression rather than construction cost. Needs a specific source. **[unverified]**
+
+### Chapter 4. The Estate
+
+1. Lucas v. Hamm, 56 Cal.2d 583 (1961). Beneficiaries under a will drafted by attorney Hamm settled for 75,000 dollars less than the will provided, after the provision failed under the rule against perpetuities. The California Supreme Court allowed a tort action despite lack of privity but held the attorney not liable, on the ground that the rule is so complex that the error did not fall below the standard of ordinary professional skill. **[verified]**
+2. Duke of Norfolk's Case (1682) 3 Ch Cas 1; 22 ER 931. Established the common law rule against perpetuities, arising from the Earl of Arundel's attempt to create shifting executory limitations across his sons. The permissible period was not fixed until Cadell v. Palmer (1833), a hundred and fifty years later. The doctrine's explicit purpose was to prevent the dead hand of prior owners from controlling property indefinitely. **[verified]**
+3. Gray's canonical formulation of the rule. Quote exactly. **[unverified]**
+4. South Dakota abolished the rule against perpetuities in 1983, the first state to do so. Alaska, Delaware, Nevada, Idaho and Wisconsin are among those that have since abolished or substantially modified it. Several states modified their rules following the 1986 generation-skipping transfer tax provisions. **[verified]**
+5. Scale of assets held in perpetual dynasty trusts in the leading states. The Pandora Papers reporting from 2021 is the usual public source. Figures need checking. **[unverified]**
+6. Piketty, "On the Long-Run Evolution of Inheritance: France 1820-2050," Quarterly Journal of Economics, 2011. The annual flow of inheritance in France ran at 20 to 25 percent of national income between 1820 and 1910, fell to under 5 percent by 1950, and recovered to about 15 percent by 2010. **[verified]**
+7. Average tenure of companies on the S&P 500: about 33 years in the mid 1960s, about 24 years by 2016, forecast in the low teens by the late 2020s, with roughly half the index turning over per decade at current rates. Innosight's Corporate Longevity Forecast is the source. Note that figures differ slightly across successive editions of that report, so cite one edition rather than blending them. **[verified]**
+8. Five percent real compounded over two hundred years gives a factor of roughly 17,300. Over thirty years, roughly 4.3. **[my calculation]**
+9. Dual class share structures in technology listings. **[unverified]**
+
+### Chapter 5. The Funeral Principle
+
+1. Planck, Scientific Autobiography and Other Papers, 1949. The passage states that a new scientific truth does not triumph by convincing its opponents, but because they eventually die and a new generation grows up familiar with it. Quote no more than a short fragment and attribute. **[verified]**
+2. Azoulay, Fons-Rosen and Graff Zivin, "Does Science Advance One Funeral at a Time?", American Economic Review, 2019. 452 elite life scientists who died prematurely while active. Article flow from collaborators falls sharply; flow from non-collaborators rises by an average of 8.6 percent. The additional contributions are disproportionately highly cited and disproportionately authored by scientists not previously active in the subfield. The authors attribute the barrier to intellectual, social and resource gatekeeping. **[verified]**
+3. Semmelweis. In 1847 he ordered handwashing in chlorinated lime at the Vienna General Hospital and mortality in his ward fell from roughly 18 percent to about 2 percent. He was committed to an asylum in 1865, was beaten by guards there, and died of an infected wound. **[verified]**
+4. Wegener presented continental drift to the German Geological Society in Frankfurt on 6 January 1912. It was rejected by most scientists despite the fossil and rock evidence he published between 1912 and 1929, and became mainstream only in the 1960s once seafloor spreading supplied a mechanism. He died on a Greenland expedition in 1930, three decades before vindication. The text treats this as the hard case rather than the clean one, since the objection that he lacked a mechanism was legitimate. That framing should survive contact with a historian of science; it is my reading, not a sourced claim. **[verified as to facts; the framing is my argument]**
+5. Marshall and Warren on Helicobacter pylori; Marshall's self-experiment in 1984; Nobel Prize 2005. **[unverified]**
+6. Mandatory retirement for tenured faculty in the United States ended on 1 January 1994, under the 1986 amendments to the Age Discrimination in Employment Act which had permitted the exemption until then. The predicted consequences for junior hiring were disputed in advance, and at least one study concluded the effects would be much smaller than the higher education establishment feared. Card and Ashenfelter, "Did the Elimination of Mandatory Retirement Affect Faculty Retirement?", NBER, 2001, is the standard empirical treatment. **[verified for the date and the dispute; the empirical findings need direct reading]**
+
+### Chapter 6. Nobody Goes to Space
+
+1. Safire memorandum to H. R. Haldeman, "In Event of Moon Disaster," 18 July 1969. Held at the Nixon Presidential Library; a scan is available through the National Archives. The text opens with the line about the men who went to the moon to explore in peace staying there to rest in peace. It instructs the President to telephone each of the widows-to-be beforehand, and provides that after the statement, when NASA ends communications, a clergyman should follow the procedure of a burial at sea, commending their souls to the deepest of the deep and concluding with the Lord's Prayer. **[verified]**
+2. Armstrong stated that he privately assessed a ninety percent chance of getting back to Earth and no better than an even chance of a successful landing on the first attempt. Given in interviews, including around the thirtieth anniversary. Find and cite one specific interview. **[verified as to substance; specific citation needed]**
+3. US Department of Transportation value of a statistical life: 13.7 million dollars for 2024, up from 9.1 million in 2012. Department of Health and Human Services central estimate approximately 13.0 million in 2023 dollars. Agencies differ and the figure is revised annually, so it should be updated at proof stage. Viscusi and Aldy, 2003, remains the standard meta-analysis of the wage-risk literature. **[verified for DOT and HHS; Viscusi and Aldy unverified]**
+4. Value per statistical life-year conventions and their use in health technology assessment. **[unverified]**
+5. Gompertz, "On the Nature of the Function Expressive of the Law of Human Mortality," Philosophical Transactions, 1825. Mortality rate doubling time in adulthood is usually given as approximately eight years, with the literature ranging between eight and ten depending on population. **[verified as to the range; the 1825 citation unverified]**
+6. Background extrinsic mortality of roughly one in two thousand per year for young adults in wealthy countries, and the resulting life expectancy of order two thousand years if the aging term is removed. This is a reciprocal of a hazard rate and is presented in the text explicitly as my own arithmetic rather than as an established projection. The input should be built from external-cause mortality tables before publication, since the whole figure turns on it. **[my calculation]**
+7. Kelly, "A New Interpretation of Information Rate," Bell System Technical Journal, 1956. Peters, "The ergodicity problem in economics," Nature Physics, 2019. **[unverified]**
+8. Space Shuttle: two vehicles and crews lost across 135 missions. NASA's final probabilistic risk assessment gave a mean estimated risk of about 1 in 90, with a 5th to 95th percentile range of roughly 1 in 127 to 1 in 63, consistent with the realized record. I previously believed NASA's retrospective assessment of the earliest flights was near 1 in 9; I could not confirm this and have removed it. **[verified]**
+9. Magellan expedition: departed 20 September 1519 with five ships; the Victoria returned in September 1522 with 18 survivors. Sources differ on the size of the departing complement, giving figures between roughly 237 and 270, so the text hedges. **[verified, with the variance noted]**
+
+### Chapter 7. Vacancy
+
+1. Hermit crab vacancy chains. Crabs queue beside a newly available shell in descending size order and exchange in sequence within seconds, a behaviour researchers have described as piggybacking. Both synchronous and asynchronous chains are documented. **[verified]**
+2. White, Chains of Opportunity: System Models of Mobility in Organizations, Harvard University Press, 1970. White applied the vacancy chain model to clergy mobility in Episcopal, Methodist and Presbyterian churches, arguing that mobility models should be applied to vacancies rather than directly to individuals. **[verified]**
+3. The 119th Congress, seated 2025, was the third oldest since 1789 and its Senate the second oldest ever. Median senator 64, median representative 57, average member 58.9. Six sitting senators were born between 1928 and 1945; the oldest was 91 and the youngest 38. Update these figures at proof stage, since they move every two years. **[verified]**
+4. Life tenure in the US federal judiciary. **[unverified]**
+5. End of mandatory retirement for tenured faculty, 1 January 1994. See Chapter 5, note 6. **[verified]**
+6. Average age at first NIH R01-equivalent award for investigators holding doctorates rose from about 35.7 in 1980 to about 42.1 in 2013, and has remained near 42 through fiscal 2025. For those with medical degrees it rose from under 38 to over 45 across the same period. The share of R01 principal investigators aged 36 or younger fell from 18 percent in 1983 to 3 percent in 2010. See Daniels, "A generation at risk," PNAS, 2015, and NIH extramural data. **[verified]**
+7. Japan's employment ice age generation, covering graduates entering the labour market from roughly 1993 to 2004. Studies find a wage penalty of 10 to 20 percent persisting into their forties. Non-regular employment rose above a third of the workforce. The 8050 problem describes households where parents in their eighties support unemployed children in their fifties. **[verified]**
+8. Elite overproduction and blocked mobility as sources of instability. Goldstone and Turchin are the usual references. **[unverified]**
+
+### Chapter 8. The Forkable Worker
+
+1. The description of agent instantiation, checkpointing, forking and termination should be reviewed by someone who builds these systems, to confirm the vocabulary and mechanics are accurate as of the date of publication. **[unverified]**
+2. The claim that the supply curve for copyable labor becomes near-perfectly elastic at the cost of compute is my own argument rather than a result I am citing. It should be stated as such, and it deserves engagement with the existing literature on automation and factor shares, which reaches related conclusions by other routes. **[my argument]**
+
+### Chapter 9. The Mortal Class
+
+1. Homestead Act of 1862, signed 20 May 1862. Offered 160 acres to adults willing to live on and farm the land for five years for a small filing fee. Over 1.6 million applications were processed and more than 270 million acres, about ten percent of all US land, passed into private hands by 1934. **[verified]**
+2. Salvage, adverse possession, discovery and occupation doctrines. **[unverified]**
+3. English and Dutch East India Company charters, 1600 and 1602, and the sovereign powers they conferred. **[unverified]**
+4. At its peak in the early nineteenth century the East India Company's army numbered approximately 260,000, roughly twice the size of the British Army, and was the largest private army in history. Following the rebellion of 1857, the Government of India Act 1858 transferred all Company powers to the Crown. **[verified]**
+5. Earth to Mars one-way light time runs from about 3 minutes at closest approach to about 22 minutes at greatest separation, averaging around 12 and a half. Round trip is therefore roughly 6 to 44 minutes. An earlier draft gave 4 to 24 one way and 8 to 48 round trip; corrected. **[verified, and corrected]**
+6. Outer Space Treaty, 1967, Article II: outer space, including the moon and other celestial bodies, is not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means. **[verified]**
+7. US Commercial Space Launch Competitiveness Act, 2015, recognizing rights of US citizens to own, possess and sell resources obtained from asteroids and other celestial bodies. Luxembourg passed comparable legislation in 2017. The Artemis Accords, from 2020, set out resource extraction principles that some states regard as a unilateral reinterpretation of the treaty. **[verified]**
+
+### Chapter 10. The Serrata
+
+1. The colleganza as a limited liability partnership contract enabling merchants without capital or collateral to enter long distance trade. **[verified as to its function and significance]**
+2. The Serrata of 1297 closed the Great Council to families not already represented, creating a hereditary nobility which then used its exclusive position to restrict participation in the most lucrative parts of long distance trade. Puga and Trefler, "International Trade and Institutional Change: Medieval Venice's Response to Globalization," Quarterly Journal of Economics, 2014, document this using a database of 8,178 parliamentarians and their families' use of the colleganza before and after 1297. **[verified]**
+3. The Libro d'Oro as the official register of families entitled to participate. Date of institution needs checking. **[unverified]**
+4. Venice's declining share of Mediterranean trade and its response to the opening of the Atlantic routes. **[unverified]**
+5. Napoleon's ending of the Republic in 1797. **[unverified]**
+6. Acemoglu and Robinson's treatment of the Serrata in Why Nations Fail, 2012. **[unverified]**
+7. The Ming treasure voyages, seven expeditions between 1405 and 1433 under Zheng He, some exceeding three hundred ships and tens of thousands of men, reaching Ceylon, Hormuz and the East African coast including Mogadishu and Malindi. The court ended support after 1433 on grounds of cost and the northern frontier threat, and Chinese pre-eminence in shipbuilding, navigation and seamanship withered quickly thereafter. European seaborne expansion into the same waters began roughly fifty years later. The text deliberately avoids the popular claims about deliberate destruction of records, which are contested. **[verified]**
+8. The Venetian Arsenal. **[unverified]**
+
+### Chapter 11. Reinventing the Funeral
+
+1. Hong Kong's land tenure. All land in the territory is held on government lease except a single plot granted to St John's Cathedral. New leases run fifty years at a premium, with annual rent set at three percent of rateable value. Approximately 300,000 leases expire on 30 June 2047, and the Extension of Government Leases Ordinance provides for automatic extension by a further fifty years through gazette notice, without owners executing new documents. The British leasehold sector and the documented under-maintenance problem near expiry still need a source. **[verified for Hong Kong; British leasehold unverified]**
+2. Land value taxation. George, Progress and Poverty, 1879. The claim that a land value tax is comparatively insensitive to the discount rate should be stated carefully and checked. **[unverified]**
+3. The common ownership self-assessed tax, also called a Harberger tax. Owners periodically self-assess the value of their property, pay tax on the declared figure, and must sell to anyone offering that price. First proposed by Arnold Harberger and popularised by Eric Posner and Glen Weyl in Radical Markets, 2018. **[verified]**
+4. Interstate competition for trust business as the driver of perpetuities repeal. See Chapter 4, note 4. **[verified]**
+5. Rawls, A Theory of Justice, 1971, for the original position and the veil of ignorance. The reading of mortality as the mechanism that actually enforces the veil is my own argument, not Rawls's, and the text should make that clear. **[my argument]**
+
+### Chapter 12. Terminal Value
+
+1. Terminal value as a share of enterprise value in discounted cash flow analysis. Commonly around three quarters in a standard five year forecast, falling to roughly half in a ten year forecast, and reaching 85 to 95 percent for companies whose cash flows are mostly ahead of them. Practitioners are advised to flag valuations where it exceeds 80 percent. **[verified]**
+2. Cologne Cathedral: foundation stone laid 1248, work halted in 1473 leaving a wooden crane on the unfinished south tower where it stood for roughly four hundred years as a landmark of the skyline, construction resumed in the nineteenth century, completed 1880. Total 632 years. **[verified]**
+3. Notre-Dame de Paris construction dates, if retained in the final draft. **[unverified]**
+4. The two failure modes of perpetual charitable foundations, faithful irrelevance or professional drift. This is a widely made observation in the philanthropy literature and the Ford Foundation is the usual illustration, but the text asserts it as a general law and needs supporting sources before it can do so. **[unverified]**
+
+---
+
+### Verification status
+
+Verified against sources: 51 items.
+Still unverified: 20 items.
+Flagged as my own calculation or argument rather than a reported finding: 6 items.
+
+Six claims were found to be wrong or overstated during verification and have been corrected in the text. They are recorded at the relevant notes above rather than quietly fixed: the life expectancy decomposition in Chapter 2, the partial reprogramming result in Chapter 2, the r-star figures in Chapter 3, the consols provenance in Chapter 3, the colleganza prohibition in Chapter 10, the Mars light lag in Chapter 9, and the Cologne stoppage in Chapter 12.
+
+What remains unverified is now almost entirely secondary literature attribution rather than factual assertion: whether a particular idea is correctly credited to a particular paper. Those should still be checked, but an error among them is a citation error rather than a false claim in the text.
+
+The two exceptions worth flagging, because they are load-bearing and still unsourced, are the treatment of transversality conditions in Chapter 1 and the claim in Chapter 12 that perpetual foundations reliably fail in one of two directions. Chapter 1's argument rests on characterising those conditions correctly, and Chapter 12 asserts a general law on the strength of a widely repeated observation. Both should be read by someone who knows the respective literatures before this goes out.

@@ -49,3 +49,15 @@ Two load bearing items remain unsourced and should be read by someone who knows 
 - Short sentences. Every abstract claim followed within a paragraph by something concrete.
 - First person no more than twice per chapter, only at the point of an analytical claim, never autobiographical.
 - Technical material in the notes, not in the body. No equations in the text.
+
+## Publishing
+
+The site in `docs/` is generated from `manuscript/` by `build-site.sh`. The manuscript is the source of truth; never edit `docs/chapters/` by hand, it gets wiped on every rebuild.
+
+```
+./build-site.sh
+```
+
+To publish on GitHub Pages: make the repository public, then in Settings → Pages set Source to "Deploy from a branch", branch `main`, folder `/docs`. The site appears at `https://samisbakedham.github.io/EconBook/` within a couple of minutes.
+
+The outline is working material and is deliberately excluded from the published site.
