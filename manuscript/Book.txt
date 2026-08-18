@@ -1,0 +1,13 @@
+01-the-boundary-condition.md
+02-assume-a-longer-life.md
+03-the-price-of-time.md
+04-the-estate.md
+05-the-funeral-principle.md
+06-nobody-goes-to-space.md
+07-vacancy.md
+08-the-forkable-worker.md
+09-the-mortal-class.md
+10-the-serrata.md
+11-reinventing-the-funeral.md
+12-terminal-value.md
+13-notes.md
