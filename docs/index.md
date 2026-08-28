@@ -55,6 +55,6 @@ Any society that abolishes death has to deliberately rebuild, by institution, ev
 
 ### On the state of this text
 
-This is a complete draft, not a finished book. Of the factual claims, 51 have been checked against sources and 20 have not. Seven claims were found wrong during verification and corrected rather than quietly fixed. Six items are the author's own calculation or argument rather than a reported finding.
+This is a complete draft, not a finished book. Of the factual claims, 56 have been checked against sources and 22 have not. Seven claims were found wrong during verification and corrected rather than quietly fixed. Four items are the author's own calculation or argument rather than a reported finding.
 
 All of that is recorded, claim by claim, in the [notes](chapters/notes.html). If you find an error, that is where to look first, and I would like to hear about it.

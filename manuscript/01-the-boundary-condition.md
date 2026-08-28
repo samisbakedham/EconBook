@@ -46,7 +46,7 @@ So how do the old eat?
 
 The answer is that the young give them things, and the young do this because they expect the next generation of young to do the same for them. That expectation is what money is, in this model. Money has value not because it is backed by anything, but because everyone believes the sequence will continue. It is a chain of obligations running forward through time, sustained entirely by the arrival of new participants.
 
-If that sounds like the thing I described at the top of this chapter, it is because it is. Samuelson said so himself. The model shows that an arrangement we recognize as fraudulent when a private citizen runs it can be the foundation of a functioning monetary system when a society runs it, and the difference is that a society keeps producing new members.
+If that sounds like the thing I described at the top of this chapter, it is because it is. The model shows that an arrangement we recognize as fraudulent when a private citizen runs it can be the foundation of a functioning monetary system when a society runs it, and the difference is that a society keeps producing new members.
 
 Take a moment with what this means. One of the standard workhorses of the field is a machine whose engine is generational replacement. Its output depends on people being born, aging, and dying, in sequence, forever. Remove the turnover and the model does not merely become less accurate. It stops running.
 

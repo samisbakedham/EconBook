@@ -54,7 +54,7 @@ Leanpub regenerates EPUB, PDF and MOBI on every push, so the book updates itself
 
 Materials are in `ssrn/abstract.md`: a full abstract, keywords, and seven JEL codes.
 
-**Do this one last.** SSRN's readership checks citations, and twenty attributions in the notes are still open. A reviewer in that audience will go straight to the Chapter 1 treatment of transversality conditions, which is exactly the load bearing claim that is not yet sourced.
+**Do this one last.** SSRN's readership checks citations, and twenty-two attributions in the notes are still open. A reviewer in that audience will still go through the notes. The Chapter 1 treatment of transversality conditions is now sourced (Blanchard and Fischer for no-Ponzi, Kamihigashi for TVC, kept distinct). Remaining open items are mostly secondary literature attribution.
 
 Submission needs a single PDF:
 
