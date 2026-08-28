@@ -30,7 +30,7 @@ longevity, discount rate, time preference, inheritance, wealth concentration, cr
 
 ## Before submitting
 
-SSRN readers check citations. Close out the twenty outstanding attributions in the notes first, particularly the treatment of transversality conditions in Chapter 1, since a reviewer in this audience will go straight to it.
+SSRN readers check citations. Close out the twenty-two outstanding attributions in the notes first. The treatment of transversality conditions in Chapter 1 is now sourced.
 
 Submit the full manuscript as a single PDF. Generate it with:
 

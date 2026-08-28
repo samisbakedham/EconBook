@@ -71,7 +71,7 @@ You can see how much work that reset does by looking at what happens when people
 
 Either the foundation stays faithful to the founder's stated intent, in which case it ends up applying the priorities of a person who died decades ago to a world that has changed beyond their recognition, and slowly becomes irrelevant while remaining solvent. Or it drifts, in which case the professional staff who now run it pursue their own priorities using a dead person's money, and the original intent becomes a legal fiction that everyone works around.
 
-There is no third outcome, and there is no version where the founder's judgment stays live. Foundations are the closest thing we have built to an immortal economic actor, and what they demonstrate is that permanence of control and continued relevance are not compatible. The institution can have one or the other.
+On this reading there is no third outcome. There is no version where the founder's judgment stays live. Foundations are the closest thing we have built to an immortal economic actor, and what they demonstrate is that permanence of control and continued relevance are not compatible. The institution can have one or the other.
 
 Now notice that a very long lived founder does not solve this. It makes it worse in the specific way that matters. The foundation that drifts at least ends up responsive to living people, however unaccountably. A foundation whose founder is present, engaged, and permanently in charge does not drift and does not become a fiction. It simply applies one person's judgment, formed in one era, for as long as the endowment lasts.
 

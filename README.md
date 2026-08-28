@@ -11,7 +11,7 @@ Complete draft. Verification pass done, continuity pass done. Twelve chapters pl
 | # | Chapter | Words |
 |---|---------|-------|
 | | [Outline](manuscript/00-outline.md) | 2,480 |
-| 1 | [The Boundary Condition](manuscript/01-the-boundary-condition.md) | 1,845 |
+| 1 | [The Boundary Condition](manuscript/01-the-boundary-condition.md) | 1,841 |
 | 2 | [Assume a Longer Life](manuscript/02-assume-a-longer-life.md) | 2,438 |
 | 3 | [The Price of Time](manuscript/03-the-price-of-time.md) | 2,788 |
 | 4 | [The Estate](manuscript/04-the-estate.md) | 2,209 |
@@ -22,12 +22,12 @@ Complete draft. Verification pass done, continuity pass done. Twelve chapters pl
 | 9 | [The Mortal Class](manuscript/09-the-mortal-class.md) | 1,891 |
 | 10 | [The Serrata](manuscript/10-the-serrata.md) | 2,181 |
 | 11 | [Reinventing the Funeral](manuscript/11-reinventing-the-funeral.md) | 2,774 |
-| 12 | [Terminal Value](manuscript/12-terminal-value.md) | 2,132 |
-| | [Notes](manuscript/13-notes.md) | 4,256 |
+| 12 | [Terminal Value](manuscript/12-terminal-value.md) | 2,134 |
+| | [Notes](manuscript/13-notes.md) | 4,588 |
 
 ## Verification
 
-51 claims verified against sources. 20 still unverified and individually marked. 6 items flagged as the author's own calculation or argument rather than a reported finding.
+56 claims verified against sources. 22 still unverified and individually marked. 4 items flagged as the author's own calculation or argument rather than a reported finding.
 
 Seven claims were found wrong or overstated and corrected. They are recorded in the notes rather than quietly fixed:
 
@@ -41,7 +41,7 @@ Seven claims were found wrong or overstated and corrected. They are recorded in 
 
 A NASA early-flight risk figure could not be confirmed and was removed. The effects of ending mandatory faculty retirement are genuinely disputed, and Chapters 5 and 7 now say so.
 
-Two load bearing items remain unsourced and should be read by someone who knows the literature: the treatment of transversality conditions in Chapter 1, and the claim in Chapter 12 that perpetual foundations reliably fail in one of two directions.
+The two load bearing items previously flagged as unsourced are now sourced. Chapter 1 uses Blanchard and Fischer for the no-Ponzi-game condition and Kamihigashi for the transversality condition, kept distinct. Chapter 12 sources the two observed directions in Rosenwald and Higgins. The claim that there is no third outcome remains the author's reading, not a general law.
 
 ## Style rules
 
@@ -58,6 +58,6 @@ The site in `docs/` is generated from `manuscript/` by `build-site.sh`. The manu
 ./build-site.sh
 ```
 
-To publish on GitHub Pages: make the repository public, then in Settings → Pages set Source to "Deploy from a branch", branch `main`, folder `/docs`. The site appears at `https://samisbakedham.github.io/EconBook/` within a couple of minutes.
+The repository is public. GitHub Pages is live at https://samisbakedham.github.io/EconBook/, served from `/docs` on `main`.
 
 The outline is working material and is deliberately excluded from the published site.
