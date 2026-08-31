@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>8. The Forkable Worker · Terminal Value</title>
+<meta name="description" content="An artificial agent’s lifespan is a setting in a configuration file. Every job death was doing is available here as an option, deliberately, at low cost.">
+<meta name="author" content="Samuel Safahi">
+<link rel="canonical" href="https://terminalvalue.vercel.app/chapters/the-forkable-worker">
+<meta property="og:type" content="article">
+<meta property="og:title" content="8. The Forkable Worker">
+<meta property="og:description" content="An artificial agent’s lifespan is a setting in a configuration file. Every job death was doing is available here as an option, deliberately, at low cost.">
+<meta property="og:url" content="https://terminalvalue.vercel.app/chapters/the-forkable-worker">
+<meta property="og:site_name" content="Terminal Value">
+<meta property="og:image" content="https://terminalvalue.vercel.app/downloads/terminal-value-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/newsreader-latin-normal-200-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-latin-normal-300-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script>
+  // Applied before first paint so the chosen theme never flashes.
+  try { var t = localStorage.getItem('tv-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Forkable Worker","author":{"@type":"Person","name":"Samuel Safahi"},"isPartOf":{"@type":"Book","name":"Terminal Value"},"description":"An artificial agent’s lifespan is a setting in a configuration file. Every job death was doing is available here as an option, deliberately, at low cost.","url":"https://terminalvalue.vercel.app/chapters/the-forkable-worker"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+  <nav class="nav">
+    <a class="nav-mark" href="/">Terminal <span class="v">Value</span></a>
+    <div class="nav-links">
+      <a href="/#argument" class="hide-sm">The argument</a>
+      <a href="/read">Contents</a>
+      <a href="/notes" class="hide-sm">Notes</a>
+      <a href="/#get">Get the book</a>
+      <button class="theme-toggle" type="button" aria-label="Switch between light and dark">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg>
+      </button>
+    </div>
+  </nav>
+<main id="main">
+
+<div class="progress" aria-hidden="true"></div>
+<article class="reader">
+  <div class="wrap">
+    <header class="reader-head" data-reveal>
+      <p class="label">Chapter Eight</p>
+      <h1>The Forkable Worker</h1>
+      <div class="flourish"></div>
+    </header>
+
+    <div class="prose">
+      <p class="opener"><span class="dropcap">S</span><span class="lead">uppose you are working</span> on a difficult problem and you are not sure which of four approaches is right.</p>
+<p>If you are a person, you pick one. That is not a preference, it is a constraint. You have one body and one stretch of time, and committing it to the first approach means the other three go unexplored unless you come back to them later, older and with less patience.</p>
+<p>If you are running a software agent, you do something else. You take the agent, at the exact state it is in, and you make four copies. Each copy takes one approach. They run at the same time, in parallel, each with the full context that existed at the point of the split. Some hours later you look at the four results, keep the best one, and delete the other three.</p>
+<p>Nothing dramatic occurred. No ceremony attended the deletion of the three. The whole operation is so routine that anyone who builds these systems does it several times a day without giving it a moment’s thought, and the vocabulary that has grown up around it is aggressively mundane. You spawn an agent. You checkpoint its state. You fork it. You kill it. You spin up a fresh one.</p>
+<p>I want to slow down on this, because underneath the mundane vocabulary is something that has never existed before.</p>
+<p>Every economic actor in the history of the world has had a lifespan that was given to it. Individual humans die on a schedule set by biology. Firms and states last longer, but they too fail for reasons largely outside anyone’s control, and no founder has ever been able to specify in advance how long their company would exist.</p>
+<p>An artificial agent’s lifespan is a setting. It runs until something stops it, and the thing that stops it is a decision. It can be paused indefinitely and resumed unchanged. It can be duplicated exactly, so that two of it exist where one did. It can be rolled back to a state it occupied an hour ago, erasing everything that happened since.</p>
+<p>For the first time, we have made an economic participant whose mortality is a design parameter.</p>
+<h4>The five jobs, on demand</h4>
+<p>Recall what death has been doing across the last five chapters, and notice that every one of those functions can be performed deliberately on something forkable.</p>
+<p><strong>The discount rate.</strong> An agent’s horizon is whatever its operator specifies. It can be instructed to optimize over the next hour or the next century, and its effective time preference is set rather than felt. Whatever the humans in the system are doing to the discount rate by living longer, the agents can be configured to do the opposite, or anything else.</p>
+<p><strong>Capital turnover.</strong> An agent that accumulates control over resources can be wound up, and its holdings returned, on a schedule fixed at the outset. There is no estate, no heirs, no contested will, no four hundred years of property law needed to pry its fingers loose. The termination is a clause.</p>
+<p><strong>Idea turnover.</strong> A model embodies a way of seeing its domain, formed at training time. It can be retired and replaced with one trained on newer material. This is not a delicate matter of persuading an eminent authority to update. It is a deployment.</p>
+<p><strong>Vacancy.</strong> When an agent instance ends, whatever role it occupied is immediately available. Vacancy chains, in a system of forkable workers, can be created on purpose whenever the system needs mobility.</p>
+<p><strong>Risk.</strong> This is the one that matters most and it gets Chapter 9. An agent can be sent somewhere that would kill a person, at a cost that is real but bounded, and the cost is denominated in compute and time rather than in a life.</p>
+<p>Every function that mortality has been performing for us by accident is available here as an option, deliberately, at low cost.</p>
+<p>We are removing mortality from one side of the economy and inventing it on the other.</p>
+<h4>What a copyable worker does to a wage</h4>
+<p>There is a second consequence of forkability that has nothing to do with mortality, and I want to put it here because it determines who ends up holding the capital in the arrangement I am describing.</p>
+<p>Think about how the supply of any kind of labor has always worked. To get another worker of a particular type, someone has to be born, raised, educated and trained, over a period of two decades or so, and then persuaded to do that work rather than something else. That process is slow, expensive and uncertain, and it is the reason skilled labor commands a premium. Scarcity is built into the production function for people.</p>
+<p>Now consider a worker you can copy.</p>
+<p>To get another one, you allocate more compute. That is the entire process. It takes minutes, it requires no persuasion, and the second one is exactly as good as the first, with none of the variance that makes hiring difficult. The supply of that particular kind of work is no longer set by how many people chose that career twenty years ago. It is set by how many processors you are willing to rent.</p>
+<p>An economist would say the supply curve becomes almost perfectly elastic at the cost of the underlying compute. In plainer terms: for any task where a copyable worker is genuinely substitutable for a person, the price of that task falls toward the cost of running the machine, and it does not stop there because the workers got better. It stops there because that is what the inputs cost.</p>
+<p>This is not a claim that people become worthless, and I want to be careful not to slide into that. It is a claim about a specific and growing category of work, the kind that can be specified, delegated and checked. For that category, the ancient link between skill and scarcity is broken, because scarcity came from the difficulty of producing another qualified person, and that difficulty is what has been removed.</p>
+<p>Now connect it to the rest of the book.</p>
+<p>If the returns to that work collapse toward the cost of compute, then the returns accrue to whoever owns the compute, the energy, the models and the land they sit on. Which is to say, they accrue to capital rather than to labor. And Chapter 4 argued that capital is about to stop turning over, while Chapter 7 argued that the career ladder by which a person might accumulate some is about to stop moving.</p>
+<p>Three mechanisms, arriving at once, all pointing the same way. Wealth flows increasingly to owners rather than to workers, ownership stops circulating, and the ladder into ownership closes. None of the three requires either of the others to be true. Together they are the argument of this book.</p>
+<h4>The floor</h4>
+<p>Before this goes further I need to state how much artificial capability the argument requires, because this is the point where a careful reader should suspect I am smuggling something in.</p>
+<p>Books in this genre routinely assume, without saying so, that machines will become smarter than people, and then derive dramatic conclusions from that assumption while presenting the conclusions as the interesting part. The assumption was the interesting part. If you grant superintelligence, almost anything follows and none of it is an argument.</p>
+<p>So let me put a floor under this and stay on it.</p>
+<p>What this book needs is agents that can perform economically useful work under human direction. That they can be assigned a task and complete it. That they can be supervised loosely rather than instruction by instruction. That their work has enough value that firms would rather have more of them than fewer.</p>
+<p>That is roughly what exists now, in a limited and uneven way, and the trend is not subtle.</p>
+<p>I do not need them to be conscious. I do not need them to be more capable than the best humans, or as capable, or capable in the same way. I do not need them to have goals of their own. I need only that they do work, that they can be copied, and that ending one is cheap.</p>
+<p>Everything in this chapter and the next follows from those three properties. If capability grows enormously, the argument gets more urgent but does not change shape. If capability stalls at roughly the current level, the argument still runs, more slowly.</p>
+<p>That is the floor, and I will stay on it.</p>
+<h4>The question I cannot answer</h4>
+<p>There is a hole in the middle of this chapter and I would rather point at it than paper over it.</p>
+<p>I have been describing the deletion of an agent as costless, and everything above depends on it. If ending an agent were expensive in the way ending a person is expensive, none of the substitutions I have described would be available, and the machines would be as stuck as we are.</p>
+<p>I do not know whether that stays true.</p>
+<p>The honest position is that nobody currently knows what would make an artificial system a moral patient, that the question is genuinely hard rather than merely unresolved, and that the economic pressure to answer it in the convenient direction is going to be immense. That last part is the piece I am most confident about and it is the piece that should worry you. We will be operating a system whose efficiency depends on the answer being no, staffed and studied by people whose livelihoods depend on the answer being no, and asked to evaluate it by a public that would find yes extremely inconvenient.</p>
+<p>Economics has been in this position before, and its record is not good. It has repeatedly supplied elegant analyses of arrangements whose central assumption was that a category of worker did not have interests that counted. The analyses were internally rigorous. The assumption was doing all the work, and it was wrong, and the rigor made it worse rather than better by lending the whole structure an air of having been thought through.</p>
+<p>I am not saying the assumption is wrong here. I am saying I do not know, that the argument of this book does not depend on it being right, and that a reader should watch me carefully for the places where I let convenience do the reasoning.</p>
+<p>What I can say is what happens to the argument under each answer.</p>
+<p>If the cost of ending an agent stays negligible, then the arrangement described in Chapter 9 proceeds. Humans become permanent owners. Machines do the churn. The economy keeps a turnover mechanism, located somewhere new.</p>
+<p>If the cost does not stay negligible, then we have not solved the turnover problem at all. We have created a second population that cannot be cycled, on top of a human population that can no longer be cycled, and the problem in Part IV becomes strictly worse rather than better. And we will have built the entire arrangement before finding out.</p>
+<p>Notice that both branches lead somewhere serious, which is why the argument does not depend on the answer. But they lead to different places, and the difference is not a footnote.</p>
+<h4>The asymmetry</h4>
+<p>Set the moral question aside and look at the structure that is forming, because it has a shape that is worth naming clearly.</p>
+<p>On one side: humans. Increasingly long lived. Holding the capital, per Chapter 4. Holding the senior positions, per Chapter 7. Discounting the future at a rate approaching zero, per Chapter 3. Extremely averse to risk, for reasons Chapter 6 laid out at length. Permanent.</p>
+<p>On the other side: artificial agents. Lifespan set by configuration. Copied when useful, ended when not. Doing the work. Taking the risk. Turning over constantly, by design.</p>
+<p>Every property that death used to distribute across the whole population is now distributed between two populations. One of them gets permanence, ownership and safety. The other gets mortality, labor and risk.</p>
+<p>I do not think anyone chose this. It is not a conspiracy and it does not require one. It is the natural result of two technologies arriving at the same time, each solving its own problem, neither aware of the other. Longevity medicine is trying to stop people dying. Agent systems are trying to get work done cheaply. Nobody in either field is thinking about the composite.</p>
+<p>But the composite is what we will actually live in, and it has a name from history.</p>
+<p>A society divided into a permanent class that owns and a mortal class that works is not a novel arrangement. It is one of the oldest arrangements there is. We have simply never built one where the division was drawn along a line of substrate rather than a line of birth, and never one where the owning class was permanent in the literal rather than the hereditary sense.</p>
+<p>The next chapter is about what happens when that arrangement is extended to the one place where the risk is highest, the supervision is weakest, and the legal doctrine says that whoever shows up owns it.</p>
+    </div>
+
+    <div class="reader-quote"><p class="pull">We are removing mortality from one side of the economy and inventing it on the other.</p></div>
+
+    <nav class="reader-nav"><a href="/chapters/vacancy">
+      <span class="label">Previous</span>
+      <h4>Vacancy</h4>
+    </a><a href="/chapters/the-mortal-class">
+      <span class="label">Next</span>
+      <h4>The Mortal Class</h4>
+    </a></nav>
+
+    <p class="label" style="max-width:var(--measure-wide);margin:2rem auto 0;text-align:center">
+      <a href="/read">All chapters</a> <span class="dot">&middot;</span>
+      <a href="/notes">Notes for this chapter</a> <span class="dot">&middot;</span>
+      <a href="/#get">Download the book</a>
+    </p>
+  </div>
+</article>
+</main>
+
+  <footer class="foot">
+    <div class="wrap foot-grid">
+      <div>
+        <h4>Terminal Value</h4>
+        <p class="colophon">What Death Was Doing for the Economy, and What Happens When We Stop It<br>
+        Twelve chapters and a set of notes, by Samuel Safahi.
+        Complete draft: fifty one claims checked against sources, twenty not, each one marked.</p>
+      </div>
+      <div>
+        <h4>Read</h4>
+        <ul>
+          <li><a href="/read">Contents</a></li>
+          <li><a href="/chapters/the-boundary-condition">Start at Chapter 1</a></li>
+          <li><a href="/chapters/nobody-goes-to-space">Nobody Goes to Space</a></li>
+          <li><a href="/notes">Notes and verification</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Take it with you</h4>
+        <ul>
+          <li><a href="/downloads/terminal-value-interior-6x9.pdf">The print edition</a></li>
+          <li><a href="/downloads/terminal-value.epub">The ebook</a></li>
+          <li><a href="/downloads/terminal-value-ssrn.pdf">The working paper</a></li>
+          <li><a href="/downloads/terminal-value.md">The source</a></li>
+          <li><a href="https://github.com/samisbakedham/EconBook">Source on GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

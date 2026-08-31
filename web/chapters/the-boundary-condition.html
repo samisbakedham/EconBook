@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>1. The Boundary Condition · Terminal Value</title>
+<meta name="description" content="Infinite horizon models misbehave. Economists patch them with an assumption that value must eventually go to zero. That patch is death, smuggled back in.">
+<meta name="author" content="Samuel Safahi">
+<link rel="canonical" href="https://terminalvalue.vercel.app/chapters/the-boundary-condition">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1. The Boundary Condition">
+<meta property="og:description" content="Infinite horizon models misbehave. Economists patch them with an assumption that value must eventually go to zero. That patch is death, smuggled back in.">
+<meta property="og:url" content="https://terminalvalue.vercel.app/chapters/the-boundary-condition">
+<meta property="og:site_name" content="Terminal Value">
+<meta property="og:image" content="https://terminalvalue.vercel.app/downloads/terminal-value-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/newsreader-latin-normal-200-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/fraunces-latin-normal-300-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script>
+  // Applied before first paint so the chosen theme never flashes.
+  try { var t = localStorage.getItem('tv-theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"The Boundary Condition","author":{"@type":"Person","name":"Samuel Safahi"},"isPartOf":{"@type":"Book","name":"Terminal Value"},"description":"Infinite horizon models misbehave. Economists patch them with an assumption that value must eventually go to zero. That patch is death, smuggled back in.","url":"https://terminalvalue.vercel.app/chapters/the-boundary-condition"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+  <nav class="nav">
+    <a class="nav-mark" href="/">Terminal <span class="v">Value</span></a>
+    <div class="nav-links">
+      <a href="/#argument" class="hide-sm">The argument</a>
+      <a href="/read">Contents</a>
+      <a href="/notes" class="hide-sm">Notes</a>
+      <a href="/#get">Get the book</a>
+      <button class="theme-toggle" type="button" aria-label="Switch between light and dark">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.8 6.8 0 0 0 10.5 10.5Z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2M5.2 5.2l1.4 1.4M17.4 17.4l1.4 1.4M18.8 5.2l-1.4 1.4M6.6 17.4l-1.4 1.4"/></svg>
+      </button>
+    </div>
+  </nav>
+<main id="main">
+
+<div class="progress" aria-hidden="true"></div>
+<article class="reader">
+  <div class="wrap">
+    <header class="reader-head" data-reveal>
+      <p class="label">Chapter One</p>
+      <h1>The Boundary Condition</h1>
+      <div class="flourish"></div>
+    </header>
+
+    <div class="prose">
+      <p class="opener"><span class="dropcap">T</span><span class="lead">here is a type</span> of financial arrangement that works perfectly, forever, so long as nobody dies.</p>
+<p>It is called a Ponzi scheme.</p>
+<p>The mechanics are familiar. You take money from new investors and pay it to old ones, and you call the payment a return. Nothing is produced. Nothing is invested. The scheme survives exactly as long as new money keeps arriving, and it collapses the moment it stops, because there was never anything underneath it.</p>
+<p>Every Ponzi scheme in history has collapsed. We tend to draw a moral lesson from this, which is that you cannot get something from nothing. That is not quite the lesson. The actual reason these schemes fail is more specific and more interesting. Each round needs more entrants than the last, and the supply of entrants is finite, and the participants keep leaving. People die, or retire, or need their money back. The scheme is a race between the growth of the obligation and the shrinkage of the pool, and the pool always wins.</p>
+<p>Now take that same arrangement and write it into an economy that runs forever, populated by people who never exit.</p>
+<p>The mathematics changes. Economists have known this since the 1950s, and it is not a fringe result. In certain models with infinite horizons, a bubble is not irrational and not doomed. It can be sustained indefinitely. Everybody in it behaves sensibly, everybody’s expectations are met, and the thing never has to end. The formal name for these is rational bubbles, and the literature on them is respectable and old.</p>
+<p>This is awkward, because economists would like their models to produce sensible prices, and a model that permits an asset to be worth infinity is not producing a sensible price. So the profession does something about it.</p>
+<p>It assumes the problem away.</p>
+<h4>The assumption nobody looks at</h4>
+<p>The technical fix has a name. It is called a transversality condition, and if you have taken a graduate economics course you met it in the second or third week, in the middle of a derivation, presented as a piece of housekeeping.</p>
+<p>What it says, stripped of the notation, is that the value of what you are still holding at the end must go to zero. You are not allowed to carry value off into the infinite distance. Everything has to be settled up eventually.</p>
+<p>There is a companion assumption called the no-Ponzi condition, which says roughly that you cannot roll your debts forward forever, paying each one with a new one. Together they close the model. The infinities vanish. The prices behave. The bubbles are ruled out by fiat, and the derivation proceeds.</p>
+<p>I want to be careful here, because this is not a scandal and I am not alleging one. These conditions are defensible. They usually correspond to something real, and generations of careful people have thought hard about when to impose them.</p>
+<p>But notice what the assumption is actually doing. It is a statement that the party ends. That obligations have to be settled, that value cannot be deferred forever, that nobody gets to hold a claim into eternity without ever making good on it.</p>
+<p>It is death, smuggled back into a model that had been allowed to forget about it.</p>
+<p>And here is the claim this book is built on. That misbehavior in the infinite horizon models is not a modeling artifact to be patched. It is a preview. Those equations are describing, quite accurately, what happens in an economy of agents who do not exit, and we have spent seventy years treating the description as a nuisance rather than as information.</p>
+<h4>The model where death does the work</h4>
+<p>If that seems like a stretch, consider the model that runs the other way.</p>
+<p>In 1958 Paul Samuelson published a paper describing what became known as the overlapping generations model. It is one of the load bearing structures of modern macroeconomics, and it is taught everywhere.</p>
+<p>The setup is simple. People live for two periods. Young, then old. The young work and earn. The old do not work and need to consume. There is no way to store goods from one period to the next, so the old cannot simply save real output and eat it later.</p>
+<p>So how do the old eat?</p>
+<p>The answer is that the young give them things, and the young do this because they expect the next generation of young to do the same for them. That expectation is what money is, in this model. Money has value not because it is backed by anything, but because everyone believes the sequence will continue. It is a chain of obligations running forward through time, sustained entirely by the arrival of new participants.</p>
+<p>If that sounds like the thing I described at the top of this chapter, it is because it is. Samuelson said so himself. The model shows that an arrangement we recognize as fraudulent when a private citizen runs it can be the foundation of a functioning monetary system when a society runs it, and the difference is that a society keeps producing new members.</p>
+<p>Take a moment with what this means. One of the standard workhorses of the field is a machine whose engine is generational replacement. Its output depends on people being born, aging, and dying, in sequence, forever. Remove the turnover and the model does not merely become less accurate. It stops running.</p>
+<p>So we have two families of models. One breaks when people stop dying. The other is powered by people dying. And in neither case does anyone treat mortality as a variable worth studying. In the first it is imposed as a technical assumption. In the second it is built into the plumbing. In both it sits there, unexamined, holding the structure up.</p>
+<h4>You cannot notice a variable that has never varied</h4>
+<p>Why has nobody looked at this?</p>
+<p>Because until now there was nothing to look at. Mortality has been the most stable input in all of economics. Every other quantity the field studies has moved, often violently. Population, technology, energy prices, institutions, trade, the money supply, the size of the state. All of it swings around, and every swing generates a literature.</p>
+<p>The human lifespan has not swung.</p>
+<p>This deserves a moment of precision, because it is routinely misunderstood in both directions, and the misunderstanding matters for the rest of the book. Life expectancy at birth in wealthy countries has roughly doubled since 1850, from something in the thirties to something in the eighties. Some of that came from stopping children dying, and some of it did not: mortality fell at every age, and an adult today really does live substantially longer than an adult in 1850. Chapter 2 gives the numbers.</p>
+<p>What has not moved is the ceiling. The longest verified human life still belongs to a Frenchwoman who died in 1997, and in the three decades since, with everything medicine has learned in the interval, nobody has come close.</p>
+<p>So the number that determines the discount rate, the pace of inheritance, the turnover of ideas, the price of risk, and the rhythm of promotion has been, for the entire history of the discipline, a constant. Not a slow moving variable. A constant.</p>
+<p>You cannot notice a variable that has never varied. You cannot run a regression on it. You cannot find its coefficient, because it has no variance to explain. It falls out of the analysis, not through carelessness, but because there is nothing there for the analysis to grip.</p>
+<p>Which means that if the number ever does start to move, we will be looking at consequences with no theory of the cause. We will attribute them to policy, to culture, to central banks, to generational character, to anything at all except the thing that actually changed. In fact I think we are already doing this, and Chapter 3 is about the specific case where I believe it is happening in plain sight.</p>
+<h4>Five jobs</h4>
+<p>The argument of this book is that death is not simply an unfortunate fact about the human condition that economics has failed to model. It is functional. It is doing work. Remove it and specific machinery stops.</p>
+<p>I count five jobs. The middle section of the book takes one chapter each.</p>
+<p><strong>It sets the price of time.</strong> The rate at which we discount the future contains a term for the chance you will not be there to collect. Lower the chance and the rate falls automatically, without anyone deciding anything. As it approaches zero, the value of anything permanent stops being a finite number.</p>
+<p><strong>It turns over capital.</strong> Inheritance is the largest redistributive event in any market economy, and nobody legislated it. Death is the only force that reliably breaks up a concentrated fortune, and it does so on a schedule, without exception, regardless of how well the fortune is defended.</p>
+<p><strong>It turns over ideas.</strong> Fields change direction when the people who defined them stop occupying the chairs. This is not a slur on scientists. It is a measured effect, and Chapter 5 goes through the evidence.</p>
+<p><strong>It prices risk.</strong> How much danger you will accept depends on how much life you are wagering. That is the subject of Chapter 6, and it produces the strangest result in the book, which is that a civilization becomes unable to leave Earth through exactly the process that makes leaving possible.</p>
+<p><strong>It creates openings.</strong> Careers are queues. Queues advance because people leave them. Every promotion in every hierarchy is somebody else’s exit, and when the exits stop, so does everything downstream of them.</p>
+<p>None of these five has a backup. Not one. We have no institution standing by to redistribute capital if inheritance stops, no mechanism to rotate intellectual authority if the holders never vacate, no procedure for opening a position that nobody has left. These functions were never designed, so they were never given redundancy. They emerged from a biological fact that was so reliable that nobody thought to ask what would happen if it changed.</p>
+<h4>What this book is not</h4>
+<p>Two disclaimers, both of which I will make good on in the next chapter.</p>
+<p>This is not a book about whether we will live longer, and it does not depend on any particular biotechnology working. The argument runs on a much weaker premise than immortality, and I will state the premise precisely and defend it conservatively.</p>
+<p>Nor is it a book about whether living longer is good. I think it is obviously good, in the way that not dying is obviously good, and I have no interest in the genre of essay that finds something spiritually improving about mortality. Death is not a teacher. It is a catastrophe that happens to be doing five jobs, and the jobs are the subject here.</p>
+<p>What I am arguing is narrower and, I think, harder to dismiss. We are removing a beam. The beam was holding something up. Nobody has checked what.</p>
+<p>The rest of this book is the inspection.</p>
+    </div>
+
+    <div class="reader-quote"><p class="pull">We are removing a beam. The beam was holding something up. Nobody has checked what.</p></div>
+
+    <nav class="reader-nav"><span class="empty"></span><a href="/chapters/assume-a-longer-life">
+      <span class="label">Next</span>
+      <h4>Assume a Longer Life</h4>
+    </a></nav>
+
+    <p class="label" style="max-width:var(--measure-wide);margin:2rem auto 0;text-align:center">
+      <a href="/read">All chapters</a> <span class="dot">&middot;</span>
+      <a href="/notes">Notes for this chapter</a> <span class="dot">&middot;</span>
+      <a href="/#get">Download the book</a>
+    </p>
+  </div>
+</article>
+</main>
+
+  <footer class="foot">
+    <div class="wrap foot-grid">
+      <div>
+        <h4>Terminal Value</h4>
+        <p class="colophon">What Death Was Doing for the Economy, and What Happens When We Stop It<br>
+        Twelve chapters and a set of notes, by Samuel Safahi.
+        Complete draft: fifty one claims checked against sources, twenty not, each one marked.</p>
+      </div>
+      <div>
+        <h4>Read</h4>
+        <ul>
+          <li><a href="/read">Contents</a></li>
+          <li><a href="/chapters/the-boundary-condition">Start at Chapter 1</a></li>
+          <li><a href="/chapters/nobody-goes-to-space">Nobody Goes to Space</a></li>
+          <li><a href="/notes">Notes and verification</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Take it with you</h4>
+        <ul>
+          <li><a href="/downloads/terminal-value-interior-6x9.pdf">The print edition</a></li>
+          <li><a href="/downloads/terminal-value.epub">The ebook</a></li>
+          <li><a href="/downloads/terminal-value-ssrn.pdf">The working paper</a></li>
+          <li><a href="/downloads/terminal-value.md">The source</a></li>
+          <li><a href="https://github.com/samisbakedham/EconBook">Source on GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
