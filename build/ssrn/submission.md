@@ -39,11 +39,15 @@ longevity, discount rate, time preference, inheritance, wealth concentration, cr
 
 ## Before you submit
 
-SSRN's readership checks citations, so the twenty open attributions in the notes
-are the exposure. A reviewer in this audience will go straight to the treatment
-of transversality conditions in Section 1, which is the load bearing claim that
-is not yet sourced. The second is the claim in Section 12 that perpetual
-foundations reliably fail in one of two directions.
+SSRN's readership checks citations, so the 22 open attributions in the
+notes are the exposure. What remains open is now almost entirely secondary
+literature attribution rather than factual assertion: whether an idea is credited
+to the right paper. An error among those is a citation error rather than a false
+claim in the text, which is a much better place to be than the previous draft.
 
-Neither is likely to be wrong. Both are currently unsupported, and this is the
-audience that will notice.
+The two load bearing items that were previously unsourced are now sourced.
+Section 1 uses Blanchard and Fischer for the no-Ponzi-game condition and
+Kamihigashi for the transversality condition, kept distinct. Section 12 sources
+the two observed failure directions in Rosenwald and Higgins. The claim that
+there is no third outcome is still the author's reading rather than a result
+those sources demonstrate, and it is labelled that way in the notes.

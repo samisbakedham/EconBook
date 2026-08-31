@@ -59,7 +59,7 @@ const footer = (book) => `
         <h4>Terminal Value</h4>
         <p class="colophon">${escapeHtml(book.meta.subtitle)}<br>
         Twelve chapters and a set of notes, by ${escapeHtml(book.meta.author)}.
-        Complete draft: fifty one claims checked against sources, twenty not, each one marked.</p>
+        Complete draft: ${book.verification.verified} claims checked against sources, ${book.verification.unverified} not, each one marked.</p>
       </div>
       <div>
         <h4>Read</h4>
@@ -198,7 +198,7 @@ export function homePage(book) {
 </section>
 
 <section class="band">
-  <div class="wrap split narrow-right">
+  <div class="wrap split narrow-right" style="align-items:center">
     <div data-reveal>
       ${fig({
         n: 'Figure 1',
@@ -260,7 +260,7 @@ export function homePage(book) {
     </div>
     <input id="perp-rate" type="range" min="50" max="1000" step="1" value="500"
            aria-label="Discount rate, in hundredths of a percent">
-    <p class="label" id="perp-note" style="text-transform:none;letter-spacing:0;font-size:.8rem;line-height:1.5">Ordinary. This is the world valuation was designed for.</p>
+    <p class="control-note" id="perp-note">Ordinary. This is the world valuation was designed for.</p>
   </div>`,
           caption: 'An asset paying $1,000 a year, forever. At ten percent it is worth ten thousand dollars. At one percent, a hundred thousand. At zero there is no answer. Not a very large answer. No answer.',
           source: 'Drag the rate. The formula is value = payment divided by rate',
@@ -395,7 +395,7 @@ export function homePage(book) {
     <div style="height:2px;background:var(--hair);overflow:hidden">
       <div id="risk-bar" style="height:2px;background:var(--amber);width:40%;transition:width .25s"></div>
     </div>
-    <p class="label" id="risk-verdict" style="text-transform:none;letter-spacing:0;font-size:.8rem;line-height:1.5">The underwriter starts asking questions.</p>
+    <p class="control-note" id="risk-verdict">The underwriter starts asking questions.</p>
   </div>`,
           caption: 'The Shuttle lost two crews in a hundred and thirty five flights, about one in ninety. Be generous to the future and call it one in ten thousand. For someone with forty years left that is nothing. For someone with two thousand years left it is a fifth of a year of expected life, priced at a few hundred thousand dollars a year, per person, per launch, before anything else is counted.',
           source: 'Risk premium at $300,000 per life-year, per Chapter 6',
@@ -576,7 +576,7 @@ export function homePage(book) {
         <p class="label">Take it with you</p>
         <h2 class="display-m">Four formats, one source</h2>
         <p>The manuscript is the single source of truth. The print interior, the ebook, the working paper and this site are all generated from it, so they never drift apart.</p>
-        <p class="dim">This is a complete draft rather than a finished book, and it is published in that condition on purpose. Fifty one of its factual claims have been checked against sources and twenty have not. Seven were found wrong during verification and corrected. All of it is recorded, claim by claim, in the <a href="/notes" style="color:var(--amber)">notes</a>.</p>
+        <p class="dim">This is a complete draft rather than a finished book, and it is published in that condition on purpose. ${book.verification.verified} of its claims have been checked against sources and ${book.verification.unverified} have not. The ones found wrong during verification were corrected and recorded rather than quietly fixed. All of it is there, claim by claim, in the <a href="/notes" style="color:var(--amber)">notes</a>.</p>
       </div>
       <div data-reveal style="--delay:.1s">
         <div class="dl">
@@ -646,7 +646,7 @@ export function contentsPage(book) {
             <span class="n">&#167;</span>
             <span>
               <h3>Notes</h3>
-              <p>Every claim with its verification status, including the seven that were found wrong and corrected rather than quietly fixed.</p>
+              <p>Every claim with its verification status, including the ones found wrong during checking and corrected rather than quietly fixed.</p>
             </span>
           </a>
         </div>
@@ -761,7 +761,7 @@ export function notesPage(book) {
   return layout({
     book,
     title: 'Notes',
-    description: 'Every claim in the book with its verification status, including the seven found wrong during checking and corrected.',
+    description: 'Every claim in the book with its verification status, including the ones found wrong during checking and corrected rather than quietly fixed.',
     path: '/notes',
     current: 'notes',
     body,

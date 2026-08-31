@@ -93,9 +93,9 @@ export function heroArt({ bars = 76 } = {}) {
 /* ------------------------------------------------- 1. the flat ceiling -- */
 
 export function figCeiling() {
-  const W = 640, H = 300, m = { t: 22, r: 118, b: 34, l: 34 };
+  const W = 640, H = 300, m = { t: 24, r: 96, b: 34, l: 34 };
   const x = scale([1840, 2025], [m.l, W - m.r]);
-  const y = scale([20, 130], [H - m.b, m.t]);
+  const y = scale([30, 132], [H - m.b, m.t]);
 
   const birth = [[1841, 41], [1870, 41], [1900, 48], [1920, 56], [1940, 64],
     [1960, 71], [1980, 74], [2000, 78], [2020, 81]].map(([a, b]) => [x(a), y(b)]);
@@ -110,19 +110,23 @@ export function figCeiling() {
   <line class="axis-line" x1="${m.l}" y1="${H - m.b}" x2="${W - m.r}" y2="${H - m.b}"/>
   ${ticksX([1850, 1900, 1950, 2000], x, H - m.b + 17)}
 
-  <line x1="${m.l}" y1="${fmt(ceiling)}" x2="${W - m.r + 6}" y2="${fmt(ceiling)}"
+  <line x1="${m.l}" y1="${fmt(ceiling)}" x2="${W - m.r + 8}" y2="${fmt(ceiling)}"
         stroke="var(--clay)" stroke-width="1.5" stroke-dasharray="5 5"/>
-  <text x="${W - m.r + 12}" y="${fmt(ceiling - 6)}" fill="var(--clay)">The ceiling</text>
-  <text x="${W - m.r + 12}" y="${fmt(ceiling + 8)}" fill="var(--clay)">122 years</text>
-  <text x="${W - m.r + 12}" y="${fmt(ceiling + 21)}">unmoved since 1997</text>
+  <text x="${W - m.r + 14}" y="${fmt(ceiling - 4)}" fill="var(--clay)">The ceiling</text>
+  <text x="${W - m.r + 14}" y="${fmt(ceiling + 9)}" fill="var(--clay)">122 years</text>
+  <text x="${W - m.r + 14}" y="${fmt(ceiling + 22)}">unmoved</text>
+  <text x="${W - m.r + 14}" y="${fmt(ceiling + 34)}">since 1997</text>
 
-  <path class="series draw" style="--len:${pathLength(atFive)}" d="${line(atFive)}" stroke="var(--slate)"/>
+  <path class="series series-2 draw" style="--len:${pathLength(atFive)}" d="${line(atFive)}"/>
   <path class="series draw" style="--len:${pathLength(birth)}" d="${line(birth)}"/>
 
-  <circle class="marker fade-in" style="--d:1.3s" cx="${fmt(x(2020))}" cy="${fmt(y(81))}" r="3.5"/>
-  <text class="fade-in" style="--d:1.4s" x="${W - m.r + 12}" y="${fmt(y(81) + 3)}" fill="var(--amber)">at birth</text>
-  <circle class="marker fade-in" style="--d:1.3s" cx="${fmt(x(2020))}" cy="${fmt(y(82))}" r="3.5" fill="var(--slate)"/>
-  <text class="fade-in" style="--d:1.4s" x="${W - m.r + 12}" y="${fmt(y(82) - 10)}" fill="var(--slate)">from age five</text>
+  <g class="fade-in" style="--d:1.25s">
+    <text x="${fmt(x(1848))}" y="${fmt(y(61) - 11)}" fill="var(--slate)">from age five</text>
+    <text x="${fmt(x(1848))}" y="${fmt(y(41) + 18)}" fill="var(--amber)">at birth</text>
+    <circle class="marker" cx="${fmt(x(2020))}" cy="${fmt(y(81))}" r="3.5"/>
+    <circle class="marker" cx="${fmt(x(2020))}" cy="${fmt(y(82))}" r="3.5" fill="var(--slate)"/>
+    <text x="${W - m.r + 14}" y="${fmt(y(81) + 4)}">81 and 82</text>
+  </g>
 `);
 }
 
@@ -208,7 +212,7 @@ export function figCompounding() {
   <line class="axis-line" x1="${m.l}" y1="${H - m.b}" x2="${W - m.r}" y2="${H - m.b}"/>
   ${ticksX([0, 50, 100, 150, 200], x, H - m.b + 17, (v) => `${v}y`)}
   <path class="series draw" style="--len:${pathLength(pts)}" d="${line(pts, { smooth: false })}"/>
-  <g class="fade-in" style="--d:1.2s">${mark(30, '4.3x  a career')}</g>
+  <g class="fade-in" style="--d:1.2s">${mark(30, '4.3x  a career', 18)}</g>
   <g class="fade-in" style="--d:1.5s">${mark(200, '17,000x', 4)}</g>
 `);
 }
@@ -216,51 +220,56 @@ export function figCompounding() {
 /* ------------------------------------------------ 5. funeral principle -- */
 
 export function figFuneral() {
-  const cols = 30, rows = 16, total = 452;
-  const W = 640, H = 210;
-  const gap = 19.5, x0 = 22, y0 = 20;
-  const star = 7 * cols + 14;
+  const cols = 34, total = 452;
+  const rows = Math.ceil(total / cols);
+  const W = 640, H = 240;
+  const gapX = 17.3, gapY = 15, x0 = 24, y0 = 22;
+  const star = 6 * cols + 16;
 
   let dots = '';
   for (let i = 0; i < total; i++) {
     const c = i % cols, r = Math.floor(i / cols);
-    if (r >= rows) break;
+    const cx = x0 + c * gapX;
+    const cy = y0 + r * gapY;
     const isStar = i === star;
-    dots += `<circle class="fade-in" style="--d:${fmt(0.2 + (i / total) * 0.8, 3)}s" cx="${fmt(x0 + c * gap)}" cy="${fmt(y0 + r * gap * 0.62)}" r="${isStar ? 5 : 2.4}" fill="${isStar ? 'var(--amber)' : 'var(--paper)'}" opacity="${isStar ? 1 : 0.26}"/>`;
+    dots += `<circle class="fade-in" style="--d:${fmt(0.2 + (i / total) * 0.8, 3)}s" cx="${fmt(cx)}" cy="${fmt(cy)}" r="${isStar ? 5 : 2.4}" fill="${isStar ? 'var(--amber)' : 'var(--paper)'}" opacity="${isStar ? 1 : 0.24}"/>`;
     if (isStar) {
-      dots += `<circle class="fade-in" style="--d:1.1s" cx="${fmt(x0 + c * gap)}" cy="${fmt(y0 + r * gap * 0.62)}" r="11" fill="none" stroke="var(--amber)" stroke-width="1" opacity=".55"/>`;
+      dots += `<circle class="fade-in" style="--d:1.1s" cx="${fmt(cx)}" cy="${fmt(cy)}" r="11" fill="none" stroke="var(--amber)" stroke-width="1" opacity=".6"/>`;
     }
   }
 
   return svg(W, H, `
   <title>Four hundred and fifty two elite life scientists who died while still active.</title>
   ${dots}
-  <text class="fade-in" style="--d:1.3s" x="22" y="${H - 10}">452 sudden exits &#183; one field each</text>
+  <text class="fade-in" style="--d:1.3s" x="${x0}" y="${y0 + rows * gapY + 22}">452 sudden exits &#183; one field each</text>
 `);
 }
 
-/** The measured consequence, as a pair of flows. */
+/** The measured consequence: what each group's publishing does afterward. */
 export function figOutsiders() {
-  const W = 640, H = 190;
-  const cy = 78, len = 150;
+  const W = 640, H = 200;
+  const xa = 210, xb = 430;
 
-  const flow = (yPos, label, delta, color, dir) => {
-    const x1 = 250, x2 = x1 + len * dir;
-    return `
-    <g class="fade-in" style="--d:${dir > 0 ? 0.9 : 0.5}s">
-      <text x="238" y="${yPos + 4}" text-anchor="end" fill="var(--paper)">${label}</text>
-      <line x1="${x1}" y1="${yPos}" x2="${x1 + 130 * dir}" y2="${yPos}" stroke="${color}" stroke-width="2"/>
-      <path d="M${x1 + 130 * dir} ${yPos} l${-8 * dir} -5 l0 10 z" fill="${color}"/>
-      <text x="${x1 + 142 * dir}" y="${yPos + 4}" fill="${color}" text-anchor="${dir > 0 ? 'start' : 'end'}">${delta}</text>
+  const slope = (y1, y2, label, value, color, delay) => `
+    <g class="fade-in" style="--d:${delay}s">
+      <line x1="${xa}" y1="${y1}" x2="${xb}" y2="${y2}" stroke="${color}" stroke-width="2"/>
+      <circle cx="${xa}" cy="${y1}" r="4" fill="${color}"/>
+      <circle cx="${xb}" cy="${y2}" r="4" fill="${color}"/>
+      <text x="${xa - 14}" y="${y1 + 4}" text-anchor="end" fill="var(--paper)">${label}</text>
+      <text x="${xb + 14}" y="${y2 + 4}" fill="${color}">${value}</text>
     </g>`;
-  };
 
   return svg(W, H, `
-  <title>Publication flow after a star scientist dies.</title>
-  <line x1="250" y1="30" x2="250" y2="140" stroke="var(--hair-strong)" stroke-width="1"/>
-  ${flow(cy - 22, 'Their collaborators', 'publish less', 'var(--clay)', -1)}
-  ${flow(cy + 34, 'Everyone else', '+8.6%', 'var(--amber)', 1)}
-  <text class="fade-in" style="--d:1.2s" x="20" y="${H - 14}">and the new work is disproportionately highly cited</text>
+  <title>Publication flow before and after a star scientist dies.</title>
+  <line x1="${xa}" y1="34" x2="${xa}" y2="150" stroke="var(--hair)" stroke-width="1"/>
+  <line x1="${xb}" y1="34" x2="${xb}" y2="150" stroke="var(--hair)" stroke-width="1"/>
+  <text x="${xa}" y="170" text-anchor="middle">while they held the field</text>
+  <text x="${xb}" y="170" text-anchor="middle">after the death</text>
+
+  ${slope(58, 118, 'Their collaborators', 'publish less', 'var(--clay)', 0.35)}
+  ${slope(126, 66, 'Everyone else', '+8.6%', 'var(--amber)', 0.6)}
+
+  <text class="fade-in" style="--d:1.1s" x="20" y="${H - 8}">and the new work is disproportionately highly cited</text>
 `);
 }
 
@@ -301,7 +310,7 @@ export function figRuin() {
 /* ------------------------------------------------------ 7. vacancy ----- */
 
 export function figVacancy() {
-  const W = 640, H = 250;
+  const W = 640, H = 266;
   const seats = ['Chair', 'Director', 'Senior', 'Associate', 'Junior', 'Entering'];
   const boxW = 132, boxH = 26, gapY = 36, x0 = 60;
 
@@ -439,32 +448,42 @@ export function figTwoClasses() {
 /* -------------------------------------------------------- 9. Venice ---- */
 
 export function figSerrata() {
-  const W = 640, H = 210, m = { l: 40, r: 40 };
-  const x = scale([1050, 1800], [m.l, W - m.r]);
-  const axis = 118;
+  const W = 640, H = 200, m = { l: 46, r: 46 };
+  const x = scale([1020, 1830], [m.l, W - m.r]);
+  const axis = 92;
 
   const event = (year, label, sub, up, color, delay) => {
     const px = x(year);
     const dir = up ? -1 : 1;
     return `<g class="fade-in" style="--d:${delay}s">
-      <line x1="${fmt(px)}" y1="${axis}" x2="${fmt(px)}" y2="${fmt(axis + dir * 34)}"
+      <line x1="${fmt(px)}" y1="${axis}" x2="${fmt(px)}" y2="${fmt(axis + dir * 30)}"
             stroke="${color}" stroke-width="1"/>
       <circle cx="${fmt(px)}" cy="${axis}" r="4" fill="${color}"/>
-      <text x="${fmt(px)}" y="${fmt(axis + dir * 44)}" text-anchor="middle" fill="${color}">${year}</text>
-      <text x="${fmt(px)}" y="${fmt(axis + dir * (up ? 58 : 58))}" text-anchor="middle" fill="var(--paper)" opacity=".8">${label}</text>
-      <text x="${fmt(px)}" y="${fmt(axis + dir * (up ? 72 : 72))}" text-anchor="middle">${sub}</text>
+      <text x="${fmt(px)}" y="${fmt(axis + dir * 42)}" text-anchor="middle" fill="${color}">${year}</text>
+      <text x="${fmt(px)}" y="${fmt(axis + dir * 56)}" text-anchor="middle" fill="var(--paper)" opacity=".85">${label}</text>
+      <text x="${fmt(px)}" y="${fmt(axis + dir * 70)}" text-anchor="middle">${sub}</text>
     </g>`;
   };
+
+  // The colleganza has no single date in the record, so it is drawn as the era
+  // it was, not as a year the book never claims.
+  const eraA = x(1050), eraB = x(1290);
+  const era = `<g class="fade-in" style="--d:.2s">
+    <path d="M${fmt(eraA)} ${axis - 16} L${fmt(eraA)} ${axis - 26} L${fmt(eraB)} ${axis - 26} L${fmt(eraB)} ${axis - 16}"
+          fill="none" stroke="var(--amber)" stroke-width="1" opacity=".7"/>
+    <text x="${fmt((eraA + eraB) / 2)}" y="${axis - 36}" text-anchor="middle" fill="var(--amber)">the colleganza</text>
+    <text x="${fmt((eraA + eraB) / 2)}" y="${axis - 50}" text-anchor="middle">courage into equity, any notary could write one</text>
+  </g>`;
 
   return svg(W, H, `
   <title>Venice: mobility, then the closing, then five hundred years of nothing.</title>
   <line class="axis-line" x1="${m.l}" y1="${axis}" x2="${W - m.r}" y2="${axis}"/>
-  <rect class="grow" style="--d:.5s;transform-origin:center" x="${fmt(x(1297))}" y="${axis - 3}"
-        width="${fmt(x(1797) - x(1297))}" height="6" fill="var(--clay)" opacity=".28"/>
-  ${event(1100, 'the colleganza', 'courage into equity', true, 'var(--amber)', 0.2)}
-  ${event(1297, 'La Serrata', 'the council closes', false, 'var(--clay)', 0.5)}
-  ${event(1797, 'Napoleon', 'no resistance left', true, 'var(--paper-faint)', 0.9)}
-  <text class="fade-in" style="--d:1.2s" x="${fmt((x(1297) + x(1797)) / 2)}" y="${axis + 96}"
+  <rect class="grow" style="--d:.55s;transform-origin:center" x="${fmt(x(1297))}" y="${axis - 3}"
+        width="${fmt(x(1797) - x(1297))}" height="6" fill="var(--clay)" opacity=".32"/>
+  ${era}
+  ${event(1297, 'La Serrata', 'the council closes', false, 'var(--clay)', 0.55)}
+  ${event(1797, 'Napoleon', 'no resistance left', false, 'var(--paper-faint)', 0.95)}
+  <text class="fade-in" style="--d:1.25s" x="${fmt((x(1297) + x(1797)) / 2)}" y="${axis + 94}"
         text-anchor="middle" fill="var(--clay)">five centuries, rich and beautiful, nothing further happens</text>
 `);
 }
@@ -546,8 +565,7 @@ export function figBeams() {
       const cx = x0 + i * (colW + gap) + colW / 2;
       const lines = label.split('\n');
       return `<g class="fade-in" style="--d:${fmt(0.35 + i * 0.12, 3)}s">
-      <rect x="${fmt(cx - 13)}" y="${top}" width="26" height="${bottom - top}"
-            fill="var(--amber)" fill-opacity=".14" stroke="var(--amber)" stroke-opacity=".5"/>
+      <rect class="beam" x="${fmt(cx - 13)}" y="${top}" width="26" height="${bottom - top}"/>
       ${lines
         .map((l, j) => `<text x="${fmt(cx)}" y="${bottom + 22 + j * 13}" text-anchor="middle">${l}</text>`)
         .join('')}
@@ -558,7 +576,7 @@ export function figBeams() {
   return svg(W, H, `
   <title>Five columns under one slab, and no redundancy in any of them.</title>
   <g class="fade-in" style="--d:.15s">
-    <rect x="26" y="40" width="${W - 52}" height="18" fill="var(--paper)" fill-opacity=".18"/>
+    <rect class="slab" x="26" y="40" width="${W - 52}" height="18"/>
     <text x="32" y="30">everything built on top</text>
   </g>
   ${cols}

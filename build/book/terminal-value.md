@@ -75,7 +75,7 @@ So how do the old eat?
 
 The answer is that the young give them things, and the young do this because they expect the next generation of young to do the same for them. That expectation is what money is, in this model. Money has value not because it is backed by anything, but because everyone believes the sequence will continue. It is a chain of obligations running forward through time, sustained entirely by the arrival of new participants.
 
-If that sounds like the thing I described at the top of this chapter, it is because it is. Samuelson said so himself. The model shows that an arrangement we recognize as fraudulent when a private citizen runs it can be the foundation of a functioning monetary system when a society runs it, and the difference is that a society keeps producing new members.
+If that sounds like the thing I described at the top of this chapter, it is because it is. The model shows that an arrangement we recognize as fraudulent when a private citizen runs it can be the foundation of a functioning monetary system when a society runs it, and the difference is that a society keeps producing new members.
 
 Take a moment with what this means. One of the standard workhorses of the field is a machine whose engine is generational replacement. Its output depends on people being born, aging, and dying, in sequence, forever. Remove the turnover and the model does not merely become less accurate. It stops running.
 
@@ -1462,7 +1462,7 @@ You can see how much work that reset does by looking at what happens when people
 
 Either the foundation stays faithful to the founder's stated intent, in which case it ends up applying the priorities of a person who died decades ago to a world that has changed beyond their recognition, and slowly becomes irrelevant while remaining solvent. Or it drifts, in which case the professional staff who now run it pursue their own priorities using a dead person's money, and the original intent becomes a legal fiction that everyone works around.
 
-There is no third outcome, and there is no version where the founder's judgment stays live. Foundations are the closest thing we have built to an immortal economic actor, and what they demonstrate is that permanence of control and continued relevance are not compatible. The institution can have one or the other.
+On this reading there is no third outcome. There is no version where the founder's judgment stays live. Foundations are the closest thing we have built to an immortal economic actor, and what they demonstrate is that permanence of control and continued relevance are not compatible. The institution can have one or the other.
 
 Now notice that a very long lived founder does not solve this. It makes it worse in the specific way that matters. The foundation that drifts at least ends up responsive to living people, however unaccountably. A foundation whose founder is present, engaged, and permanently in charge does not drift and does not become a fiction. It simply applies one person's judgment, formed in one era, for as long as the endowment lasts.
 
@@ -1513,9 +1513,9 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 
 ## Chapter 1. The Boundary Condition
 
-1. Rational bubbles in infinite horizon and overlapping generations models. The foundational treatment is Tirole, "Asset Bubbles and Overlapping Generations," Econometrica, 1985. **[unverified]**
-2. Transversality and no-Ponzi conditions. Standard in any graduate macroeconomics text. Cite a specific textbook treatment rather than the folk version. **[unverified]**
-3. Samuelson, "An Exact Consumption-Loan Model of Interest with or without the Social Contrivance of Money," Journal of Political Economy, 1958. Samuelson's own comparison of the arrangement to a chain letter should be quoted directly. **[unverified]**
+1. Rational bubbles in infinite horizon and overlapping generations models. Jean Tirole, "Asset Bubbles and Overlapping Generations," Econometrica 53(6), November 1985, pages 1499 to 1528. https://doi.org/10.2307/1913232. In "On the Possibility of Speculation under Rational Expectations," Econometrica 50(5), 1982, he showed that with a finite number of infinitely lived traders, any asset must be valued at its market fundamental, so bubbles are ruled out. The 1985 paper asks whether that result extends to overlapping generations economies and answers no. Since Samuelson there can be a bubble on money, a positive price on an asset with a zero fundamental, because new generations keep arriving. **[verified]**
+2. Transversality and no-Ponzi conditions. These are not the same thing and should not be merged. Blanchard and Fischer, Lectures on Macroeconomics (MIT Press, 1989), page 49, state the no-Ponzi-game condition as the present discounted value of wealth at infinity being nonnegative: a constraint that rules out rolling debt forward forever. Kamihigashi, "Transversality Conditions and Dynamic Economic Behavior," New Palgrave Dictionary of Economics, 2nd edition, 2006 (working paper at https://www.rieb.kobe-u.ac.jp/academic/ra/dp/English/dp180.pdf), treats the transversality condition as an optimality condition: the present discounted value of wealth at infinity equals zero, which rules out overaccumulation of wealth. The no-Ponzi-game condition is a constraint ruling out overaccumulation of debt. "They place opposite restrictions, and should not be confused." NPG is often called a transversality condition as well. The book's reading, that these conditions smuggle death back into the infinite horizon, is my argument, not a finding those sources report. **[verified]**
+3. Samuelson, "An Exact Consumption-Loan Model of Interest with or without the Social Contrivance of Money," Journal of Political Economy 66(6), 1958. The paper is real. It describes the young transferring goods to the old in the expectation that the next generation of young will do the same, and it treats money as that social contrivance. It does not call the arrangement a chain letter. That phrasing is Karl Shell, "Notes on the Economics of Infinity," Journal of Political Economy 79(5), 1971, pages 1002 to 1011: "The chain-letter aspect of the model reminds us that the appropriate form of the budget constraint is not obvious for the potentially infinitely long-lived economic entity." Do not quote "chain letter" as Samuelson's wording. **[verified]**
 4. Life expectancy at birth in developed countries, roughly thirties to roughly eighties since 1850, driven overwhelmingly by declines in infant and child mortality rather than by extension of adult life. Needs a demographic source with the decomposition made explicit. **[unverified]**
 5. Jeanne Calment, born 21 February 1875, died 4 August 1997, aged 122 years and 164 days. The only person ever verified to have reached 120, 121 or 122, and more than three years clear of the next verified case. Record still standing. **[verified]**
 
@@ -1627,18 +1627,18 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 1. Terminal value as a share of enterprise value in discounted cash flow analysis. Commonly around three quarters in a standard five year forecast, falling to roughly half in a ten year forecast, and reaching 85 to 95 percent for companies whose cash flows are mostly ahead of them. Practitioners are advised to flag valuations where it exceeds 80 percent. **[verified]**
 2. Cologne Cathedral: foundation stone laid 1248, work halted in 1473 leaving a wooden crane on the unfinished south tower where it stood for roughly four hundred years as a landmark of the skyline, construction resumed in the nineteenth century, completed 1880. Total 632 years. **[verified]**
 3. Notre-Dame de Paris construction dates, if retained in the final draft. **[unverified]**
-4. The two failure modes of perpetual charitable foundations, faithful irrelevance or professional drift. This is a widely made observation in the philanthropy literature and the Ford Foundation is the usual illustration, but the text asserts it as a general law and needs supporting sources before it can do so. **[unverified]**
+4. The two observed failure modes of perpetual charitable foundations. Faithful irrelevance, the dead hand: Julius Rosenwald, "Principles of Public Giving," The Atlantic, May 1929. "while charity tends to do good, perpetual charities tend to do evil." Drift and professional capture: Heather Higgins, "Should Foundations Exist in Perpetuity?" Philanthropy Roundtable, 1996. Higgins argues that perpetual foundations tend to share a shift from donor intent, driven by time, reliance on professional staff, and the absence of accountability. The observation of those two directions is sourced. The chapter's claim that there is no third outcome, and that this is a general law, is my reading, not a demonstrated result in those sources. **[verified]**
 
 ---
 
 ## Verification status
 
-Verified against sources: 51 items.
-Still unverified: 20 items.
-Flagged as my own calculation or argument rather than a reported finding: 6 items.
+Verified against sources: 56 items.
+Still unverified: 22 items.
+Flagged as my own calculation or argument rather than a reported finding: 4 items.
 
 Six claims were found to be wrong or overstated during verification and have been corrected in the text. They are recorded at the relevant notes above rather than quietly fixed: the life expectancy decomposition in Chapter 2, the partial reprogramming result in Chapter 2, the r-star figures in Chapter 3, the consols provenance in Chapter 3, the colleganza prohibition in Chapter 10, the Mars light lag in Chapter 9, and the Cologne stoppage in Chapter 12.
 
 What remains unverified is now almost entirely secondary literature attribution rather than factual assertion: whether a particular idea is correctly credited to a particular paper. Those should still be checked, but an error among them is a citation error rather than a false claim in the text.
 
-The two exceptions worth flagging, because they are load-bearing and still unsourced, are the treatment of transversality conditions in Chapter 1 and the claim in Chapter 12 that perpetual foundations reliably fail in one of two directions. Chapter 1's argument rests on characterising those conditions correctly, and Chapter 12 asserts a general law on the strength of a widely repeated observation. Both should be read by someone who knows the respective literatures before this goes out.
+The two load bearing items previously flagged as unsourced are now sourced. Chapter 1 uses Blanchard and Fischer for the no-Ponzi-game condition and Kamihigashi for the transversality condition, kept distinct. Chapter 12 sources the two observed directions in Rosenwald and Higgins. The claim that there is no third outcome remains my reading, not a general law those sources demonstrate.

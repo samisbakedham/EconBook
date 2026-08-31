@@ -56,7 +56,20 @@ Materials are in `ssrn/abstract.md`: a full abstract, keywords, and seven JEL co
 
 **Do this one last.** SSRN's readership checks citations, and twenty-two attributions in the notes are still open. A reviewer in that audience will still go through the notes. The Chapter 1 treatment of transversality conditions is now sourced (Blanchard and Fischer for no-Ponzi, Kamihigashi for TVC, kept distinct). Remaining open items are mostly secondary literature attribution.
 
-Submission needs a single PDF:
+Submission needs a single PDF. That is now built without pandoc or LaTeX, by
+typesetting the paper in headless Chrome:
+
+```
+npm run build:ssrn
+```
+
+It writes `build/ssrn/terminal-value-ssrn.pdf` (US Letter, title page with the
+abstract, keywords and JEL codes, then numbered sections), plus `abstract.txt`
+and `submission.md` with the form fields ready to paste. The abstract, keywords
+and codes live in `tools/build-ssrn.mjs`; this file stays the prose version of
+the same material.
+
+The older pandoc route still works if you prefer it:
 
 ```
 brew install pandoc basictex

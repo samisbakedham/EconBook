@@ -52,12 +52,59 @@ The two load bearing items previously flagged as unsourced are now sourced. Chap
 
 ## Publishing
 
-The site in `docs/` is generated from `manuscript/` by `build-site.sh`. The manuscript is the source of truth; never edit `docs/chapters/` by hand, it gets wiped on every rebuild.
+The manuscript is the single source of truth. Everything below is generated from
+it, so the editions cannot drift apart.
+
+```
+npm run build:all
+```
+
+That produces, in `build/`:
+
+| Output | What it is |
+|---|---|
+| `book/terminal-value-interior-6x9.pdf` | Print interior. 6 x 9 trim, parts, drop capitals, chapters on rectos, unnumbered front matter, notes at the back. |
+| `book/terminal-value.epub` | EPUB 3, reflowable, typefaces and cover embedded. |
+| `book/terminal-value-cover.png` | Cover at 1800 x 2700, which is 300 dpi at 6 x 9. |
+| `book/terminal-value.md` | One combined Markdown file, for Leanpub or pandoc. |
+| `ssrn/terminal-value-ssrn.pdf` | The working paper. US Letter, abstract, numbered sections, JEL codes. |
+| `ssrn/abstract.txt`, `ssrn/submission.md` | Paste ready metadata for the SSRN form. |
+
+The individual steps are `npm run build:book`, `npm run build:ssrn` and
+`npm run build` (the website). The book and paper need Google Chrome, which is
+used headless to typeset the PDFs; set `CHROME_PATH` if it is somewhere unusual.
+`pdfunite` from poppler is optional and produces a single interior file with the
+front matter unnumbered. Nothing here needs pandoc or LaTeX, and there are no npm
+dependencies.
+
+The verification counts printed in the front matter, the paper and the website
+are read out of the "Verification status" section of `manuscript/13-notes.md` at
+build time. Update that section and every edition follows.
+
+### The website
+
+`web/` is a static site built from the manuscript by `tools/build-web.mjs`, and
+it is what deploys to Vercel. `vercel.json` points the project at it, so a push
+rebuilds the chapter pages from `manuscript/` automatically.
+
+```
+npm run dev      # http://localhost:4321, with Vercel's clean URLs
+```
+
+Never edit `web/chapters/` or `web/index.html` by hand; both are wiped on every
+build. Page copy lives in `tools/site/pages.mjs` and the figures in
+`tools/site/figures.mjs`. The downloads the site offers are copied from `build/`
+into `web/downloads/` and committed, because Vercel's build image has no browser
+to regenerate them with.
+
+### GitHub Pages
+
+The older site in `docs/` is generated separately by `build-site.sh` and is still
+live at https://samisbakedham.github.io/EconBook/, served from `/docs` on `main`.
+It reads the same manuscript.
 
 ```
 ./build-site.sh
 ```
 
-The repository is public. GitHub Pages is live at https://samisbakedham.github.io/EconBook/, served from `/docs` on `main`.
-
-The outline is working material and is deliberately excluded from the published site.
+The outline is working material and is deliberately excluded from both sites.

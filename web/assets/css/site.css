@@ -235,7 +235,7 @@ p:last-child { margin-bottom: 0; }
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
-.nav-links a { color: var(--paper-faint); transition: color 0.2s; }
+.nav-links a { color: var(--paper-faint); transition: color 0.2s; white-space: nowrap; }
 .nav-links a:hover, .nav-links a[aria-current] { color: var(--paper); }
 
 .theme-toggle {
@@ -420,26 +420,35 @@ p:last-child { margin-bottom: 0; }
 }
 
 .chart { width: 100%; height: auto; overflow: visible; }
+/* A presentation attribute always loses to a class rule, so these defaults
+   step aside wherever a figure sets the colour on the element itself. */
 .chart text {
   font-family: var(--mono);
   font-size: 9px;
   letter-spacing: 0.09em;
-  fill: var(--paper-faint);
   text-transform: uppercase;
 }
+.chart text:not([fill]) { fill: var(--paper-faint); }
 .chart .val {
   font-family: var(--display);
   font-size: 15px;
   letter-spacing: -0.01em;
   text-transform: none;
-  fill: var(--paper);
 }
+.chart .val:not([fill]) { fill: var(--paper); }
 .chart .grid-line { stroke: var(--grid); stroke-width: 1; }
 .chart .axis-line { stroke: var(--hair-strong); stroke-width: 1; }
-.chart .series { fill: none; stroke: var(--amber); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.chart .series-2 { stroke: var(--slate); }
-.chart .series-ghost { stroke: var(--paper-faint); stroke-width: 1.25; stroke-dasharray: 3 4; }
-.chart .marker { fill: var(--amber); }
+.chart .series { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.chart .series:not([stroke]) { stroke: var(--amber); }
+.chart .series-2:not([stroke]) { stroke: var(--slate); }
+.chart .series-ghost:not([stroke]) { stroke: var(--paper-faint); stroke-width: 1.25; stroke-dasharray: 3 4; }
+.chart .marker:not([fill]) { fill: var(--amber); }
+
+/* Filled shapes need more body on parchment than they do on ink. */
+.chart .beam { fill: var(--amber); fill-opacity: 0.15; stroke: var(--amber); stroke-opacity: 0.55; }
+.chart .slab { fill: var(--paper); fill-opacity: 0.16; }
+:root[data-theme="light"] .chart .beam { fill-opacity: 0.3; stroke-opacity: 0.75; }
+:root[data-theme="light"] .chart .slab { fill-opacity: 0.22; }
 
 /* Draw-on-reveal for line charts. */
 .chart .draw {
@@ -495,7 +504,7 @@ a.cell:hover { background: var(--ink-raised); }
 
 /* ============================================================= stat ==== */
 
-.stats { display: flex; flex-wrap: wrap; gap: clamp(1.6rem, 5vw, 4rem); }
+.stats { display: flex; flex-wrap: wrap; gap: clamp(1.4rem, 3vw, 2.6rem); }
 .stat { min-width: 8rem; }
 .stat .n {
   font-family: var(--display);
@@ -513,7 +522,7 @@ a.cell:hover { background: var(--ink-raised); }
   font-size: 0.86rem;
   line-height: 1.45;
   color: var(--paper-dim);
-  max-width: 15rem;
+  max-width: 13rem;
 }
 
 /* ======================================================= two-column ==== */
@@ -550,6 +559,17 @@ a.cell:hover { background: var(--ink-raised); }
   font-size: 1.35rem;
   color: var(--amber);
   font-variant-numeric: tabular-nums;
+}
+
+/* The running commentary under a control is prose, not a machine readout. */
+.control-note {
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--paper-dim);
+  font-style: italic;
+  margin: 0;
+  min-height: 2.7em;
 }
 
 input[type="range"] {
@@ -625,6 +645,7 @@ input[type="range"]::-moz-range-thumb {
   transition: padding-left 0.3s var(--ease);
 }
 .toc-item:first-child { border-top: 1px solid var(--hair); }
+.toc-item:last-child { border-bottom: 0; }
 .toc-item:hover { padding-left: 0.6rem; }
 .toc-item .n {
   font-family: var(--mono);

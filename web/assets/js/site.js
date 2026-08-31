@@ -127,10 +127,18 @@
     });
     const PER_YEAR = 300000; // a life-year, at the figure used in Chapter 6
 
+    // Logarithmic sliders land on values like 1,995; round them to the numbers
+    // a person would actually say out loud.
+    const nice = (v) => {
+      if (v < 100) return Math.round(v / 5) * 5;
+      const mag = Math.pow(10, Math.floor(Math.log10(v)) - 1);
+      return Math.round(v / mag) * mag;
+    };
+
     const paint = () => {
       // Sliders are logarithmic so the interesting range stays reachable.
-      const odds = Math.round(Math.pow(10, +riskInput.value / 100)); // 1 in N
-      const years = Math.round(Math.pow(10, +yearsInput.value / 100));
+      const odds = nice(Math.pow(10, +riskInput.value / 100)); // 1 in N
+      const years = nice(Math.pow(10, +yearsInput.value / 100));
       const lost = years / odds;
       const price = lost * PER_YEAR;
 

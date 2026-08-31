@@ -1,0 +1,16 @@
+{
+  "name": "terminal-value",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Terminal Value: the manuscript, and the tooling that turns it into a book, a working paper and a website.",
+  "scripts": {
+    "build": "node tools/build-web.mjs",
+    "build:book": "node tools/build-book.mjs",
+    "build:ssrn": "node tools/build-ssrn.mjs",
+    "build:all": "npm run build:book && npm run build:ssrn && npm run build",
+    "fonts": "node tools/fetch-fonts.mjs",
+    "dev": "node tools/serve.mjs 4321"
+  },
+  "engines": { "node": ">=20" }
+}

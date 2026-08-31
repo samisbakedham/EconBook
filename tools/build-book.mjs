@@ -44,7 +44,7 @@ export const EPIGRAPHS = [
 /* ------------------------------------------------------------------ pages */
 
 function frontMatterHtml(book, cssHref) {
-  const { meta, parts, notes } = book;
+  const { meta, parts, notes, verification: v } = book;
   const year = meta.year;
 
   const contentsRows = (list) =>
@@ -77,7 +77,7 @@ function frontMatterHtml(book, cssHref) {
   <p>Copyright &copy; ${year} ${escapeHtml(meta.author)}. All rights reserved.</p>
   <p>First edition. Set in Fraunces and Newsreader.</p>
   <p>The manuscript, the notes and the build tooling that produced this volume are public at ${escapeHtml(meta.repo)}. Corrections are welcome and will be recorded rather than quietly applied.</p>
-  <p>This is a complete draft. Of the factual claims in this book, fifty one have been checked against sources and twenty have not. Every claim carries its verification status in the notes at the back.</p>
+  <p>This is a complete draft. Of the claims in this book, ${v.verified} have been checked against sources and ${v.unverified} have not. Every one carries its verification status in the notes at the back.</p>
   <p>Nothing here is investment advice.</p>
 </div></section>
 
@@ -100,9 +100,9 @@ function frontMatterHtml(book, cssHref) {
 <section class="page frontnote">
   <h2>On the state of this text</h2>
   <p>This book argues that mortality is load bearing economic infrastructure. It performs five functions that nothing else performs, and radical life extension removes all five at once.</p>
-  <p>It is a complete draft rather than a finished book, and it is published in that condition on purpose. Fifty one of its factual claims have been checked against sources. Twenty have not, and each is marked. Six items are the author's own calculation or argument rather than a reported finding, and are flagged as such where they appear.</p>
-  <p>Seven claims were found wrong or overstated during verification and were corrected. They are recorded in the notes rather than quietly fixed, because a reader is entitled to know which way an author's errors run.</p>
-  <p>Two load bearing items remain unsourced and should be read by someone who knows the literature: the treatment of transversality conditions in Chapter 1, and the claim in Chapter 12 that perpetual foundations reliably fail in one of two directions.</p>
+  <p>It is a complete draft rather than a finished book, and it is published in that condition on purpose. ${v.verified} of its claims have been checked against sources. ${v.unverified} have not, and each is marked where it appears. ${v.flagged} items are the author's own calculation or argument rather than a reported finding, and are flagged as such.</p>
+  <p>Claims found wrong or overstated during verification were corrected, and they are recorded in the notes rather than quietly fixed, because a reader is entitled to know which way an author's errors run.</p>
+  <p>What remains open is now almost entirely secondary literature attribution rather than factual assertion: whether a particular idea is credited to the right paper. Those should still be closed out, but an error among them is a citation error rather than a false claim in the text.</p>
   <p>If you find an error, the notes are where to look first, and the author would like to hear about it.</p>
 </section>
 <section class="page"></section>

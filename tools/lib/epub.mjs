@@ -82,7 +82,7 @@ function opener(html) {
 }
 
 export async function buildEpub({ book, out, cover, epigraphs }) {
-  const { meta, parts, notes, chapters } = book;
+  const { meta, parts, notes, chapters, verification: v } = book;
   const EP = epigraphs || (await import('../build-book.mjs')).EPIGRAPHS;
 
   const uid = 'urn:uuid:' + createHash('sha1')
@@ -130,7 +130,7 @@ export async function buildEpub({ book, out, cover, epigraphs }) {
   <p>Copyright © ${meta.year} ${escapeHtml(meta.author)}. All rights reserved.</p>
   <p>First edition. Set in Fraunces and Newsreader.</p>
   <p>The manuscript, the notes and the build tooling that produced this file are public at ${escapeHtml(meta.repo)}. Corrections are welcome and will be recorded rather than quietly applied.</p>
-  <p>This is a complete draft. Fifty one of its factual claims have been checked against sources and twenty have not. Every claim carries its verification status in the notes at the back.</p>
+  <p>This is a complete draft. ${v.verified} of its claims have been checked against sources and ${v.unverified} have not. Every one carries its verification status in the notes at the back.</p>
   <p>Nothing here is investment advice.</p>
 </section>`);
 

@@ -13,7 +13,7 @@ export const meta = {
   subtitle: 'What Death Was Doing for the Economy, and What Happens When We Stop It',
   author: 'Samuel Safahi',
   year: new Date().getFullYear(),
-  siteUrl: 'https://terminalvalue.vercel.app',
+  siteUrl: 'https://econ-book.vercel.app',
   repo: 'https://github.com/samisbakedham/EconBook',
   isbn: '',
   description:
@@ -85,6 +85,28 @@ export const pullQuotes = {
   12: 'We may be the first generation that gets to see the future it paid for.',
 };
 
+/**
+ * The notes carry their own tally in a "Verification status" section. Reading
+ * it here means the book, the paper and the site all quote the same numbers,
+ * and none of them goes stale when the verification pass moves on.
+ */
+export function parseVerification(raw) {
+  const num = (re) => {
+    const m = raw.match(re);
+    return m ? Number(m[1].replace(/,/g, '')) : null;
+  };
+  const v = {
+    verified: num(/Verified against sources:\s*([\d,]+)\s*items?/i),
+    unverified: num(/Still unverified:\s*([\d,]+)\s*items?/i),
+    flagged: num(/Flagged as my own calculation[^:]*:\s*([\d,]+)\s*items?/i),
+  };
+  if (v.verified == null || v.unverified == null) {
+    throw new Error('Could not read the verification tally from manuscript/13-notes.md');
+  }
+  v.total = v.verified + v.unverified;
+  return v;
+}
+
 const slugify = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
@@ -113,6 +135,7 @@ export async function loadBook() {
         slug: 'notes',
         title: 'Notes',
         file,
+        raw,
         blocks: parseBlocks(body),
       };
       continue;
@@ -149,7 +172,8 @@ export async function loadBook() {
   });
 
   const words = chapters.reduce((sum, c) => sum + c.words, 0);
-  return { meta, parts, chapters, notes, flow, words };
+  const verification = parseVerification(notes.raw);
+  return { meta, parts, chapters, notes, flow, words, verification };
 }
 
 export { slugify };
