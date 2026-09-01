@@ -131,9 +131,71 @@ So here is the paradox in its final form.
 
 Every civilization rich enough to reach the stars is too rich to go.
 
-### Four objections
+### The wingsuit problem
 
-Let me take the strongest versions of the counterarguments, since a paradox that survives only the weak ones is just a slogan.
+There is a counterargument to everything above, it is the strongest one available, and this chapter has been walking past it.
+
+The argument says that risk tolerance is not simply a function of remaining life-years, and the evidence is that people with a great deal of life remaining, and a great deal of money, already accept risks far worse than anything a space programme would ask of them.
+
+The numbers are not close. Wingsuit BASE flying kills roughly one participant in every five or six hundred flights. Not per career. Per flight. Climbing Everest has run at somewhere around one percent of climbers over the long record, better in recent years, and a permit alone costs tens of thousands of dollars before a guide is hired. These are not activities of the desperate. They are expensive, they are optional, and the people doing them are disproportionately young, healthy and rich, which is to say they are exactly the population this chapter claims should be least willing to gamble.
+
+Set that against the figure used above. A one in ten thousand chance of dying on a launch is, on the wingsuit numbers, something like twenty times safer than a single flight that people currently queue up and pay to make.
+
+So the model appears to be wrong. Not marginally. By an order of magnitude, in the wrong direction, among precisely the people it makes predictions about.
+
+Take that at full strength before answering it, because a paradox that only survives the weak version of an objection is not worth the pages.
+
+### Four answers, and one concession
+
+The first answer is that the wingsuit flyer is not the constraint, and never was.
+
+Consider what a person needs in order to jump off a cliff in a nylon suit. They need the suit, a mountain, and their own consent. There is no underwriter. There is no launch licence. There is no board approving the expenditure, no supply chain, no regulator signing off on a flight readiness review, and no institution that carries liability when it goes wrong. BASE jumping is legal in most places precisely because the entire cost of the failure lands on the person who chose it, and no third party is exposed.
+
+The frontier is not like this and cannot be made like this. Getting to orbit requires capital that somebody has to commit, insurance somebody has to write, launch permission somebody has to grant, and a supply chain of firms each of which carries its own exposure. This chapter's argument was never that volunteers would run out. It said so explicitly: frontiers are opened by financing, not by volunteers, and Magellan sailed because a crown could absorb a loss it expected to take. The wingsuit case demonstrates the availability of the volunteer. It says nothing about the availability of the underwriter, which is the thing that was scarce.
+
+The second answer is about scale. There are perhaps a few thousand active wingsuit BASE flyers in the world. That population is sufficient to sustain a sport. It is not sufficient to crew, supply, service and govern a presence on another planet, and the difference is not one of degree. A sport requires that some people are willing. An industry requires that enough people are willing, at a price, repeatedly, with replacements available when they are lost, and with somebody prepared to carry the cost of losing them.
+
+The third answer is that the comparison quietly substitutes the wrong number. The wingsuit flyer is wagering forty or fifty expected years. The person in this chapter's argument is wagering two thousand. Whether the flyer would still fly with a perpetuity in hand is not something anyone can answer from data, because no such person has ever existed, and it is worth being honest that this is an extrapolation rather than an observation.
+
+What can be observed is the direction of travel. Over the same decades in which healthy life expectancy has extended in wealthy countries, workplace fatality rates have fallen, product safety regulation has ratcheted in one direction, and the value a regulator places on a statistical life has risen year after year. None of that proves the mechanism. All of it is consistent with it, and none of it runs the other way.
+
+The fourth answer is the one that does the most work, and it turns on a distinction the objection erases.
+
+Recall how the value of a statistical life is actually estimated. Economists look at what people demand in wages before they will accept a more dangerous job, and work backwards. Roofers and loggers and deep sea fishermen are paid more than they would be for equivalent work on the ground, and the size of that premium, across many workers and many industries, is what produces the figure.
+
+The essential feature of that measurement is the direction the money flows. The worker is paid to accept the danger. The danger is a cost, borne in exchange for compensation, and the premium is the price at which the exchange clears.
+
+Now look at the wingsuit flyer, and at the Everest client who has written a cheque for the privilege.
+
+They are paying. The money flows the other way.
+
+That is not a smaller version of the same transaction. It is the opposite transaction, and it means the two cases are not measuring the same quantity. Danger accepted for money is a cost of production. Danger purchased with money is a form of consumption, and it is consumed because it is voluntary, self selected, tightly controlled, and above all because it is the point of the activity rather than a by-product of it. Nobody climbs Everest in order to arrive at the summit. The summit is a rock. The risk is the good being bought.
+
+Frontier settlement is production. It is work, done to an objective, by people who would prefer the objective without the hazard and who must be compensated for the difference. The relevant question is therefore not whether anybody will pay to face danger. Plenty will. It is what somebody must be paid to face danger they have no interest in for its own sake, and that number is the one that scales with the years they are wagering.
+
+The wingsuit case, read carefully, does not contradict the value of a statistical life. It sits in a different column of the same ledger.
+
+The history of the last frontier makes the same point in a different way. Early aviation was appallingly dangerous and it attracted exactly the population the objection describes: young, wealthy, willing, famous for it. That population sustained a spectacle for about two decades. It did not produce an airline. Commercial aviation became an industry only after the risk fell by orders of magnitude, at which point the pioneers were irrelevant to it and the business was built by actuaries and engineers on a foundation of statistics rather than nerve. The amateurs did not scale. They were never going to. They demonstrated that the thing was possible, which is valuable and which is not the same as opening it.
+
+The fifth answer is that the objection measures the wrong thing about the people it describes. Someone who flies a wingsuit is not indifferent to death. They are, in the ordinary case, extremely attentive to it: obsessive about equipment, about conditions, about margins. What they have is a high tolerance for a specific, chosen, bounded exposure that they control. That is a different psychological object from an open ended institutional exposure controlled by somebody else, on a schedule set by a launch window, in a vehicle they did not inspect.
+
+Now the concession, which is real and which changes the claim.
+
+If appetite for risk is partly a stable disposition rather than purely a function of years remaining, then a very long lived population will still contain risk seekers, and their number does not fall to zero. It falls as a share, perhaps, but the population is also larger and richer than any before it, and a small share of an enormous number is not a small number. There will be people who want to go.
+
+This damages one version of the argument, and it is worth marking exactly which version. It damages the claim that nobody will be willing. That claim is probably false, and this chapter should not have leaned on it.
+
+What survives is narrower and, on reflection, harder to escape. The institutions that finance, insure and license the frontier are not populated by risk seekers. They are populated by fiduciaries, who are legally obliged to act for beneficiaries, and whose beneficiaries are the longest lived and most loss averse population in history. A pension fund does not develop a taste for danger because one of its members has one. An insurer does not write a policy it cannot price because the applicant is enthusiastic.
+
+So the claim should be stated this way, and it is the form the rest of this chapter will use. It is not that nobody goes. It is that the willing become uncoupled from the capital, and that the frontier closes at the point where the two can no longer be brought together on any terms either side will accept.
+
+Which is a considerably more specific prediction, and a more falsifiable one. It says the constraint will show up first in the insurance and liability layer rather than in recruitment. It says the volunteers will still be there, and visible, and quoted in the press, and unable to raise the money.
+
+It also says where to look for the argument being wrong. If a serious frontier programme is ever financed by an institution whose beneficiaries are long lived, at a risk level comparable to the early Shuttle, then the mechanism described here is not operating and this chapter should be discarded. That is a real test, it can be run, and nothing in the argument is protected from it.
+
+### Four more objections
+
+Those are not the only replies worth taking seriously, and the remaining ones are quicker.
 
 **It only takes a few volunteers.** True, and beside the point. Frontier settlement has never been short of willing bodies. What it runs short of is capital, insurance, launch licenses, supply chains and legal cover, all of which sit with people who want nothing to do with the tail. Frontiers are opened by financing, not by volunteers. Magellan's expedition left in 1519 with five ships and around two hundred and seventy men. One ship and eighteen men came home three years later. The reason it sailed at all is that the Spanish crown could absorb a loss it fully expected to take. The volunteers were never the constraint. The underwriter was.
 
@@ -158,5 +220,3 @@ We have been carrying an assumption for a long time, through every space program
 I think it is exactly backward.
 
 Longevity buys you Earth. The stars go to whoever is still willing to die.
-
-*Citations for this chapter are in the Notes at the back of the book.*

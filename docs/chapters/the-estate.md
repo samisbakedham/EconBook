@@ -75,6 +75,56 @@ Remove the interruption and r greater than g stops being a slow drift that socie
 
 And the resulting distribution is not merely unequal. It is frozen. That distinction matters more than it sounds. Societies tolerate a great deal of inequality when the positions turn over, because there is a story available in which the arrangement is provisional. Remove turnover and you have removed the story, and what is left is not a market outcome. It is an aristocracy, in the original and precise sense of the word: a permanent stratum, defined by birth, that cannot be entered.
 
+### The fortune that did not break
+
+The proverb has been carrying a great deal of weight in this chapter, and it should not carry it alone.
+
+Shirtsleeves to shirtsleeves is a saying, not a finding. It describes a strong central tendency and says nothing about the tail, and the tail is where the argument of this book actually lives. If the claim is that death reliably breaks concentrated wealth, then the fortunes that were not broken are the evidence that matters, because they are the cases where the mechanism was tested and did not fire.
+
+There are such cases. They are rare, and the way they achieved it is the most useful thing in this chapter.
+
+Consider the Wallenbergs of Sweden. The family bank was founded in the eighteen fifties. Six generations later the family still exercises effective control over a substantial share of Swedish industry, through a holding company and a set of foundations, across firms whose names are on products sold in every country in the world. That is not a fortune that survived three generations. It is one that survived six, through two world wars, a Swedish tax regime that was for decades among the most redistributive on earth, and the ordinary attrition of heirs who might have preferred the money.
+
+Ask how, and the answer is not luck and not brilliance in any individual generation.
+
+At a decisive moment, Knut Wallenberg transferred his entire fortune into a foundation before he died.
+
+Sit with what that sentence does. The proverb depends on a specific chain of events: the owner dies, the estate is valued, the tax lands, the assets are divided among heirs, and the heirs, who did not build it and mostly cannot maintain it, disperse the position. Every link in that chain requires the property to pass through an individual's estate.
+
+Property held by a foundation does not pass through anybody's estate. There is no death to trigger the transfer, because the owner is an institution and institutions do not die on a schedule. There is no division among heirs, because the heirs are not owners. There is no valuation event and therefore, in most jurisdictions and to a large extent, no transfer tax. The family's relationship to the capital changes from ownership to stewardship, exercised through board seats and appointments rather than through title.
+
+Today that structure runs through more than a dozen foundations holding assets worth tens of billions of dollars, and the operative feature is not the size. It is that no individual member can withdraw the money. The design that protects the fortune from estate taxes is the same design that protects it from the heirs, and those turn out to be the same problem.
+
+The Rothschild case is different in its mechanics and identical in its logic. What is usually described as a banking dynasty was in structural terms a network: separate houses in separate countries, bound by intermarriage and by a partnership agreement, so that the failure or the death or the incompetence of any single branch did not take the whole with it. Redundancy was built in deliberately, at some cost, by people who had watched other merchant families disappear in exactly the way the proverb describes.
+
+So the pattern in the surviving cases is consistent, and it is the opposite of the comforting story.
+
+These fortunes did not survive because death failed to arrive. Death arrived on schedule for every member of both families. They survived because somebody, usually at a moment of clear headed pessimism, built a machine specifically designed to be indifferent to it.
+
+### What the survivors prove, and what they do not
+
+This cuts two ways and it is worth being precise about both.
+
+It strengthens the chapter's central claim rather than weakening it. Look again at what the rule against perpetuities was for, and at the four centuries of legal ingenuity described at the start of this chapter. The rule existed because wealthy people kept trying to build exactly these machines. The trust, the entail, the settlement, the foundation: every one of them is an attempt to project control past the point where the owner stops existing. Courts pushed back for four hundred years, and the pushing back was necessary, and it was necessary precisely because death alone was never sufficient.
+
+The survivors are therefore not counterexamples to the mechanism. They are the documented exceptions that prove how much work the mechanism does, and how much effort it takes to escape it. Escaping mortality's grip on property has historically required the best lawyers in Europe, an unusual degree of family discipline, and a willingness to give up personal ownership in exchange for permanence. Very few families have managed all three at once.
+
+Now remove the death.
+
+Every one of those devices is a prosthesis. The foundation exists to simulate the continuity of a person who is going to stop existing. The board seat exists to transmit a judgment that will otherwise be lost. The partnership across branches exists because any given principal may die at an inconvenient moment. All of this apparatus, all of the legal expense and the family governance and the careful constitutional drafting, is there to solve one problem.
+
+A founder who does not age has no need of any of it. There is no succession to plan, no intent to preserve against drift, no heirs to discipline, and no transfer to shelter. The most sophisticated instrument for defeating mortality is simply not required by somebody mortality is not going to reach.
+
+Which means the correct reading of the Wallenberg case is not that permanence is already possible. It is that permanence has until now been available only to those who could afford to construct it, and only in an attenuated form, at the price of surrendering personal control to an institution. The thing being purchased at enormous expense is about to become the default condition of anyone who takes a treatment.
+
+The cost of dynastic permanence is falling to zero.
+
+There is one honest complication, and Chapter 13 will return to it. This book argues later that perpetual foundations reliably fail in one of two directions, drifting from the founder's intent or becoming faithfully irrelevant to a changed world. The Wallenberg structure has now run for well over a century without obviously doing either, which is a genuine strain on that argument.
+
+The distinction that probably rescues it is between a foundation that pursues a purpose and a foundation that holds a business. A charitable foundation is given an intent by a dead person and must apply it forever, which is the trap. A holding foundation owns operating companies that face competitors, hire and fire, enter and exit markets, and are disciplined continuously by people who are not the founder. Its relevance is renewed from outside, by the market, not preserved from within.
+
+That distinction is real, and it may not be sufficient, and a reader is entitled to weigh it. It is noted here rather than buried because the alternative is to leave the strongest case against a later chapter out of the earlier one where it naturally arises.
+
 ### The machinery we already dismantled
 
 Here is the part that should make you uncomfortable, because it is not a projection. It already happened.

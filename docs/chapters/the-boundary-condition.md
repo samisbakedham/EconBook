@@ -40,6 +40,48 @@ It is death, smuggled back into a model that had been allowed to forget about it
 
 And here is the claim this book is built on. That misbehavior in the infinite horizon models is not a modeling artifact to be patched. It is a preview. Those equations are describing, quite accurately, what happens in an economy of agents who do not exit, and we have spent seventy years treating the description as a nuisance rather than as information.
 
+### The two conditions, in plain language
+
+That was the compressed version, and this is the chapter where a reader is most likely to be asked to take something on trust. So it is worth slowing down, because the two assumptions are not the same assumption, they do different jobs, and they are routinely taught together in a way that blurs the difference.
+
+Start with the no-Ponzi condition, because it is the more intuitive of the two.
+
+Imagine paying a credit card with a second credit card, then paying the second with a third. Nothing has been repaid. The obligation has been moved, and it has grown, because interest accrued on the way. You can run this for a while. What you cannot do is run it forever, and the reason is not moral. It is that the balance compounds, and at some point the amount you owe outruns anything you could plausibly produce, and a lender declines.
+
+The no-Ponzi condition is that refusal, written into the model. It says a borrower's debt is not permitted to grow at or above the rate of interest indefinitely. It is a constraint imposed from outside, by the market, on what a borrower is allowed to attempt.
+
+Now the transversality condition, which is a different kind of object and is frequently mistaken for the same one.
+
+It is not a rule about what you are allowed to do. It is a statement about what a person who is optimizing would actually choose.
+
+Suppose you are dividing your spending across a life in order to be as well off as possible overall. Suppose you die holding a large pile of unspent wealth. On the model's own terms, you made an error. You could have consumed some of it and been better off, and nothing was stopping you. An optimal plan does not leave value stranded at the end, because stranded value is wasted value.
+
+So transversality is not a restriction that the economist imposes on the agent. It falls out of the optimization. It is the formal way of saying that at the end of the horizon, the value of what you are still holding must have gone to zero, because if it had not, you would have done something differently.
+
+One is about what the world permits. The other is about what a sensible person wants. They arrive at similar looking algebra from opposite directions, and this is why they get bundled.
+
+Now the part that matters for this book.
+
+With a finite life, both conditions are nearly self enforcing, and the enforcer is the same in each case.
+
+The lender is willing to extend credit because there is a point at which accounts are settled. The estate is valued, the assets are sold, the creditors are paid in whatever order the law specifies. The borrower cannot roll forever because the borrower stops. And the saver does not leave value stranded, because there is a specific moment after which they cannot use it, and they can see that moment coming, and they plan against it. The horizon is what makes the plan a plan.
+
+Take the endpoint away and both mechanisms lose their footing at once.
+
+An agent with no last period has no moment at which the accounts must be settled. There is no estate. There is no final valuation, no point at which a creditor can insist, and no reason a debt cannot be rolled into a further debt, because there is always another period in which to do it. The word "eventually" stops referring to anything. And on the other side, an agent who never stops has no moment after which unspent value is wasted, so leaving a claim outstanding forever is not obviously an error.
+
+Which means that in a model of agents who do not exit, neither condition arises on its own. They have to be put in by hand.
+
+And when they are not put in, the models do what Chapter 1 opened with. They admit paths in which value is carried forward indefinitely, in which an asset is worth something today purely because somebody will pay more for it tomorrow, forever, with everyone's expectations met at every step. The literature calls these rational bubbles. They are not errors in the arithmetic. They are solutions.
+
+Two clarifications, because this is the point at which an economist reading closely will object, and both objections are fair.
+
+The first is that these conditions are not arbitrary impositions and nobody in the field regards them as a trick. There is a serious technical literature on when a transversality condition can be derived rather than assumed, and in many settings it can be. The conditions usually correspond to something real about the environment being modeled.
+
+The second is that this chapter is not claiming the models are wrong. They are not wrong. They are answering the question they were built to answer, for a population with the property their builders correctly assumed it had.
+
+The claim is narrower. It is that the assumption which closes these models is doing more work than its presentation suggests, that the work it does is the work of an ending, and that we have been treating a description of what happens without endings as a technical inconvenience rather than as a result.
+
 ### The model where death does the work
 
 If that seems like a stretch, consider the model that runs the other way.

@@ -29,23 +29,24 @@ Any society that abolishes death has to deliberately rebuild, by institution, ev
 <li><a href="chapters/the-funeral-principle.html"><span class="num">5</span><span>The Funeral Principle</span></a></li>
 <li><a href="chapters/nobody-goes-to-space.html"><span class="num">6</span><span>Nobody Goes to Space</span></a></li>
 <li><a href="chapters/vacancy.html"><span class="num">7</span><span>Vacancy</span></a></li>
+<li><a href="chapters/the-last-chain-letter.html"><span class="num">8</span><span>The Last Chain Letter</span></a></li>
 </ul>
 
 <p class="toc part">Part III &middot; The Counterparty</p>
 <ul class="toc">
-<li><a href="chapters/the-forkable-worker.html"><span class="num">8</span><span>The Forkable Worker</span></a></li>
-<li><a href="chapters/the-mortal-class.html"><span class="num">9</span><span>The Mortal Class</span></a></li>
+<li><a href="chapters/the-forkable-worker.html"><span class="num">9</span><span>The Forkable Worker</span></a></li>
+<li><a href="chapters/the-mortal-class.html"><span class="num">10</span><span>The Mortal Class</span></a></li>
 </ul>
 
 <p class="toc part">Part IV &middot; The Frozen World</p>
 <ul class="toc">
-<li><a href="chapters/the-serrata.html"><span class="num">10</span><span>The Serrata</span></a></li>
+<li><a href="chapters/the-serrata.html"><span class="num">11</span><span>The Serrata</span></a></li>
 </ul>
 
 <p class="toc part">Part V &middot; Designed Turnover</p>
 <ul class="toc">
-<li><a href="chapters/reinventing-the-funeral.html"><span class="num">11</span><span>Reinventing the Funeral</span></a></li>
-<li><a href="chapters/terminal-value.html"><span class="num">12</span><span>Terminal Value</span></a></li>
+<li><a href="chapters/reinventing-the-funeral.html"><span class="num">12</span><span>Reinventing the Funeral</span></a></li>
+<li><a href="chapters/terminal-value.html"><span class="num">13</span><span>Terminal Value</span></a></li>
 </ul>
 
 <p class="toc part">Back Matter</p>
@@ -55,6 +56,6 @@ Any society that abolishes death has to deliberately rebuild, by institution, ev
 
 ### On the state of this text
 
-This is a complete draft, not a finished book. Of the factual claims, 56 have been checked against sources and 22 have not. Seven claims were found wrong during verification and corrected rather than quietly fixed. Four items are the author's own calculation or argument rather than a reported finding.
+This is a complete draft, not a finished book. Of the claims in the book, 84 have been checked against sources and 8 have not. Seven were found wrong during verification and corrected rather than quietly fixed. 12 items are the author's own calculation or argument rather than a reported finding.
 
 All of that is recorded, claim by claim, in the [notes](chapters/notes.html). If you find an error, that is where to look first, and I would like to hear about it.

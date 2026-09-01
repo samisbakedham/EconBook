@@ -6,7 +6,13 @@ cd "$(dirname "$0")"
 
 rm -rf docs/chapters && mkdir -p docs/chapters
 
-files=(manuscript/0[1-9]-*.md manuscript/1[0-2]-*.md manuscript/13-notes.md)
+# Every numbered manuscript file except the outline, in order. Globbing by
+# explicit number ranges broke silently when a chapter was inserted.
+files=()
+for f in manuscript/[0-9][0-9]-*.md; do
+  case "$(basename "$f")" in 00-*) continue ;; esac
+  files+=("$f")
+done
 slugs=(); titles=(); nums=()
 
 for f in "${files[@]}"; do

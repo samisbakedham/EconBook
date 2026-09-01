@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "The Serrata"
-chapnum: 10
+chapnum: 11
 prev: "/chapters/the-mortal-class.html"
 next: "/chapters/reinventing-the-funeral.html"
 permalink: /chapters/the-serrata.html

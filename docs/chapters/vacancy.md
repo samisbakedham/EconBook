@@ -3,7 +3,7 @@ layout: chapter
 title: "Vacancy"
 chapnum: 7
 prev: "/chapters/nobody-goes-to-space.html"
-next: "/chapters/the-forkable-worker.html"
+next: "/chapters/the-last-chain-letter.html"
 permalink: /chapters/vacancy.html
 ---
 
@@ -131,6 +131,6 @@ Take that away and you have not slowed anyone's ascent. You have removed the rea
 
 And this is the point in the book where the five jobs stop being separate problems and start being one problem, because every solution to it runs into the same wall: any mechanism that forces turnover has to be designed, adopted and enforced by the people who benefit from there being none.
 
-I will come back to that in Chapter 11, and it is the hardest thing in this book.
+I will come back to that in Chapter 12, and it is the hardest thing in this book.
 
-First, though, there is a new party to introduce. Because at exactly the moment we are removing mortality from the people who own things, we are manufacturing a new class of economic actor whose lifespan is a setting in a configuration file.
+First, though, there is one more place where all five of these removals meet at once, and it is the largest set of promises any society has ever made. Every commitment a state has given about old age was written against a schedule that biology used to enforce for nothing.

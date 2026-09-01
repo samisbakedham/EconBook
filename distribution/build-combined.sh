@@ -11,7 +11,8 @@ OUT=distribution/out/terminal-value
   echo "% Samuel Safahi"
   echo "% $(date +%B\ %Y)"
   echo
-  for f in manuscript/0[1-9]-*.md manuscript/1[0-2]-*.md manuscript/13-notes.md; do
+  for f in manuscript/[0-9][0-9]-*.md; do
+    case "$(basename "$f")" in 00-*) continue ;; esac
     cat "$f"; echo; echo; echo '\newpage'; echo
   done
 } > "${OUT}.md"

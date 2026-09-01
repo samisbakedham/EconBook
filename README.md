@@ -6,28 +6,31 @@ A short book arguing that mortality is load bearing economic infrastructure. It 
 
 ## Status
 
-Complete draft. Verification pass done, continuity pass done. Twelve chapters plus notes, about 27,800 words of body text, roughly 105 printed pages.
+Complete draft. Thirteen chapters plus notes, about 35,612 words of body text, roughly 160 printed pages at 6 x 9.
 
 | # | Chapter | Words |
 |---|---------|-------|
-| | [Outline](manuscript/00-outline.md) | 2,480 |
-| 1 | [The Boundary Condition](manuscript/01-the-boundary-condition.md) | 1,841 |
+|  | [Outline](manuscript/00-outline.md) | 2,699 |
+| 1 | [The Boundary Condition](manuscript/01-the-boundary-condition.md) | 2,728 |
 | 2 | [Assume a Longer Life](manuscript/02-assume-a-longer-life.md) | 2,438 |
 | 3 | [The Price of Time](manuscript/03-the-price-of-time.md) | 2,788 |
-| 4 | [The Estate](manuscript/04-the-estate.md) | 2,209 |
+| 4 | [The Estate](manuscript/04-the-estate.md) | 3,402 |
 | 5 | [The Funeral Principle](manuscript/05-the-funeral-principle.md) | 2,047 |
-| 6 | [Nobody Goes to Space](manuscript/06-nobody-goes-to-space.md) | 3,048 |
-| 7 | [Vacancy](manuscript/07-vacancy.md) | 2,304 |
-| 8 | [The Forkable Worker](manuscript/08-the-forkable-worker.md) | 2,192 |
-| 9 | [The Mortal Class](manuscript/09-the-mortal-class.md) | 1,891 |
-| 10 | [The Serrata](manuscript/10-the-serrata.md) | 2,181 |
-| 11 | [Reinventing the Funeral](manuscript/11-reinventing-the-funeral.md) | 2,774 |
-| 12 | [Terminal Value](manuscript/12-terminal-value.md) | 2,134 |
-| | [Notes](manuscript/13-notes.md) | 4,588 |
+| 6 | [Nobody Goes to Space](manuscript/06-nobody-goes-to-space.md) | 4,693 |
+| 7 | [Vacancy](manuscript/07-vacancy.md) | 2,312 |
+| 8 | [The Last Chain Letter](manuscript/08-the-last-chain-letter.md) | 4,032 |
+| 9 | [The Forkable Worker](manuscript/09-the-forkable-worker.md) | 2,192 |
+| 10 | [The Mortal Class](manuscript/10-the-mortal-class.md) | 1,891 |
+| 11 | [The Serrata](manuscript/11-the-serrata.md) | 2,181 |
+| 12 | [Reinventing the Funeral](manuscript/12-reinventing-the-funeral.md) | 2,774 |
+| 13 | [Terminal Value](manuscript/13-terminal-value.md) | 2,134 |
+|  | [Notes](manuscript/14-notes.md) | 7,234 |
 
 ## Verification
 
-56 claims verified against sources. 22 still unverified and individually marked. 4 items flagged as the author's own calculation or argument rather than a reported finding.
+84 claims verified against sources. 8 still unverified and individually marked. 12 items flagged as the author's own calculation or argument rather than a reported finding.
+
+These counts are not maintained by hand. They are read out of the "Verification status" section of `manuscript/14-notes.md`, which states the counting rule, and the book, the working paper and the website all quote them from there at build time.
 
 Seven claims were found wrong or overstated and corrected. They are recorded in the notes rather than quietly fixed:
 
@@ -35,13 +38,13 @@ Seven claims were found wrong or overstated and corrected. They are recorded in 
 - **The partial reprogramming result was overstated.** Ocampo's thirty percent lifespan extension was in a progeria disease model, not normal aged mice.
 - **Chapter 3's r-star figures were wrong** and have been replaced with actual estimates.
 - **The consols were not Napoleonic.** The debt redeemed in 2015 traces to Churchill in 1927 and back to the South Sea Bubble, which is accurate and better.
-- **Venice did not ban the colleganza outright.** Softened to what the record shows.
+- **Venice did not ban the colleganza outright.** Softened to what the record shows. Note that Acemoglu and Robinson say it was banned; the disagreement is printed in the notes rather than smoothed over.
 - **Mars light lag is 3 to 22 minutes one way**, not 4 to 24.
 - **The Cologne Cathedral stoppage was four centuries**, not three.
 
 A NASA early-flight risk figure could not be confirmed and was removed. The effects of ending mandatory faculty retirement are genuinely disputed, and Chapters 5 and 7 now say so.
 
-The two load bearing items previously flagged as unsourced are now sourced. Chapter 1 uses Blanchard and Fischer for the no-Ponzi-game condition and Kamihigashi for the transversality condition, kept distinct. Chapter 12 sources the two observed directions in Rosenwald and Higgins. The claim that there is no third outcome remains the author's reading, not a general law.
+Two of the remaining open items cannot be closed by reading and say so on their face. The description of how agent systems are instantiated, forked and terminated in Chapter 9 needs review by somebody who builds them. The per-flight denominator for wingsuit fatality rates in Chapter 6 is weak because nobody records how many flights happen.
 
 ## Style rules
 
@@ -78,7 +81,7 @@ front matter unnumbered. Nothing here needs pandoc or LaTeX, and there are no np
 dependencies.
 
 The verification counts printed in the front matter, the paper and the website
-are read out of the "Verification status" section of `manuscript/13-notes.md` at
+are read out of the "Verification status" section of `manuscript/14-notes.md` at
 build time. Update that section and every edition follows.
 
 ### The website

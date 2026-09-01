@@ -1,7 +1,7 @@
 ---
 layout: chapter
 title: "Reinventing the Funeral"
-chapnum: 11
+chapnum: 12
 prev: "/chapters/the-serrata.html"
 next: "/chapters/terminal-value.html"
 permalink: /chapters/reinventing-the-funeral.html
