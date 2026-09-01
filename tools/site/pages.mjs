@@ -4,9 +4,8 @@
 
 import { renderBlocks, escapeHtml, attr, smarten, openingParagraph } from '../lib/md.mjs';
 import * as F from './figures.mjs';
+import { chapterWord } from '../lib/book.mjs';
 
-const ROMAN = { 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six',
-  7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten', 11: 'Eleven', 12: 'Twelve' };
 
 export const downloads = [
   {
@@ -42,6 +41,7 @@ const navLinks = (current) => `
     <a class="nav-mark" href="/">Terminal <span class="v">Value</span></a>
     <div class="nav-links">
       <a href="/#argument" class="hide-sm"${current === 'home' ? ' aria-current="page"' : ''}>The argument</a>
+      <a href="/#when" class="hide-sm">When?</a>
       <a href="/read"${current === 'read' ? ' aria-current="page"' : ''}>Contents</a>
       <a href="/notes" class="hide-sm"${current === 'notes' ? ' aria-current="page"' : ''}>Notes</a>
       <a href="/#get">Get the book</a>
@@ -215,6 +215,65 @@ export function homePage(book) {
       <p>The human lifespan has not swung. You cannot run a regression on a constant. It has no variance to explain, so it falls out of the analysis, not through carelessness but because there is nothing there for the analysis to grip.</p>
       <p>The premise of this book is set as weakly as it can be set. Not immortality, not uploading, not any particular biotechnology. Only that healthy human lifespans eventually reach somewhere between 150 and 300 years.</p>
       <p class="dim">And the effects do not wait for that. Every one of the five jobs depends on mortality continuously rather than as a switch, which means the mild early version should already be visible. It is.</p>
+    </div>
+  </div>
+</section>
+
+<section class="band-sunken" id="when">
+  <div class="wrap">
+    <div class="measure-wide" data-reveal>
+      <p class="label">An addition &middot; not part of the book</p>
+      <h2 class="display-l" style="margin-top:1rem">So when?</h2>
+      <p class="lede" style="margin-top:1.4rem">Chapter 2 declines to give a date, on purpose, and gives two reasons. Forecasts in this area have a dismal record in both directions. And the date does not matter for the argument, because the five jobs are being performed right now.</p>
+    </div>
+
+    <div class="measure stack" style="margin-top:clamp(2rem,5vh,3rem)" data-reveal>
+      <p>Both reasons are good, and the refusal is the more honest position. But it is the first thing anybody asks, so here is a guess, clearly marked as an addition by whoever built this site rather than a claim the book makes.</p>
+      <p><strong>The short version: probably not for a very long time, and you will not be able to tell when it happens.</strong></p>
+    </div>
+
+    <div class="split" style="margin-top:clamp(2.5rem,6vh,4rem)">
+      <div data-reveal>
+        ${fig({
+          n: 'A guess',
+          title: 'Two curves, and the gap between them',
+          body: F.figWhen(),
+          caption: 'The upper curve is the chance that aging has been brought under medical control. The lower one is the chance that a hundred and fifty year healthy life has actually been demonstrated in a person. The second cannot catch the first, because demonstrating a hundred and fifty year lifespan takes a hundred and fifty years. Neither curve reaches certainty, because never is a real possibility and pretending otherwise would be the same error the book is complaining about.',
+          source: 'Author of this page, not of the book. Numbers are judgement, not a model',
+        })}
+      </div>
+      <div class="measure stack" data-reveal style="--delay:.1s">
+        <p class="label">Why the gap never closes</p>
+        <p>This is the part that makes dating the question almost meaningless, and it is a consequence of the book's own framing rather than a separate objection.</p>
+        <p>Suppose the biology were finished tomorrow. A treatment exists, it works, and it is available. How would anyone know it delivers a hundred and fifty healthy years?</p>
+        <p>Somebody has to live them. There is no shortcut, no biomarker that substitutes for the outcome, and no animal model that settles it, because the whole history of this field is interventions that worked beautifully in short lived animals and did nothing in people.</p>
+        <p class="dim">So the earliest possible date for a confirmed hundred and fifty year healthspan is a hundred and fifty years after the treatment works, and the treatment does not work yet. Everything before that is inference from surrogate markers, which is exactly the kind of evidence that has been wrong before.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:clamp(2.5rem,6vh,4rem)" data-reveal>
+      ${fig({
+        n: 'A guess',
+        title: 'Milestones, in the order they would have to happen',
+        body: F.figMilestones(),
+        caption: 'The first two are ordinary science and regulation and could move quickly. The third is the one to watch, because it is unambiguous and needs no interpretation: Jeanne Calment died in 1997 at 122, and nobody has come within three years of her since. The moment that record falls by a clear margin is the moment this stops being speculative. The last two are separated from the rest by the verification problem above.',
+        source: 'Medians and ranges are the page author’s judgement',
+      })}
+    </div>
+
+    <div class="split" style="margin-top:clamp(2.5rem,6vh,4rem)">
+      <div class="measure stack" data-reveal>
+        <p class="label">And it still would not be immortality</p>
+        <p>The phrase people reach for is biological immortality, and Chapter 6 argues that curing aging does not deliver it. It converts it from a biology problem into a risk management problem, and the risk management version is harder.</p>
+        <p>Remove aging entirely and background accident risk remains, at roughly one in two thousand per year for a young adult in a wealthy country. Any number below one, raised to a high enough power, goes to zero. That gives an expected life on the order of two thousand years, with half of a cohort gone by about year fourteen hundred.</p>
+        <p>Which is a long time and is not forever. Every death in that world is an accident, which means every death is, in the strict sense, one somebody could have prevented.</p>
+      </div>
+      <div class="measure stack" data-reveal style="--delay:.1s">
+        <p class="label">What would change this guess</p>
+        <p>Pushed later: another decade of the maximum human lifespan not moving. A large partial reprogramming result that fails to replicate. Continued absence of any approved indication for aging itself.</p>
+        <p>Pulled earlier: a verified human death above 125. A drug that moves several age related endpoints at once in a properly powered trial. A regulator accepting aging as something a treatment can target.</p>
+        <p class="dim">The honest summary is that the distribution is enormously wide, that its left tail is thinner than enthusiasts believe and its right tail longer than sceptics believe, and that the argument in this book does not depend on any of it. That last part is the point Chapter 2 is making, and it is the reason the book declines to do what this section just did.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -454,7 +513,7 @@ export function homePage(book) {
           title: 'Fork four ways, keep one',
           body: F.figFork(),
           caption: 'Nothing dramatic occurred. No ceremony attended the deletion of the three. Anyone who builds these systems does it several times a day without giving it a moment’s thought, and the vocabulary is aggressively mundane. You spawn an agent. You checkpoint it. You fork it. You kill it.',
-          source: 'Chapter 8, The Forkable Worker',
+          source: 'Chapter 9, The Forkable Worker',
         })}
       </div>
       <div class="measure stack" data-reveal style="--delay:.1s">
@@ -471,7 +530,7 @@ export function homePage(book) {
         title: 'The asymmetry',
         body: F.figTwoClasses(),
         caption: 'Every property that death used to distribute across the whole population is now distributed between two populations. One gets permanence, ownership and safety. The other gets mortality, labour and risk. Nobody chose this. It is the natural result of two technologies arriving at the same time, each solving its own problem, neither aware of the other.',
-        source: 'Chapters 8 and 9',
+        source: 'Chapters 9 and 10',
       })}
     </div>
   </div>
@@ -481,7 +540,7 @@ export function homePage(book) {
   <div class="wrap">
     <div class="split">
       <div class="measure stack" data-reveal>
-        <p class="label">Part IV &middot; Chapter 10</p>
+        <p class="label">Part IV &middot; Chapter 11</p>
         <h2 class="display-l">The Serrata</h2>
         <p style="margin-top:1.2rem">Before it froze, Venice had invented a machine for making poor men rich. The colleganza let a man with nothing but nerve take a ship to Constantinople, do the trading, survive the Mediterranean, and come home with a quarter of the profit. It converted courage into equity, and any notary in the city could write one.</p>
         <p>Then the families who had arrived stopped the door behind them. In 1297 the Great Council was closed to anyone whose family was not already inside it. Having sealed the political door, the new hereditary nobility went after the economic one, and the instrument that had carried them up fell away beneath them.</p>
@@ -509,7 +568,7 @@ export function homePage(book) {
 <section class="band">
   <div class="wrap">
     <div class="measure-wide center-x" style="text-align:center" data-reveal>
-      <p class="label">Part V &middot; Chapter 11</p>
+      <p class="label">Part V &middot; Chapter 12</p>
       <h2 class="display-l" style="margin-top:1rem">Reinventing the funeral</h2>
       <p class="lede" style="margin-top:1.4rem">There is a correct order of operations for removing a load bearing wall. You shore it first. Then you place the beam. Then you take out the wall, and the building never knows anything occurred.</p>
     </div>
@@ -548,11 +607,11 @@ export function homePage(book) {
         title: 'Where the value actually sits',
         body: F.figTerminalValue(),
         caption: 'In a standard five year forecast, the bundled residual commonly runs to about three quarters of enterprise value, and practitioners are taught to flag it above eighty percent because the valuation has stopped being about the business and become a bet on a formula. Most of what any durable thing is worth lies past the horizon of anyone’s competence to forecast.',
-        source: 'Chapter 12, Terminal Value',
+        source: 'Chapter 13, Terminal Value',
       })}
     </div>
     <div class="measure stack" data-reveal style="--delay:.1s">
-      <p class="label">Chapter 12 &middot; the close</p>
+      <p class="label">Chapter 13 &middot; the close</p>
       <h2 class="display-m">The people who built for strangers</h2>
       <p>Cologne Cathedral was begun in 1248 and finished in 1880. Every person who laid the first stones died without seeing a roof. Their children died. Their grandchildren died.</p>
       <p>We usually call that altruism, or vision. Look at it as an accountant and a colder explanation appears. If you are going to die, you cannot consume the future. It is not available to you at any price, which means the only relationship you can have with it is to give something to it.</p>
@@ -565,7 +624,7 @@ export function homePage(book) {
 <section class="band">
   <div class="wrap pull-block" data-reveal>
     <p class="pull measure-wide center-x">Longevity buys you Earth. The stars go to <em>whoever is still willing to die</em>.</p>
-    <cite>Chapter 6, and again in Chapter 12</cite>
+    <cite>Chapter 6, and again in Chapter 13</cite>
   </div>
 </section>
 
@@ -706,7 +765,7 @@ export function chapterPage(book, c) {
 <article class="reader">
   <div class="wrap">
     <header class="reader-head" data-reveal>
-      <p class="label">Chapter ${ROMAN[c.n] || c.n}</p>
+      <p class="label">Chapter ${chapterWord(c.n)}</p>
       <h1>${escapeHtml(c.title)}</h1>
       <div class="flourish"></div>
     </header>

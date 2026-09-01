@@ -2,7 +2,7 @@
 
 ### What Death Was Doing for the Economy, and What Happens When We Stop It
 
-**Format:** 12 chapters, about 3,400 words each. Roughly 40,000 words, or 130 printed pages.
+**Format:** 13 chapters. Roughly 35,000 words of body text, about 160 printed pages at 6 x 9.
 **Register:** Serious trade nonfiction. Argument driven, sourced, no equations in the body. Technical material goes in the endnotes.
 **Voice:** First person, rationed. No more than twice per chapter, only at the point of an analytical claim, never autobiographical.
 **Style rules:** No dashes. Short sentences. Every abstract claim followed within a paragraph by something concrete.
@@ -113,9 +113,23 @@ Economics treats death as a boundary condition and never inspects it. But death 
 
 ---
 
+## 8. The Last Chain Letter
+
+**Argument:** Added after the first draft, in response to the objection that the book raises Samuelson as its opening move and never returns to him. The five jobs meet the public balance sheet here, and the overlapping generations model turns out to be the design document for every pay-as-you-go pension system rather than a curiosity.
+
+**The hook:** The trustees of the American social insurance system publish a date every year. The fund pays in full until 2033 and 77 percent after that. The interesting question is not why it is short but why a national pension is the kind of object that can be short.
+
+**The trap:** Blanchard 1985 says lower mortality lowers the rate. Blanchard 2019 says a rate below the growth rate makes public debt free. Read in sequence they suggest longevity solves the public finances. The error is that the low rate and the pension promise have the same cause.
+
+**The case:** Japan, worked rather than named. Not a delayed crisis but a closed accounting loop, in which the holders of the debt and the beneficiaries of the promise are the same institutions.
+
+**What breaks:** Not default. Rigidity. Every unfunded promise converts future discretion into fixed obligation, and under mortality those obligations expire on a schedule.
+
+---
+
 # PART III. THE COUNTERPARTY
 
-## 8. The Forkable Worker
+## 9. The Forkable Worker
 
 **Argument:** Artificial agents are the first economic actors in history with genuinely arbitrary lifespans. They can be copied, paused, resumed, branched and retired at almost no cost. And, this is the operative part, at almost no moral cost.
 
@@ -127,7 +141,7 @@ Economics treats death as a boundary condition and never inspects it. But death 
 
 ---
 
-## 9. The Mortal Class
+## 10. The Mortal Class
 
 **Argument:** Put chapters 6 and 8 together. People become a permanent, risk averse class that holds the capital. Artificial agents become the mortal class that takes the risk, absorbs the churn and settles the frontier.
 
@@ -141,7 +155,7 @@ Economics treats death as a boundary condition and never inspects it. But death 
 
 # PART IV. THE FROZEN WORLD
 
-## 10. The Serrata
+## 11. The Serrata
 
 **Argument:** The synthesis chapter. What all five removals look like operating at once.
 
@@ -157,7 +171,7 @@ That is the right model for what this book describes. Not dystopia. Not collapse
 
 # PART V. DESIGNED TURNOVER
 
-## 11. Reinventing the Funeral
+## 12. Reinventing the Funeral
 
 **Argument:** The constructive core. If death was doing five jobs and death is going away, the jobs still have to get done. Deliberately, by institution, in the open. Each of the five gets a proposed mechanism, and each proposal gets its strongest objection printed next to it.
 
@@ -171,7 +185,7 @@ That is the right model for what this book describes. Not dystopia. Not collapse
 
 ---
 
-## 12. Terminal Value
+## 13. Terminal Value
 
 **Argument:** The close. Terminal value is the finance term for everything beyond the forecast horizon, the number that breaks when the horizon becomes infinite. Come back to it explicitly and land the double meaning the title has been carrying for 120 pages.
 

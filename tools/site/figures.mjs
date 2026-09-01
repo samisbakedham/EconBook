@@ -586,3 +586,85 @@ export function figBeams() {
   </g>
 `);
 }
+
+/* ------------------------------------------- 11. the dating question ---- */
+
+/**
+ * Two curves and the gap between them. The book declines to give a date, and
+ * the honest reason is visible here: the biology and the proof of the biology
+ * are separated by however long the claimed lifespan is.
+ */
+export function figWhen() {
+  const W = 640, H = 320, m = { t: 24, r: 118, b: 42, l: 42 };
+  const x = scale([2025, 2300], [m.l, W - m.r]);
+  const y = scale([0, 1], [H - m.b, m.t]);
+
+  // P(aging brought under medical control by year t). Asymptote below one:
+  // "never" stays on the table.
+  const control = [[2025, 0], [2040, 0.02], [2060, 0.08], [2080, 0.16], [2100, 0.25],
+    [2130, 0.36], [2160, 0.47], [2200, 0.57], [2250, 0.64], [2300, 0.68]];
+  // P(a 150 year healthy lifespan actually demonstrated by year t).
+  const shown = [[2025, 0], [2100, 0.004], [2150, 0.02], [2175, 0.06], [2200, 0.14],
+    [2230, 0.22], [2260, 0.32], [2300, 0.42]];
+
+  const pc = control.map(([a, b]) => [x(a), y(b)]);
+  const ps = shown.map(([a, b]) => [x(a), y(b)]);
+
+  const gap = `${line(pc)} L${fmt(x(2300))} ${fmt(y(0.42))} ${line([...ps].reverse()).replace('M', 'L')} Z`;
+
+  return svg(W, H, `
+  <title>Estimated probability that aging is brought under control, and that a long healthy life is actually demonstrated.</title>
+  <defs><linearGradient id="whenGap" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="var(--amber)" stop-opacity=".16"/>
+    <stop offset="1" stop-color="var(--amber)" stop-opacity=".03"/>
+  </linearGradient></defs>
+
+  ${gridY([0, 0.25, 0.5, 0.75, 1], y, m.l, W - m.r, (v) => `${Math.round(v * 100)}%`)}
+  <line class="axis-line" x1="${m.l}" y1="${H - m.b}" x2="${W - m.r}" y2="${H - m.b}"/>
+  ${ticksX([2050, 2100, 2150, 2200, 2250, 2300], x, H - m.b + 17)}
+
+  <path class="fade-in" style="--d:1.1s" d="${gap}" fill="url(#whenGap)"/>
+  <path class="series draw" style="--len:${pathLength(pc)}" d="${line(pc)}"/>
+  <path class="series series-2 draw" style="--len:${pathLength(ps)}" d="${line(ps)}"/>
+
+  <g class="fade-in" style="--d:1.4s">
+    <text x="${W - m.r + 10}" y="${fmt(y(0.62))}" fill="var(--amber)">aging brought</text>
+    <text x="${W - m.r + 10}" y="${fmt(y(0.62) + 12)}" fill="var(--amber)">under control</text>
+    <text x="${W - m.r + 10}" y="${fmt(y(0.34))}" fill="var(--slate)">150 healthy years</text>
+    <text x="${W - m.r + 10}" y="${fmt(y(0.34) + 12)}" fill="var(--slate)">demonstrated</text>
+    <text x="${fmt(x(2150))}" y="${fmt(y(0.72))}">the gap is the proof</text>
+    <text x="${fmt(x(2150))}" y="${fmt(y(0.72) + 12)}">and it cannot be closed</text>
+  </g>
+`);
+}
+
+/** The milestones, with the honest width of each guess. */
+export function figMilestones() {
+  const W = 640, H = 262;
+  const LABEL = 316;                       // room for the longest row label
+  const x = scale([2025, 2300], [LABEL, W - 24]);
+
+  const rows = [
+    ['A drug slows aging in a human trial', 2038, 2065, 2048],
+    ['Aging recognised as a treatable indication', 2055, 2100, 2072],
+    ['Calment&#8217;s 122 years is beaten', 2060, 2140, 2090],
+    ['150 healthy years, demonstrated', 2175, 2300, 2215],
+    ['Aging removed as a cause of death', 2200, 2300, 2260],
+  ];
+
+  return svg(W, H, `
+  <title>Milestone estimates, with the range each guess spans.</title>
+  ${ticksX([2050, 2100, 2150, 2200, 2250], x, 22)}
+  <line class="grid-line" x1="${LABEL}" y1="30" x2="${W - 24}" y2="30"/>
+  ${rows.map(([label, lo, hi, mid], i) => {
+    const yy = 62 + i * 36;
+    return `<g class="fade-in" style="--d:${fmt(0.2 + i * 0.14, 3)}s">
+      <text x="6" y="${yy + 4}" fill="var(--paper)" style="text-transform:none;font-size:11px">${label}</text>
+      <line x1="${fmt(x(lo))}" y1="${yy}" x2="${fmt(x(hi))}" y2="${yy}" stroke="var(--amber)" stroke-width="5" stroke-opacity=".24" stroke-linecap="round"/>
+      <circle cx="${fmt(x(mid))}" cy="${yy}" r="4.5" fill="var(--amber)"/>
+      <text x="${fmt(x(mid))}" y="${yy - 12}" text-anchor="middle" fill="var(--amber)">${mid}</text>
+    </g>`;
+  }).join('')}
+  <text class="fade-in" style="--d:1s" x="6" y="${H - 10}">bars are where the guess sits, not a confidence interval anyone computed</text>
+`);
+}

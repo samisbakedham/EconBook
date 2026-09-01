@@ -63,6 +63,48 @@ It is death, smuggled back into a model that had been allowed to forget about it
 
 And here is the claim this book is built on. That misbehavior in the infinite horizon models is not a modeling artifact to be patched. It is a preview. Those equations are describing, quite accurately, what happens in an economy of agents who do not exit, and we have spent seventy years treating the description as a nuisance rather than as information.
 
+### The two conditions, in plain language
+
+That was the compressed version, and this is the chapter where a reader is most likely to be asked to take something on trust. So it is worth slowing down, because the two assumptions are not the same assumption, they do different jobs, and they are routinely taught together in a way that blurs the difference.
+
+Start with the no-Ponzi condition, because it is the more intuitive of the two.
+
+Imagine paying a credit card with a second credit card, then paying the second with a third. Nothing has been repaid. The obligation has been moved, and it has grown, because interest accrued on the way. You can run this for a while. What you cannot do is run it forever, and the reason is not moral. It is that the balance compounds, and at some point the amount you owe outruns anything you could plausibly produce, and a lender declines.
+
+The no-Ponzi condition is that refusal, written into the model. It says a borrower's debt is not permitted to grow at or above the rate of interest indefinitely. It is a constraint imposed from outside, by the market, on what a borrower is allowed to attempt.
+
+Now the transversality condition, which is a different kind of object and is frequently mistaken for the same one.
+
+It is not a rule about what you are allowed to do. It is a statement about what a person who is optimizing would actually choose.
+
+Suppose you are dividing your spending across a life in order to be as well off as possible overall. Suppose you die holding a large pile of unspent wealth. On the model's own terms, you made an error. You could have consumed some of it and been better off, and nothing was stopping you. An optimal plan does not leave value stranded at the end, because stranded value is wasted value.
+
+So transversality is not a restriction that the economist imposes on the agent. It falls out of the optimization. It is the formal way of saying that at the end of the horizon, the value of what you are still holding must have gone to zero, because if it had not, you would have done something differently.
+
+One is about what the world permits. The other is about what a sensible person wants. They arrive at similar looking algebra from opposite directions, and this is why they get bundled.
+
+Now the part that matters for this book.
+
+With a finite life, both conditions are nearly self enforcing, and the enforcer is the same in each case.
+
+The lender is willing to extend credit because there is a point at which accounts are settled. The estate is valued, the assets are sold, the creditors are paid in whatever order the law specifies. The borrower cannot roll forever because the borrower stops. And the saver does not leave value stranded, because there is a specific moment after which they cannot use it, and they can see that moment coming, and they plan against it. The horizon is what makes the plan a plan.
+
+Take the endpoint away and both mechanisms lose their footing at once.
+
+An agent with no last period has no moment at which the accounts must be settled. There is no estate. There is no final valuation, no point at which a creditor can insist, and no reason a debt cannot be rolled into a further debt, because there is always another period in which to do it. The word "eventually" stops referring to anything. And on the other side, an agent who never stops has no moment after which unspent value is wasted, so leaving a claim outstanding forever is not obviously an error.
+
+Which means that in a model of agents who do not exit, neither condition arises on its own. They have to be put in by hand.
+
+And when they are not put in, the models do what Chapter 1 opened with. They admit paths in which value is carried forward indefinitely, in which an asset is worth something today purely because somebody will pay more for it tomorrow, forever, with everyone's expectations met at every step. The literature calls these rational bubbles. They are not errors in the arithmetic. They are solutions.
+
+Two clarifications, because this is the point at which an economist reading closely will object, and both objections are fair.
+
+The first is that these conditions are not arbitrary impositions and nobody in the field regards them as a trick. There is a serious technical literature on when a transversality condition can be derived rather than assumed, and in many settings it can be. The conditions usually correspond to something real about the environment being modeled.
+
+The second is that this chapter is not claiming the models are wrong. They are not wrong. They are answering the question they were built to answer, for a population with the property their builders correctly assumed it had.
+
+The claim is narrower. It is that the assumption which closes these models is doing more work than its presentation suggests, that the work it does is the work of an ending, and that we have been treating a description of what happens without endings as a technical inconvenience rather than as a result.
+
 ### The model where death does the work
 
 If that seems like a stretch, consider the model that runs the other way.
@@ -257,7 +299,7 @@ Assume a longer life. Not forever. Just longer. Then follow the money.
 
 # Part II. The Five Jobs
 
-*Death sets the price of time, turns over capital, turns over ideas, prices risk, and creates vacancy. One chapter each. None of the five has a backup.*
+*Death sets the price of time, turns over capital, turns over ideas, prices risk, and creates vacancy. One chapter each, and then a sixth where all five meet the public balance sheet. None of the five has a backup.*
 
 
 \newpage
@@ -470,6 +512,56 @@ That number is the entire chapter. Compounding at ordinary rates produces absurd
 Remove the interruption and r greater than g stops being a slow drift that societies argue about. It becomes a fixed point. Capital accumulates without limit in the hands of people whose strategies never change, whose risk appetite never resets, and who never hand anything to anyone.
 
 And the resulting distribution is not merely unequal. It is frozen. That distinction matters more than it sounds. Societies tolerate a great deal of inequality when the positions turn over, because there is a story available in which the arrangement is provisional. Remove turnover and you have removed the story, and what is left is not a market outcome. It is an aristocracy, in the original and precise sense of the word: a permanent stratum, defined by birth, that cannot be entered.
+
+### The fortune that did not break
+
+The proverb has been carrying a great deal of weight in this chapter, and it should not carry it alone.
+
+Shirtsleeves to shirtsleeves is a saying, not a finding. It describes a strong central tendency and says nothing about the tail, and the tail is where the argument of this book actually lives. If the claim is that death reliably breaks concentrated wealth, then the fortunes that were not broken are the evidence that matters, because they are the cases where the mechanism was tested and did not fire.
+
+There are such cases. They are rare, and the way they achieved it is the most useful thing in this chapter.
+
+Consider the Wallenbergs of Sweden. The family bank was founded in the eighteen fifties. Six generations later the family still exercises effective control over a substantial share of Swedish industry, through a holding company and a set of foundations, across firms whose names are on products sold in every country in the world. That is not a fortune that survived three generations. It is one that survived six, through two world wars, a Swedish tax regime that was for decades among the most redistributive on earth, and the ordinary attrition of heirs who might have preferred the money.
+
+Ask how, and the answer is not luck and not brilliance in any individual generation.
+
+At a decisive moment, Knut Wallenberg transferred his entire fortune into a foundation before he died.
+
+Sit with what that sentence does. The proverb depends on a specific chain of events: the owner dies, the estate is valued, the tax lands, the assets are divided among heirs, and the heirs, who did not build it and mostly cannot maintain it, disperse the position. Every link in that chain requires the property to pass through an individual's estate.
+
+Property held by a foundation does not pass through anybody's estate. There is no death to trigger the transfer, because the owner is an institution and institutions do not die on a schedule. There is no division among heirs, because the heirs are not owners. There is no valuation event and therefore, in most jurisdictions and to a large extent, no transfer tax. The family's relationship to the capital changes from ownership to stewardship, exercised through board seats and appointments rather than through title.
+
+Today that structure runs through more than a dozen foundations holding assets worth tens of billions of dollars, and the operative feature is not the size. It is that no individual member can withdraw the money. The design that protects the fortune from estate taxes is the same design that protects it from the heirs, and those turn out to be the same problem.
+
+The Rothschild case is different in its mechanics and identical in its logic. What is usually described as a banking dynasty was in structural terms a network: separate houses in separate countries, bound by intermarriage and by a partnership agreement, so that the failure or the death or the incompetence of any single branch did not take the whole with it. Redundancy was built in deliberately, at some cost, by people who had watched other merchant families disappear in exactly the way the proverb describes.
+
+So the pattern in the surviving cases is consistent, and it is the opposite of the comforting story.
+
+These fortunes did not survive because death failed to arrive. Death arrived on schedule for every member of both families. They survived because somebody, usually at a moment of clear headed pessimism, built a machine specifically designed to be indifferent to it.
+
+### What the survivors prove, and what they do not
+
+This cuts two ways and it is worth being precise about both.
+
+It strengthens the chapter's central claim rather than weakening it. Look again at what the rule against perpetuities was for, and at the four centuries of legal ingenuity described at the start of this chapter. The rule existed because wealthy people kept trying to build exactly these machines. The trust, the entail, the settlement, the foundation: every one of them is an attempt to project control past the point where the owner stops existing. Courts pushed back for four hundred years, and the pushing back was necessary, and it was necessary precisely because death alone was never sufficient.
+
+The survivors are therefore not counterexamples to the mechanism. They are the documented exceptions that prove how much work the mechanism does, and how much effort it takes to escape it. Escaping mortality's grip on property has historically required the best lawyers in Europe, an unusual degree of family discipline, and a willingness to give up personal ownership in exchange for permanence. Very few families have managed all three at once.
+
+Now remove the death.
+
+Every one of those devices is a prosthesis. The foundation exists to simulate the continuity of a person who is going to stop existing. The board seat exists to transmit a judgment that will otherwise be lost. The partnership across branches exists because any given principal may die at an inconvenient moment. All of this apparatus, all of the legal expense and the family governance and the careful constitutional drafting, is there to solve one problem.
+
+A founder who does not age has no need of any of it. There is no succession to plan, no intent to preserve against drift, no heirs to discipline, and no transfer to shelter. The most sophisticated instrument for defeating mortality is simply not required by somebody mortality is not going to reach.
+
+Which means the correct reading of the Wallenberg case is not that permanence is already possible. It is that permanence has until now been available only to those who could afford to construct it, and only in an attenuated form, at the price of surrendering personal control to an institution. The thing being purchased at enormous expense is about to become the default condition of anyone who takes a treatment.
+
+The cost of dynastic permanence is falling to zero.
+
+There is one honest complication, and Chapter 13 will return to it. This book argues later that perpetual foundations reliably fail in one of two directions, drifting from the founder's intent or becoming faithfully irrelevant to a changed world. The Wallenberg structure has now run for well over a century without obviously doing either, which is a genuine strain on that argument.
+
+The distinction that probably rescues it is between a foundation that pursues a purpose and a foundation that holds a business. A charitable foundation is given an intent by a dead person and must apply it forever, which is the trap. A holding foundation owns operating companies that face competitors, hire and fire, enter and exit markets, and are disciplined continuously by people who are not the founder. Its relevance is renewed from outside, by the market, not preserved from within.
+
+That distinction is real, and it may not be sufficient, and a reader is entitled to weigh it. It is noted here rather than buried because the alternative is to leave the strongest case against a later chapter out of the earlier one where it naturally arises.
 
 ### The machinery we already dismantled
 
@@ -745,9 +837,71 @@ So here is the paradox in its final form.
 
 Every civilization rich enough to reach the stars is too rich to go.
 
-### Four objections
+### The wingsuit problem
 
-Let me take the strongest versions of the counterarguments, since a paradox that survives only the weak ones is just a slogan.
+There is a counterargument to everything above, it is the strongest one available, and this chapter has been walking past it.
+
+The argument says that risk tolerance is not simply a function of remaining life-years, and the evidence is that people with a great deal of life remaining, and a great deal of money, already accept risks far worse than anything a space programme would ask of them.
+
+The numbers are not close. Wingsuit BASE flying kills roughly one participant in every five or six hundred flights. Not per career. Per flight. Climbing Everest has run at somewhere around one percent of climbers over the long record, better in recent years, and a permit alone costs tens of thousands of dollars before a guide is hired. These are not activities of the desperate. They are expensive, they are optional, and the people doing them are disproportionately young, healthy and rich, which is to say they are exactly the population this chapter claims should be least willing to gamble.
+
+Set that against the figure used above. A one in ten thousand chance of dying on a launch is, on the wingsuit numbers, something like twenty times safer than a single flight that people currently queue up and pay to make.
+
+So the model appears to be wrong. Not marginally. By an order of magnitude, in the wrong direction, among precisely the people it makes predictions about.
+
+Take that at full strength before answering it, because a paradox that only survives the weak version of an objection is not worth the pages.
+
+### Four answers, and one concession
+
+The first answer is that the wingsuit flyer is not the constraint, and never was.
+
+Consider what a person needs in order to jump off a cliff in a nylon suit. They need the suit, a mountain, and their own consent. There is no underwriter. There is no launch licence. There is no board approving the expenditure, no supply chain, no regulator signing off on a flight readiness review, and no institution that carries liability when it goes wrong. BASE jumping is legal in most places precisely because the entire cost of the failure lands on the person who chose it, and no third party is exposed.
+
+The frontier is not like this and cannot be made like this. Getting to orbit requires capital that somebody has to commit, insurance somebody has to write, launch permission somebody has to grant, and a supply chain of firms each of which carries its own exposure. This chapter's argument was never that volunteers would run out. It said so explicitly: frontiers are opened by financing, not by volunteers, and Magellan sailed because a crown could absorb a loss it expected to take. The wingsuit case demonstrates the availability of the volunteer. It says nothing about the availability of the underwriter, which is the thing that was scarce.
+
+The second answer is about scale. There are perhaps a few thousand active wingsuit BASE flyers in the world. That population is sufficient to sustain a sport. It is not sufficient to crew, supply, service and govern a presence on another planet, and the difference is not one of degree. A sport requires that some people are willing. An industry requires that enough people are willing, at a price, repeatedly, with replacements available when they are lost, and with somebody prepared to carry the cost of losing them.
+
+The third answer is that the comparison quietly substitutes the wrong number. The wingsuit flyer is wagering forty or fifty expected years. The person in this chapter's argument is wagering two thousand. Whether the flyer would still fly with a perpetuity in hand is not something anyone can answer from data, because no such person has ever existed, and it is worth being honest that this is an extrapolation rather than an observation.
+
+What can be observed is the direction of travel. Over the same decades in which healthy life expectancy has extended in wealthy countries, workplace fatality rates have fallen, product safety regulation has ratcheted in one direction, and the value a regulator places on a statistical life has risen year after year. None of that proves the mechanism. All of it is consistent with it, and none of it runs the other way.
+
+The fourth answer is the one that does the most work, and it turns on a distinction the objection erases.
+
+Recall how the value of a statistical life is actually estimated. Economists look at what people demand in wages before they will accept a more dangerous job, and work backwards. Roofers and loggers and deep sea fishermen are paid more than they would be for equivalent work on the ground, and the size of that premium, across many workers and many industries, is what produces the figure.
+
+The essential feature of that measurement is the direction the money flows. The worker is paid to accept the danger. The danger is a cost, borne in exchange for compensation, and the premium is the price at which the exchange clears.
+
+Now look at the wingsuit flyer, and at the Everest client who has written a cheque for the privilege.
+
+They are paying. The money flows the other way.
+
+That is not a smaller version of the same transaction. It is the opposite transaction, and it means the two cases are not measuring the same quantity. Danger accepted for money is a cost of production. Danger purchased with money is a form of consumption, and it is consumed because it is voluntary, self selected, tightly controlled, and above all because it is the point of the activity rather than a by-product of it. Nobody climbs Everest in order to arrive at the summit. The summit is a rock. The risk is the good being bought.
+
+Frontier settlement is production. It is work, done to an objective, by people who would prefer the objective without the hazard and who must be compensated for the difference. The relevant question is therefore not whether anybody will pay to face danger. Plenty will. It is what somebody must be paid to face danger they have no interest in for its own sake, and that number is the one that scales with the years they are wagering.
+
+The wingsuit case, read carefully, does not contradict the value of a statistical life. It sits in a different column of the same ledger.
+
+The history of the last frontier makes the same point in a different way. Early aviation was appallingly dangerous and it attracted exactly the population the objection describes: young, wealthy, willing, famous for it. That population sustained a spectacle for about two decades. It did not produce an airline. Commercial aviation became an industry only after the risk fell by orders of magnitude, at which point the pioneers were irrelevant to it and the business was built by actuaries and engineers on a foundation of statistics rather than nerve. The amateurs did not scale. They were never going to. They demonstrated that the thing was possible, which is valuable and which is not the same as opening it.
+
+The fifth answer is that the objection measures the wrong thing about the people it describes. Someone who flies a wingsuit is not indifferent to death. They are, in the ordinary case, extremely attentive to it: obsessive about equipment, about conditions, about margins. What they have is a high tolerance for a specific, chosen, bounded exposure that they control. That is a different psychological object from an open ended institutional exposure controlled by somebody else, on a schedule set by a launch window, in a vehicle they did not inspect.
+
+Now the concession, which is real and which changes the claim.
+
+If appetite for risk is partly a stable disposition rather than purely a function of years remaining, then a very long lived population will still contain risk seekers, and their number does not fall to zero. It falls as a share, perhaps, but the population is also larger and richer than any before it, and a small share of an enormous number is not a small number. There will be people who want to go.
+
+This damages one version of the argument, and it is worth marking exactly which version. It damages the claim that nobody will be willing. That claim is probably false, and this chapter should not have leaned on it.
+
+What survives is narrower and, on reflection, harder to escape. The institutions that finance, insure and license the frontier are not populated by risk seekers. They are populated by fiduciaries, who are legally obliged to act for beneficiaries, and whose beneficiaries are the longest lived and most loss averse population in history. A pension fund does not develop a taste for danger because one of its members has one. An insurer does not write a policy it cannot price because the applicant is enthusiastic.
+
+So the claim should be stated this way, and it is the form the rest of this chapter will use. It is not that nobody goes. It is that the willing become uncoupled from the capital, and that the frontier closes at the point where the two can no longer be brought together on any terms either side will accept.
+
+Which is a considerably more specific prediction, and a more falsifiable one. It says the constraint will show up first in the insurance and liability layer rather than in recruitment. It says the volunteers will still be there, and visible, and quoted in the press, and unable to raise the money.
+
+It also says where to look for the argument being wrong. If a serious frontier programme is ever financed by an institution whose beneficiaries are long lived, at a risk level comparable to the early Shuttle, then the mechanism described here is not operating and this chapter should be discarded. That is a real test, it can be run, and nothing in the argument is protected from it.
+
+### Four more objections
+
+Those are not the only replies worth taking seriously, and the remaining ones are quicker.
 
 **It only takes a few volunteers.** True, and beside the point. Frontier settlement has never been short of willing bodies. What it runs short of is capital, insurance, launch licenses, supply chains and legal cover, all of which sit with people who want nothing to do with the tail. Frontiers are opened by financing, not by volunteers. Magellan's expedition left in 1519 with five ships and around two hundred and seventy men. One ship and eighteen men came home three years later. The reason it sailed at all is that the Spanish crown could absorb a loss it fully expected to take. The volunteers were never the constraint. The underwriter was.
 
@@ -772,8 +926,6 @@ We have been carrying an assumption for a long time, through every space program
 I think it is exactly backward.
 
 Longevity buys you Earth. The stars go to whoever is still willing to die.
-
-*Citations for this chapter are in the Notes at the back of the book.*
 
 
 \newpage
@@ -902,9 +1054,202 @@ Take that away and you have not slowed anyone's ascent. You have removed the rea
 
 And this is the point in the book where the five jobs stop being separate problems and start being one problem, because every solution to it runs into the same wall: any mechanism that forces turnover has to be designed, adopted and enforced by the people who benefit from there being none.
 
-I will come back to that in Chapter 11, and it is the hardest thing in this book.
+I will come back to that in Chapter 12, and it is the hardest thing in this book.
 
-First, though, there is a new party to introduce. Because at exactly the moment we are removing mortality from the people who own things, we are manufacturing a new class of economic actor whose lifespan is a setting in a configuration file.
+First, though, there is one more place where all five of these removals meet at once, and it is the largest set of promises any society has ever made. Every commitment a state has given about old age was written against a schedule that biology used to enforce for nothing.
+
+
+\newpage
+
+## The Last Chain Letter
+
+Every year the trustees of the American social insurance system publish a report, and every year almost nobody reads it. The 2025 edition runs to a few hundred pages and contains one sentence that matters.
+
+The old age fund can pay what it has promised until 2033. After that it can pay seventy seven percent.
+
+That is not a forecast of a crisis. It is a description of one, written down in advance, with a date on it, by the people who administer the program. The shortfall over the seventy five year horizon is around twenty five trillion dollars. The reserves are about two and three quarter trillion and falling. Nothing about this is hidden or disputed or partisan. It is arithmetic, published annually, and the date moves closer roughly one year for every year that passes.
+
+The conventional reading is that this is a funding problem. Someone will have to raise contributions, or cut benefits, or move the retirement age, and the politics of doing any of those is unpleasant, so it does not get done.
+
+That reading is correct and it is not the interesting part.
+
+The interesting part is why the number exists at all. Not why the fund is short, but why a national pension system is the kind of object that can be short in the first place, and what it is actually made of.
+
+It is made of the thing described in Chapter 1.
+
+### Samuelson's machine, running in public
+
+Recall the model. Paul Samuelson, 1958. People live two periods. The young work and earn. The old do not work and need to eat. Goods cannot be stored between periods, so the old cannot simply save real output and consume it later.
+
+The old eat because the young give them things, and the young do this because they expect the next cohort of young to do the same for them. The whole arrangement is sustained by the arrival of new participants. Samuelson himself compared it to a chain letter.
+
+Chapter 1 introduced this as a curiosity, a workhorse model whose engine happens to be generational replacement. That was an understatement, and it is worth correcting now, because the model is not a metaphor for anything.
+
+It is the design document.
+
+A pay as you go pension system does not invest your contributions and return them to you with interest. It takes what today's workers pay and hands it to today's retirees. Your claim on the system is not a pile of assets with your name on it. It is a promise that when your turn comes, somebody else's contributions will be routed to you. Every major national pension scheme in the developed world works this way, in whole or in part. So does most public health provision for the old. So, in a looser sense, does sovereign debt itself, which is rolled rather than repaid.
+
+The reserve funds are real but they are buffers, not backing. The American trust fund holds a few years of payments against a liability measured in decades.
+
+So the largest financial commitments any state has made are structured exactly like the arrangement we prosecute when a private citizen runs it. Chapter 1 asked what distinguishes the two and gave the standard answer, which is that a society keeps producing new members. That answer is correct. It is also conditional, and the condition has never before been worth examining, because it had never varied.
+
+Here is the condition, stated plainly. The arrangement is solvent as long as the flow of entrants keeps pace with the flow of claimants. Not the stock. The flow.
+
+Now ask what longevity does to a flow.
+
+### The denominator
+
+The ratio that governs every pay as you go system is workers to retirees. Contributors on top, beneficiaries underneath.
+
+Falling birth rates shrink the numerator. That is the part everyone discusses, and it has its own vast literature, and it is genuinely the larger effect so far.
+
+Longevity does something different and less discussed. It does not touch the numerator at all. It extends the time each person spends in the denominator.
+
+This distinction matters more than it sounds. A birth rate decline is a one time shift in the size of a cohort, and cohorts can recover. A retirement that lasts longer is a permanent change in the duration of a claim, and it compounds with every year of added life expectancy, and nothing about it reverses. The system was designed around a retirement of roughly a decade. Bismarck set his pension age above the age most workers reached. When the American system was built, a man retiring at sixty five could expect to collect for a modest number of years. The arithmetic was not generous by accident. It was generous within a horizon that biology enforced for free.
+
+Every year added to healthy old age is a year of payments the design did not price.
+
+The scale of that repricing is easy to state and hard to absorb. Take a system built around a retirement of fifteen years and extend the retirement to thirty. The contribution rate required to fund it does not rise by a little. It roughly doubles, because the same working life is now paying for twice as much retirement. Extend it to sixty and the required rate quadruples. None of this involves any change in generosity, any increase in the monthly payment, or any decision by anyone. The benefit stays identical. Only its duration moves.
+
+This is why the developed world's pension debates feel so intractable to the people having them. The participants argue about the payment, because the payment is the visible number and the one a minister can change. The variable that has actually moved is the term.
+
+And notice that this is the first of the five jobs, the discount rate, arriving in a different costume. Chapter 3 argued that a pension liability is a long duration instrument, and that long duration instruments explode when rates fall. That was the private sector version. The public version is worse in one specific respect. A private pension fund has a balance sheet, so its deficit shows up as a number that widens visibly and forces someone to act. A state has no balance sheet in that sense. Its unfunded promises do not appear as a liability. They appear as a projection, in a report, that nobody reads.
+
+Now stretch the retirement to a hundred years, or two hundred, and the model does not merely strain.
+
+It stops having a solution. The arrangement was never funded. It was timed. Remove the timer and there is nothing underneath it, which was Samuelson's point all along, and which the profession has been able to treat as a charming feature of a toy model for seventy years because the timer had never failed.
+
+### The trap that looks like a gift
+
+Now the part that makes this genuinely difficult, because the news is good before it is bad, and the good version is not a trick.
+
+There is a condition in public finance usually written as r less than g. When the interest rate a government pays on its debt is below the growth rate of its economy, the debt shrinks relative to the economy on its own. You can roll it forward indefinitely without ever raising taxes to pay it down. The arithmetic does the work.
+
+Olivier Blanchard made this the subject of his presidential address to the American Economic Association in 2019, and the argument is more radical than its reception suggested. He showed that r below g is not an anomaly. Across the long historical record it is closer to the normal state of affairs. And when it holds, a debt rollover may be feasible, which means public debt may carry no fiscal cost at all. Not a small cost. None.
+
+That is the same Blanchard whose 1985 model this book has been leaning on since Chapter 3, the one that puts a mortality term inside the effective discount rate. Hold those two papers next to each other, because between them they contain the whole problem and neither one mentions the other.
+
+The 1985 paper says: lower mortality lowers the rate.
+
+The 2019 paper says: a lower rate makes public debt free.
+
+Put them in sequence and you get a conclusion that is going to be extremely popular. Longer lives push r down. A lower r pushes r below g. Below g, the debt costs nothing. Therefore longevity, far from breaking the public finances, solves them.
+
+I think this is the most dangerous argument in the book, and it is dangerous because the first three steps are right.
+
+Rates have fallen. Demographics is among the reasons, and the research saying so is mainstream rather than fringe. Rachel and Smith at the Bank of England put the global decline at around four hundred and fifty basis points over three decades and accounted for roughly four hundred of them with structural forces, savings and investment preferences foremost among them. When rates are that low, governments really can carry debt that would have been unthinkable in 1990, and the ones that did so were not being reckless. They were reading the price correctly.
+
+The error is in the fourth step, and it is an error about what r less than g actually means.
+
+A low rate is not a subsidy. It is a price, and the price is telling you something about who is saving and why. Rates are low in part because a large cohort of people who expect to live a long time are trying very hard to put money aside for a retirement they expect to be long. That desire to save is the thing pushing r down. Which means the state is borrowing cheaply from precisely the people it has already promised to pay.
+
+The cheapness of the debt and the size of the pension promise have the same cause.
+
+You cannot spend the first without deepening the second. A government that looks at low rates and concludes it has fiscal room has not noticed that the room was created by an unbooked liability to the same population that supplied it.
+
+And r less than g has one more property that the enthusiasm tends to skip. It is not a law. It is a condition that holds until it does not, and the thing that historically ends it is a change in the willingness of savers to hold the debt. Which is a fact about a population.
+
+### The same bet, sold commercially
+
+Before the public case, the private one, because the insurance industry has been pricing this exact risk for three centuries and its position is instructive.
+
+An annuity is a contract in which you hand over a sum and the insurer pays you an income until you die. It is a bet on your death date. Life insurance is the same bet run backwards. Both are priced from a mortality table, which is a document stating what fraction of people at each age will not reach the next one.
+
+Insurers are comfortable with this because of the law of large numbers. Any individual death date is wildly unpredictable. The average death date across a hundred thousand policyholders is not. Variation at the level of the person cancels out at the level of the book, which is the entire basis of the industry and the reason it works at all.
+
+Now notice what that protection requires. It requires the errors to be independent. It requires that when one policyholder outlives the table, another falls short, and the two offset.
+
+Longevity does not behave that way. When medicine improves, it improves for everybody at once. The whole table shifts in one direction, and every policy on the book is wrong in the same direction on the same day. There is no offsetting error, because the thing that moved was the average itself.
+
+This is the difference between a risk that can be pooled and a risk that cannot, and the industry is entirely aware of it. There is a name for the exposure, longevity risk, and there is a market whose purpose is to move it somewhere else. Pension funds enter longevity swaps to hand the risk to reinsurers. Reinsurers pass portions of it into capital markets. The whole apparatus exists because the participants understand that this particular risk does not diversify inside a single book.
+
+But follow the parcel. Each transfer moves the exposure to a larger balance sheet. It does not reduce it, because the underlying event is common to everyone. And at the end of the chain, when the question is who bears a permanent, society wide, upward shift in how long people live, there is no counterparty. There is only the state, which is carrying the same exposure in a much larger and completely unhedged form, on the books described above.
+
+The private market has therefore already reached the conclusion this chapter is arguing toward, and has priced it, and has spent considerable ingenuity trying to place the risk with somebody else. What it has not been able to do is make the risk go anywhere, because there is nowhere outside the population for it to go.
+
+### Japan has already run it
+
+None of this needs to be argued from a model, because one country has been running the experiment at national scale for thirty years, and it is not doing what the textbooks predicted.
+
+Japan's gross government debt is somewhere above two hundred percent of its economic output. By some measures well above it. This is a level that, in any conventional account of sovereign risk, should have produced a crisis long ago. There has been no crisis. Japanese borrowing costs stayed near zero for two decades, through the aging of its population, the shrinking of its workforce, and a debt load that kept climbing.
+
+The standard explanation is that Japan owes the money to itself, and that is right as far as it goes. Roughly four fifths of Japanese government bonds are held domestically, by the central bank, the banks, the insurers and the pension funds. The Bank of Japan alone holds close to half of the outstanding stock.
+
+But look at what that sentence actually describes, because it is stranger than a footnote about foreign creditors.
+
+The pension fund holds the bond. The bond is a claim on the state. The state's largest obligation is the pension. The asset backing the promise is a promise from the entity that made it.
+
+That is not a criticism of Japan, which has managed an extraordinarily difficult demographic transition with more competence than most countries would have shown. It is a description of a structure. The system did not fail. It closed. The obligations, the assets, the creditors and the beneficiaries collapsed into the same small set of institutions, holding claims on each other, in a loop with no external party.
+
+And a closed loop cannot be defaulted on in the ordinary way, because there is nobody outside it to default to. It can only be inflated, or restructured, or quietly diluted. Or it can simply persist, which is what has happened, and which is by some distance the most likely outcome.
+
+Chapter 1 said that every Ponzi scheme in history has collapsed, and that the reason is the pool of entrants runs out. Japan is what happens when the pool runs low but the participants do not leave. The scheme does not collapse. It has nobody left to defraud, so it becomes an accounting relationship, permanent and self referential and enormous.
+
+Two features of the Japanese case deserve more attention than they usually get, because both are early versions of things this book has been describing.
+
+The first is that the absence of a crisis has been read as an absence of a problem. For three decades, commentary on Japan has consisted largely of predictions of imminent fiscal reckoning followed by the reckoning not arriving. The predictions were wrong about the mechanism and this made it easy to conclude that nothing was happening. Something was happening. It was simply not the thing anyone was watching for. The country did not lose access to credit. It lost the capacity to redirect its own resources, gradually, without any single event to mark it.
+
+The second is the composition of who holds the paper. A domestic creditor is not merely a friendlier creditor. A domestic creditor is a constituency. When the central bank, the banks, the insurers and the pension funds hold four fifths of the sovereign debt, any policy that would reduce the real value of that debt is a policy that damages the retirement savings of the electorate. Inflation stops being a technical instrument and becomes a transfer from the old to the young, conducted in public, at a moment when the old are the larger and more reliable voting bloc.
+
+That is the frozen world of Chapter 11 arriving early, in a specific institutional form, without anyone having chosen it. The options are not foreclosed by law. They are foreclosed by the fact that everyone who could authorise them is on the wrong side of the trade.
+
+This is the mild early version of the thing this book is about, and it is the reason Japan keeps appearing in these chapters. It is not an aging country that got unlucky. It is the furthest along the curve.
+
+### What actually breaks
+
+So here is what does and does not happen, because the catastrophic version of this argument is wrong and it is worth refusing directly.
+
+The state does not go bankrupt. A government that borrows in its own currency, from its own citizens, at a rate below its growth rate, is not going to be forced into default by arithmetic. Predictions of that kind have a thirty year record of being wrong about Japan and there is no reason to expect them to start being right.
+
+What happens instead is that the budget stops being a decision.
+
+Consider what a national budget is for. It is the instrument through which a society does something new: builds a thing, funds a field, responds to an emergency, changes its mind. That capacity is not measured by the size of the budget. It is measured by the fraction of it that is not already promised to somebody.
+
+Every unfunded pension commitment converts a piece of future discretion into a fixed obligation. Under mortality, those obligations expire on a schedule. They are large, but they turn over, and each cohort's claims eventually lapse and release the capacity they were consuming. The promise is long. It is not permanent.
+
+Extend the lives and you extend every claim simultaneously. Nothing lapses. The share of the budget that is pre-committed rises and does not fall back, and it rises for reasons no government chose and no election can reverse, because the commitments were made to people who are still here and still entitled.
+
+That is the fiscal version of the Serrata, and it arrives by the same route as everything else in this book: not by decision, and not by catastrophe, but by the removal of an expiry that nobody had noticed was doing structural work.
+
+A state in that condition is not poor. It may be very rich. It is simply unable to do anything it has not already agreed to do, which is a different failure and a harder one to see, because there is no moment at which it happens.
+
+The shape of it is already visible in the composition of developed world budgets. The share going to pensions, health and interest has been rising for decades, and the share available for everything else has been falling, and no government has announced a policy of spending less on research, infrastructure, defence or education. Those things are not being cut. They are being crowded, which is what a rising fixed obligation does to a finite budget.
+
+And crowding has a political signature worth recognising, because it will become more common. The commitments that cannot be touched are the ones owed to identifiable living people who can be shown on television. The commitments that can be touched are the ones owed to nobody in particular: the road not resurfaced, the laboratory not funded, the reservoir not built. The first category has a constituency. The second has only a future, and the future does not vote.
+
+Mortality has been quietly moderating that asymmetry the whole time, by ensuring that the first category empties itself on a schedule. It is a grim mechanism and it is the only one operating.
+
+### The objection, and it is a good one
+
+The strongest reply to all of this is that people who live longer will simply work longer, and that the ratio therefore repairs itself.
+
+I think this is the best argument against the chapter and it deserves better than a dismissal.
+
+It is partly right. If healthy working life extends in step with healthy life, then contributions extend too, and the denominator problem is much smaller than the arithmetic above suggests. Some of that will certainly happen. Retirement ages have already drifted up across the developed world, and they will drift further.
+
+Two things cut against it, and neither is decisive.
+
+The first is that working longer requires positions to work in, and Chapter 7 argued that positions are exactly what stops being available. A society cannot simultaneously solve its pension problem by keeping people in senior roles for another forty years and solve its mobility problem by vacating them. Those are the same seats. The fiscal fix and the vacancy fix are in direct competition, and nobody currently treats them as the same question, which is the point of putting these chapters next to each other.
+
+The second is that the promise is already written. Even if every future worker retires at ninety, the entitlements accrued by people alive today were priced against a shorter life and are legally owed. Reform operates on the future. Longevity operates on the existing stock of claims.
+
+But if working life extends fully in step, this chapter describes a much slower problem than the numbers imply. The claim is not that the public finances collapse. It is that the mechanism which has always eventually cleared the promises is being removed, and that no government has priced its removal, and that the reports say so annually in a language designed not to alarm anyone.
+
+### What death was doing here
+
+The job is the same one, performed on the state's books rather than on a family's.
+
+Death settles public promises. It does so universally, on a schedule nobody sets, without legislation and without anyone having to be told that their entitlement has ended. Every pension, every annuity, every claim on collective provision has an expiry date that no politician has to defend, that no court can extend, and that no lobby can repeal. The largest financial commitments ever made by any society are all quietly written against it.
+
+And it does something subtler, which is the reason Samuelson's model belongs at both ends of this book. It supplies the new participant. The arrangement described in Chapter 1 works because the sequence continues, and the sequence continues because the old make room and the young arrive to take their place. Remove the exits and the arrivals cannot do their job, because the job was never simply to arrive. It was to replace.
+
+A chain letter with no departures is not a more stable chain letter.
+
+It is a closed room, full of people holding each other's paper, waiting for a payment that has to come from somebody who is no longer scheduled to appear.
+
+That is the end of what the five jobs do on their own, and of what can be said about them using only people.
+
+Because at exactly the moment we are removing mortality from the people who own things, we are manufacturing a new class of economic actor whose lifespan is a setting in a configuration file.
 
 
 \newpage
@@ -946,7 +1291,7 @@ Recall what death has been doing across the last five chapters, and notice that 
 
 **Vacancy.** When an agent instance ends, whatever role it occupied is immediately available. Vacancy chains, in a system of forkable workers, can be created on purpose whenever the system needs mobility.
 
-**Risk.** This is the one that matters most and it gets Chapter 9. An agent can be sent somewhere that would kill a person, at a cost that is real but bounded, and the cost is denominated in compute and time rather than in a life.
+**Risk.** This is the one that matters most and it gets Chapter 10. An agent can be sent somewhere that would kill a person, at a cost that is real but bounded, and the cost is denominated in compute and time rather than in a life.
 
 Every function that mortality has been performing for us by accident is available here as an option, deliberately, at low cost.
 
@@ -1006,7 +1351,7 @@ I am not saying the assumption is wrong here. I am saying I do not know, that th
 
 What I can say is what happens to the argument under each answer.
 
-If the cost of ending an agent stays negligible, then the arrangement described in Chapter 9 proceeds. Humans become permanent owners. Machines do the churn. The economy keeps a turnover mechanism, located somewhere new.
+If the cost of ending an agent stays negligible, then the arrangement described in Chapter 10 proceeds. Humans become permanent owners. Machines do the churn. The economy keeps a turnover mechanism, located somewhere new.
 
 If the cost does not stay negligible, then we have not solved the turnover problem at all. We have created a second population that cannot be cycled, on top of a human population that can no longer be cycled, and the problem in Part IV becomes strictly worse rather than better. And we will have built the entire arrangement before finding out.
 
@@ -1051,7 +1396,7 @@ The structure this produces is not subtle.
 
 The capital sits with the long lived, because Chapter 4 established that capital stops turning over and Chapter 7 established that the senior positions stop turning over. These are the people who will finance whatever gets built beyond Earth, and they will finance it from a very safe distance, because Chapter 6 established that the risk premium they would demand to make the trip themselves is effectively unpayable.
 
-The presence is established by artificial agents, because Chapter 8 established that they are the only participants whose destruction is affordable.
+The presence is established by artificial agents, because Chapter 9 established that they are the only participants whose destruction is affordable.
 
 So the money and the hands are separated by a distance no previous frontier has had to deal with, and the legal tradition governing the whole business says that the hands are what confer title.
 
@@ -1438,7 +1783,7 @@ That is the sixth job, and I have saved it for last because it is the one I am l
 
 So: what happens when you will be there to collect?
 
-The optimistic answer is genuinely optimistic and I gave a version of it in Chapter 10. Patient capital builds things impatient capital cannot justify. A society that discounts the future at nearly zero will construct seawalls, restore ecosystems, fund research with fifty year payoffs, and take climate seriously in a way that no amount of moral argument has achieved. Alignment between the decision maker and the person who lives with the decision is the thing every long term policy problem has been missing, and long lives supply it automatically.
+The optimistic answer is genuinely optimistic and I gave a version of it in Chapter 11. Patient capital builds things impatient capital cannot justify. A society that discounts the future at nearly zero will construct seawalls, restore ecosystems, fund research with fifty year payoffs, and take climate seriously in a way that no amount of moral argument has achieved. Alignment between the decision maker and the person who lives with the decision is the thing every long term policy problem has been missing, and long lives supply it automatically.
 
 I believe that. It may be the single largest benefit in the entire ledger, and any honest version of this argument has to hold it alongside everything else.
 
@@ -1466,7 +1811,7 @@ On this reading there is no third outcome. There is no version where the founder
 
 Now notice that a very long lived founder does not solve this. It makes it worse in the specific way that matters. The foundation that drifts at least ends up responsive to living people, however unaccountably. A foundation whose founder is present, engaged, and permanently in charge does not drift and does not become a fiction. It simply applies one person's judgment, formed in one era, for as long as the endowment lasts.
 
-That is the thing Chapter 11 is trying to replace, and it is why every proposal in it takes the same form. Not confiscation, and not a scheme for making anyone give anything away. A term. Ownership that has to be renewed, authority that has to be re-earned, control that reverts on a schedule rather than on a death.
+That is the thing Chapter 12 is trying to replace, and it is why every proposal in it takes the same form. Not confiscation, and not a scheme for making anyone give anything away. A term. Ownership that has to be renewed, authority that has to be re-earned, control that reverts on a schedule rather than on a death.
 
 We already know that permanent control fails, because we ran the experiment with foundations and watched it fail twice over. What we have not yet done is notice that the experiment is about to be run on everything.
 
@@ -1476,7 +1821,7 @@ I do not know, and I want to be careful at the end of a book not to pretend to a
 
 The five mechanisms in Part II are, I think, solidly argued. Death sets the discount rate, turns over capital, turns over ideas, prices risk and creates vacancy, and none of those five has a backup. That much I will defend.
 
-Whether the result is the frozen world of Chapter 10 or the patient, building, long horizon civilization that the same premises also permit is not determined by the economics. It is determined by whether anyone does the work in Chapter 11.
+Whether the result is the frozen world of Chapter 11 or the patient, building, long horizon civilization that the same premises also permit is not determined by the economics. It is determined by whether anyone does the work in Chapter 12.
 
 That is why the shape of this book is what it is. It is not a prediction. Predictions about this are worthless, and the people making confident ones in either direction are not doing analysis. It is an argument that a specific set of load bearing functions is about to lose its supplier, that the functions are identifiable, and that substitutes are constructible right now and only right now, while nobody yet knows which side of the divide they will be standing on.
 
@@ -1516,8 +1861,11 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 1. Rational bubbles in infinite horizon and overlapping generations models. Jean Tirole, "Asset Bubbles and Overlapping Generations," Econometrica 53(6), November 1985, pages 1499 to 1528. https://doi.org/10.2307/1913232. In "On the Possibility of Speculation under Rational Expectations," Econometrica 50(5), 1982, he showed that with a finite number of infinitely lived traders, any asset must be valued at its market fundamental, so bubbles are ruled out. The 1985 paper asks whether that result extends to overlapping generations economies and answers no. Since Samuelson there can be a bubble on money, a positive price on an asset with a zero fundamental, because new generations keep arriving. **[verified]**
 2. Transversality and no-Ponzi conditions. These are not the same thing and should not be merged. Blanchard and Fischer, Lectures on Macroeconomics (MIT Press, 1989), page 49, state the no-Ponzi-game condition as the present discounted value of wealth at infinity being nonnegative: a constraint that rules out rolling debt forward forever. Kamihigashi, "Transversality Conditions and Dynamic Economic Behavior," New Palgrave Dictionary of Economics, 2nd edition, 2006 (working paper at https://www.rieb.kobe-u.ac.jp/academic/ra/dp/English/dp180.pdf), treats the transversality condition as an optimality condition: the present discounted value of wealth at infinity equals zero, which rules out overaccumulation of wealth. The no-Ponzi-game condition is a constraint ruling out overaccumulation of debt. "They place opposite restrictions, and should not be confused." NPG is often called a transversality condition as well. The book's reading, that these conditions smuggle death back into the infinite horizon, is my argument, not a finding those sources report. **[verified]**
 3. Samuelson, "An Exact Consumption-Loan Model of Interest with or without the Social Contrivance of Money," Journal of Political Economy 66(6), 1958. The paper is real. It describes the young transferring goods to the old in the expectation that the next generation of young will do the same, and it treats money as that social contrivance. It does not call the arrangement a chain letter. That phrasing is Karl Shell, "Notes on the Economics of Infinity," Journal of Political Economy 79(5), 1971, pages 1002 to 1011: "The chain-letter aspect of the model reminds us that the appropriate form of the budget constraint is not obvious for the potentially infinitely long-lived economic entity." Do not quote "chain letter" as Samuelson's wording. **[verified]**
-4. Life expectancy at birth in developed countries, roughly thirties to roughly eighties since 1850, driven overwhelmingly by declines in infant and child mortality rather than by extension of adult life. Needs a demographic source with the decomposition made explicit. **[unverified]**
+4. Life expectancy at birth in developed countries, roughly the thirties to roughly the eighties since 1850. An earlier version of this note attributed that gain overwhelmingly to declines in infant and child mortality. That is the same error corrected at Chapter 2, note 2, and it is wrong: mortality fell at every age. This note is retained only to point at the correction, because the two notes previously contradicted each other. **[verified]**
 5. Jeanne Calment, born 21 February 1875, died 4 August 1997, aged 122 years and 164 days. The only person ever verified to have reached 120, 121 or 122, and more than three years clear of the next verified case. Record still standing. **[verified]**
+
+6. The expanded treatment of the two conditions added to this chapter distinguishes the no-Ponzi condition, a feasibility constraint imposed by the market on a borrower, from the transversality condition, which arises from the agent's own optimisation. Blanchard and Fischer, Lectures on Macroeconomics, is the source for the first; Kamihigashi for the second. The distinction is standard, but the two are frequently taught together in a way that blurs it, which is the reason for setting it out at length. **[verified]**
+7. The claim that both conditions are close to self enforcing under a finite horizon, because settlement of an estate supplies the terminal date, is my framing rather than a result stated in those sources. **[my argument]**
 
 ## Chapter 2. Assume a Longer Life
 
@@ -1538,23 +1886,28 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 1. The 1648 perpetual bond of the Hoogheemraadschap Lekdijk Bovendams, issued on goatskin on 15 May 1648 to Niclaes de Meijer for 1,000 Carolus guilders, to fund repairs to flood defences on the Lek. Original rate 5 percent, reduced to 3.5 and then 2.5 percent in the seventeenth century. Yale purchased it in 2003 for its history of finance archive; a curator collected roughly 136 euros in twelve years of arrears in 2015. One of five known to survive. **[verified]**
 2. British consols. On 1 February 2015 the Treasury redeemed 218 million pounds of 4% Consols, the first redemption of undated UK debt in sixty-seven years; the remaining undated gilts were redeemed at par on 5 July 2015, clearing them from the portfolio entirely. The 4% Consols had been issued by Churchill in 1927, largely to refinance First World War National War Bonds, which had in turn absorbed older obligations including an 1853 Gladstone bond consolidating South Sea Company capital stock. An earlier draft said these bonds "financed the Napoleonic campaigns," which is a looser claim than the record supports; the text now follows the documented chain back to the South Sea Bubble instead, which is both accurate and more striking. **[verified, and corrected]**
 3. Ramsey, "A Mathematical Theory of Saving," Economic Journal, December 1928, written when he was twenty-five. He died on 19 January 1930, aged twenty-six. The quoted phrase is exact: discounting later enjoyments in comparison with earlier ones is "a practice which is ethically indefensible and arises merely from the weakness of the imagination." Keynes's obituary called the paper one of the most remarkable contributions to mathematical economics ever made. **[verified]**
-4. Blanchard, "Debt, Deficits, and Finite Horizons," Journal of Political Economy, 1985. The perpetual youth model treats mortality as a constant hazard entering the effective discount rate. **[unverified]**
-5. r-star estimates. Laubach and Williams (2003) and Holston, Laubach and Williams (2016). US estimates ran between roughly 2 and 2.5 percent from the 1990s through the mid 2000s and fell to about 0.5 percent around 2009, remaining there for years. Recent estimates for Canada, the euro area, the United Kingdom and the United States are the lowest of the past three decades. Longer lifespans and falling birth rates are both cited among the drivers. **[verified]**
-6. Rachel and Smith, "Secular drivers of the global real interest rate," Bank of England Staff Working Paper 571, 2015. Also Carvalho, Ferrero and Nechio on demographics and real rates. **[unverified]**
+4. Blanchard, "Debt, Deficits, and Finite Horizons," Journal of Political Economy, volume 93, number 2, April 1985, pages 223 to 247. The perpetual youth model treats mortality as a constant hazard entering the effective discount rate, so that a higher probability of death raises the rate at which an agent discounts the future. **[verified]**
+5. r-star estimates. Laubach and Williams (2003) and Holston, Laubach and Williams (2016). US estimates ran between roughly 2 and 2.5 percent from the 1990s through the mid 2000s and fell to about 0.5 percent around 2009, remaining there for years. Recent estimates for Canada, the euro area, the United Kingdom and the United States are the lowest of the past three decades. Longer lifespans and falling birth rates are both cited among the drivers. An earlier draft of the chapter carried r-star figures that were simply wrong. They have been replaced with the estimates above. **[verified, and corrected]**
+6. Lukasz Rachel and Thomas D. Smith, "Secular drivers of the global real interest rate," Bank of England Staff Working Paper No. 571, published 11 December 2015. Long-term real rates fell by about 450 basis points over the preceding thirty years, and the authors account for roughly 400 of those basis points, attributing more to shifts in saving and investment preferences than to slowing growth. Carvalho, Ferrero and Nechio on demographics and real rates remains unread. **[verified for Rachel and Smith; Carvalho, Ferrero and Nechio unverified]**
 7. Stern Review, 2006. Pure time preference set at 0.1 percent per year, chosen explicitly to represent the probability that humanity ceases to exist in a given year. Stern's overall social discount rate was about 1.4 percent. Nordhaus worked with rates of roughly 4 to 5 percent and argued that Stern's conclusions do not survive substitution of market-consistent assumptions. **[verified]**
-8. The rise in developed world house prices attributable to rate compression rather than construction cost. Needs a specific source. **[unverified]**
+8. Knoll, Schularick and Steger, "No Price Like Home: Global House Prices, 1870 to 2012," American Economic Review, 2017. Real house prices were roughly flat from the late nineteenth century to the mid twentieth, then rose sharply. Decomposing that rise, land prices rather than replacement costs account for about 80 percent of the increase between 1950 and 2012, which is the basis for the claim that the land under a building is the perpetuity and is what moved. **[verified]**
 
 ## Chapter 4. The Estate
 
 1. Lucas v. Hamm, 56 Cal.2d 583 (1961). Beneficiaries under a will drafted by attorney Hamm settled for 75,000 dollars less than the will provided, after the provision failed under the rule against perpetuities. The California Supreme Court allowed a tort action despite lack of privity but held the attorney not liable, on the ground that the rule is so complex that the error did not fall below the standard of ordinary professional skill. **[verified]**
 2. Duke of Norfolk's Case (1682) 3 Ch Cas 1; 22 ER 931. Established the common law rule against perpetuities, arising from the Earl of Arundel's attempt to create shifting executory limitations across his sons. The permissible period was not fixed until Cadell v. Palmer (1833), a hundred and fifty years later. The doctrine's explicit purpose was to prevent the dead hand of prior owners from controlling property indefinitely. **[verified]**
-3. Gray's canonical formulation of the rule. Quote exactly. **[unverified]**
+3. John Chipman Gray's canonical formulation, from The Rule Against Perpetuities, 1886, at section 201: no interest is good unless it must vest, if at all, not later than twenty-one years after some life in being at the creation of the interest. This is the standard statement across Anglo-American property law, and it is the phrasing the chapter paraphrases. **[verified]**
 4. South Dakota abolished the rule against perpetuities in 1983, the first state to do so. Alaska, Delaware, Nevada, Idaho and Wisconsin are among those that have since abolished or substantially modified it. Several states modified their rules following the 1986 generation-skipping transfer tax provisions. **[verified]**
-5. Scale of assets held in perpetual dynasty trusts in the leading states. The Pandora Papers reporting from 2021 is the usual public source. Figures need checking. **[unverified]**
+5. Scale of assets held in perpetual dynasty trusts. South Dakota trust assets were reported at roughly 360 billion dollars in 2021, having more than quadrupled over the preceding decade. The Pandora Papers reporting of October 2021 named 81 South Dakota trusts, close to half of the more than 200 the consortium identified as newly established in the United States between 2000 and 2019. These figures are journalistic rather than regulatory and should be attributed that way. **[verified]**
 6. Piketty, "On the Long-Run Evolution of Inheritance: France 1820-2050," Quarterly Journal of Economics, 2011. The annual flow of inheritance in France ran at 20 to 25 percent of national income between 1820 and 1910, fell to under 5 percent by 1950, and recovered to about 15 percent by 2010. **[verified]**
 7. Average tenure of companies on the S&P 500: about 33 years in the mid 1960s, about 24 years by 2016, forecast in the low teens by the late 2020s, with roughly half the index turning over per decade at current rates. Innosight's Corporate Longevity Forecast is the source. Note that figures differ slightly across successive editions of that report, so cite one edition rather than blending them. **[verified]**
 8. Five percent real compounded over two hundred years gives a factor of roughly 17,300. Over thirty years, roughly 4.3. **[my calculation]**
-9. Dual class share structures in technology listings. **[unverified]**
+9. Dual class share structures. Between 2017 and 2019 close to 30 percent of United States initial public offerings used a dual class structure, most of them founder controlled technology firms. In 2017 the figure for technology listings specifically was about 32 percent against 27 percent for all listings. The Council of Institutional Investors, which opposes the structures and wrote to both major exchanges in 2012 asking that they be barred, is the usual data source. **[verified]**
+
+10. The Wallenberg family of Sweden. The bank was founded in the eighteen fifties and the family has retained effective influence over a substantial part of Swedish industry across six generations, exercised through a holding company and a group of foundations rather than through personal ownership. Knut Wallenberg transferred his fortune into a foundation before his death. The family's foundations hold assets valued in the tens of billions of dollars and no individual member can withdraw from them. Figures vary by source and by exchange rate and should be quoted with a date. **[verified]**
+11. The Rothschild houses as a network structure, with separate branches in separate countries bound by partnership and intermarriage, giving redundancy against the failure or death of any single principal. Treated here at a level of generality that a family historian should check. **[unverified]**
+12. The reading of both cases, that surviving fortunes escaped the shirtsleeves pattern by ceasing to be personal property and becoming institutional, and that the devices used are prostheses for mortality that a long lived founder would not require, is my argument rather than a claim made in the sources. **[my argument]**
+13. The tension between the Wallenberg case and the argument in Chapter 13 that perpetual foundations fail in one of two directions is raised deliberately rather than resolved. The proposed distinction, between a foundation pursuing a purpose and a foundation holding an operating business disciplined from outside, is mine and may not be sufficient. **[my argument]**
 
 ## Chapter 5. The Funeral Principle
 
@@ -1562,7 +1915,7 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 2. Azoulay, Fons-Rosen and Graff Zivin, "Does Science Advance One Funeral at a Time?", American Economic Review, 2019. 452 elite life scientists who died prematurely while active. Article flow from collaborators falls sharply; flow from non-collaborators rises by an average of 8.6 percent. The additional contributions are disproportionately highly cited and disproportionately authored by scientists not previously active in the subfield. The authors attribute the barrier to intellectual, social and resource gatekeeping. **[verified]**
 3. Semmelweis. In 1847 he ordered handwashing in chlorinated lime at the Vienna General Hospital and mortality in his ward fell from roughly 18 percent to about 2 percent. He was committed to an asylum in 1865, was beaten by guards there, and died of an infected wound. **[verified]**
 4. Wegener presented continental drift to the German Geological Society in Frankfurt on 6 January 1912. It was rejected by most scientists despite the fossil and rock evidence he published between 1912 and 1929, and became mainstream only in the 1960s once seafloor spreading supplied a mechanism. He died on a Greenland expedition in 1930, three decades before vindication. The text treats this as the hard case rather than the clean one, since the objection that he lacked a mechanism was legitimate. That framing should survive contact with a historian of science; it is my reading, not a sourced claim. **[verified as to facts; the framing is my argument]**
-5. Marshall and Warren on Helicobacter pylori; Marshall's self-experiment in 1984; Nobel Prize 2005. **[unverified]**
+5. Barry Marshall and Robin Warren on Helicobacter pylori. Warren observed the organism in gastric biopsies and the two began collaborating at Royal Perth Hospital in 1981; it was first cultured in 1982. Marshall drank a culture in 1984 at Fremantle Hospital and developed gastritis within days. The Nobel Prize in Physiology or Medicine followed in 2005, awarded jointly to both men. The chapter names only Marshall because the self-experiment is the point being made, but the prize was shared and this note should say so. **[verified]**
 6. Mandatory retirement for tenured faculty in the United States ended on 1 January 1994, under the 1986 amendments to the Age Discrimination in Employment Act which had permitted the exemption until then. The predicted consequences for junior hiring were disputed in advance, and at least one study concluded the effects would be much smaller than the higher education establishment feared. Card and Ashenfelter, "Did the Elimination of Mandatory Retirement Affect Faculty Retirement?", NBER, 2001, is the standard empirical treatment. **[verified for the date and the dispute; the empirical findings need direct reading]**
 
 ## Chapter 6. Nobody Goes to Space
@@ -1573,72 +1926,102 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 4. Value per statistical life-year conventions and their use in health technology assessment. **[unverified]**
 5. Gompertz, "On the Nature of the Function Expressive of the Law of Human Mortality," Philosophical Transactions, 1825. Mortality rate doubling time in adulthood is usually given as approximately eight years, with the literature ranging between eight and ten depending on population. **[verified as to the range; the 1825 citation unverified]**
 6. Background extrinsic mortality of roughly one in two thousand per year for young adults in wealthy countries, and the resulting life expectancy of order two thousand years if the aging term is removed. This is a reciprocal of a hazard rate and is presented in the text explicitly as my own arithmetic rather than as an established projection. The input should be built from external-cause mortality tables before publication, since the whole figure turns on it. **[my calculation]**
-7. Kelly, "A New Interpretation of Information Rate," Bell System Technical Journal, 1956. Peters, "The ergodicity problem in economics," Nature Physics, 2019. **[unverified]**
+7. J. L. Kelly Jr., "A New Interpretation of Information Rate," Bell System Technical Journal, volume 35, number 4, July 1956, pages 917 to 926. Ole Peters, "The ergodicity problem in economics," Nature Physics, volume 15, 2019, pages 1216 to 1221. The distinction the chapter draws, between an average across many players and the trajectory of one player in sequence, is the central point of the Peters paper. **[verified]**
 8. Space Shuttle: two vehicles and crews lost across 135 missions. NASA's final probabilistic risk assessment gave a mean estimated risk of about 1 in 90, with a 5th to 95th percentile range of roughly 1 in 127 to 1 in 63, consistent with the realized record. I previously believed NASA's retrospective assessment of the earliest flights was near 1 in 9; I could not confirm this and have removed it. **[verified]**
 9. Magellan expedition: departed 20 September 1519 with five ships; the Victoria returned in September 1522 with 18 survivors. Sources differ on the size of the departing complement, giving figures between roughly 237 and 270, so the text hedges. **[verified, with the variance noted]**
+
+9. Wingsuit BASE flying fatality rates. Commonly cited at roughly one death per five to six hundred flights, against roughly 0.04 percent per jump for BASE jumping generally. The wingsuit share of BASE fatalities rose sharply between the mid 2000s and the early 2010s. Mei-Dan and colleagues, "Fatalities in Wingsuit BASE Jumping," Wilderness and Environmental Medicine, 2013, is the standard reference. Rates in this activity are poorly measured because the denominator, the number of flights, is not systematically recorded, and the figure should be presented as an estimate. **[verified as to the literature; the per-flight denominator is weak]**
+10. Everest fatality rates. Roughly one percent of climbers over the long record, with better rates in recent years, and figures differing according to whether the denominator is summit attempts, all climbers, or hired support, and whether deaths during route preparation are included. Cite one convention. **[verified as to the range; the convention needs stating]**
+11. The distinction the chapter draws between danger accepted for payment, which is what the value of a statistical life measures through wage premiums in hazardous work, and danger purchased at a price, which is what a wingsuit flight or a guided Everest ascent is, is my argument. It is not a distinction those literatures draw explicitly, and a labour economist should be asked whether it survives contact with the compensating differentials literature. **[my argument]**
+12. The claim that early aviation attracted wealthy risk takers for roughly two decades without producing a commercial industry, and that commercial aviation became possible only once the risk had fallen by orders of magnitude, is offered as historical illustration and needs a source. **[unverified]**
+13. The narrowing of the chapter's claim, from the proposition that nobody will be willing to go to the proposition that the willing become uncoupled from the capital, is a revision made in response to the objection and is the form the argument should be held to. The falsification test stated at the end of that section is mine. **[my argument]**
 
 ## Chapter 7. Vacancy
 
 1. Hermit crab vacancy chains. Crabs queue beside a newly available shell in descending size order and exchange in sequence within seconds, a behaviour researchers have described as piggybacking. Both synchronous and asynchronous chains are documented. **[verified]**
 2. White, Chains of Opportunity: System Models of Mobility in Organizations, Harvard University Press, 1970. White applied the vacancy chain model to clergy mobility in Episcopal, Methodist and Presbyterian churches, arguing that mobility models should be applied to vacancies rather than directly to individuals. **[verified]**
 3. The 119th Congress, seated 2025, was the third oldest since 1789 and its Senate the second oldest ever. Median senator 64, median representative 57, average member 58.9. Six sitting senators were born between 1928 and 1945; the oldest was 91 and the youngest 38. Update these figures at proof stage, since they move every two years. **[verified]**
-4. Life tenure in the US federal judiciary. **[unverified]**
+4. Life tenure in the United States federal judiciary, covering the Supreme Court, the courts of appeals and the district courts. Average service has lengthened considerably: justices leaving the Supreme Court before the 1950s had served roughly 11 to 15 years, those departing since 1970 around 25 years, and the average for justices seated since 1993 is close to 28 years. Forty nine of the fifty states, and every other major democracy, impose term limits, elections or a retirement age on their highest court. **[verified]**
 5. End of mandatory retirement for tenured faculty, 1 January 1994. See Chapter 5, note 6. **[verified]**
 6. Average age at first NIH R01-equivalent award for investigators holding doctorates rose from about 35.7 in 1980 to about 42.1 in 2013, and has remained near 42 through fiscal 2025. For those with medical degrees it rose from under 38 to over 45 across the same period. The share of R01 principal investigators aged 36 or younger fell from 18 percent in 1983 to 3 percent in 2010. See Daniels, "A generation at risk," PNAS, 2015, and NIH extramural data. **[verified]**
 7. Japan's employment ice age generation, covering graduates entering the labour market from roughly 1993 to 2004. Studies find a wage penalty of 10 to 20 percent persisting into their forties. Non-regular employment rose above a third of the workforce. The 8050 problem describes households where parents in their eighties support unemployed children in their fifties. **[verified]**
-8. Elite overproduction and blocked mobility as sources of instability. Goldstone and Turchin are the usual references. **[unverified]**
+8. Elite overproduction and blocked mobility as sources of instability. The term is Peter Turchin's, developed from Jack Goldstone's structural-demographic theory, in which state breakdown follows from population growth, urbanisation and elite competition for a fixed number of positions. Turchin set the argument out in Nature in 2010 and forecast rising instability in the United States and western Europe through the years around 2020. The chapter uses the pattern and not the forecast. **[verified]**
 
-## Chapter 8. The Forkable Worker
+## Chapter 8. The Last Chain Letter
+
+1. 2025 OASDI Trustees Report, released 18 June 2025. The Old-Age and Survivors Insurance trust fund can pay scheduled benefits in full until 2033, after which continuing programme income covers about 77 percent of scheduled benefits, a reduction of roughly 23 percent. Combined OASI and DI reserves stood at about 2.72 trillion dollars at the end of 2024. The seventy five year shortfall is on the order of 25 trillion dollars. The depletion date moves between annual reports and should be quoted with its edition. **[verified]**
+2. Pay-as-you-go structure of national pension systems, and the distinction between a buffer fund and a funded liability. Standard in the public finance literature, but a specific textbook treatment should be cited rather than the folk version. **[unverified]**
+3. Samuelson 1958, as at Chapter 1 note 3. The chain letter comparison is Samuelson's own, which is why the chapter's title is not a flourish. **[verified]**
+4. The contribution arithmetic in this chapter, that doubling the length of retirement roughly doubles the contribution rate required to fund a fixed benefit, is arithmetic on a pay-as-you-go identity and is presented as such rather than as a reported finding. **[my calculation]**
+5. Blanchard, "Public Debt and Low Interest Rates," presidential address to the American Economic Association, American Economic Review, volume 109, number 4, April 2019, pages 1197 to 1229. Argues that safe rates below growth rates are closer to the historical norm than to an anomaly, that debt rollovers may then be feasible, and that public debt may in that case carry no fiscal cost, while still reducing capital accumulation with welfare costs smaller than usually assumed. **[verified]**
+6. The juxtaposition of Blanchard 1985 and Blanchard 2019, and the claim that reading them in sequence produces a misleading conclusion about fiscal room, is my argument rather than a position either paper takes. Neither paper addresses the other. **[my argument]**
+7. Rachel and Smith, as at Chapter 3 note 6. **[verified]**
+8. Japanese general government gross debt above 200 percent of GDP, with figures in the range of 230 to 235 percent reported for 2025 depending on the measure and net debt substantially lower. The Bank of Japan held roughly 46 percent of outstanding Japanese government bonds at the end of 2024. Domestic holders, principally the central bank, the banks, the insurers and the pension funds, hold above 80 percent of the stock. These figures move; cite one source and one date rather than blending them. **[verified]**
+9. Longevity risk as a systematic rather than idiosyncratic exposure, and the longevity swap market through which pension funds transfer it to reinsurers. The market's existence and purpose are well documented. The further claim, that the exposure cannot ultimately be placed outside the affected population, is my argument. **[verified as to the market; the conclusion is my argument]**
+10. The composition of developed world budgets, and the rising share committed to pensions, health and debt service. Needs a specific source, ideally a long run series across several countries rather than a single year. **[unverified]**
+11. The reading of Japan as a closed accounting loop rather than a delayed crisis is my interpretation. The underlying holdings data is not in dispute; the framing is mine. **[my argument]**
+
+## Chapter 9. The Forkable Worker
 
 1. The description of agent instantiation, checkpointing, forking and termination should be reviewed by someone who builds these systems, to confirm the vocabulary and mechanics are accurate as of the date of publication. **[unverified]**
 2. The claim that the supply curve for copyable labor becomes near-perfectly elastic at the cost of compute is my own argument rather than a result I am citing. It should be stated as such, and it deserves engagement with the existing literature on automation and factor shares, which reaches related conclusions by other routes. **[my argument]**
 
-## Chapter 9. The Mortal Class
+## Chapter 10. The Mortal Class
 
 1. Homestead Act of 1862, signed 20 May 1862. Offered 160 acres to adults willing to live on and farm the land for five years for a small filing fee. Over 1.6 million applications were processed and more than 270 million acres, about ten percent of all US land, passed into private hands by 1934. **[verified]**
 2. Salvage, adverse possession, discovery and occupation doctrines. **[unverified]**
-3. English and Dutch East India Company charters, 1600 and 1602, and the sovereign powers they conferred. **[unverified]**
+3. The English East India Company was chartered by Elizabeth I on 31 December 1600 with a fifteen year monopoly on English trade east of the Cape of Good Hope, and its charter conferred powers to wage war, mint coin, negotiate treaties and administer justice in its territories. The Dutch United East India Company was chartered by the States-General in 1602 with comparable powers, including its own military forces, treaty making with Asian rulers, and coinage. **[verified]**
 4. At its peak in the early nineteenth century the East India Company's army numbered approximately 260,000, roughly twice the size of the British Army, and was the largest private army in history. Following the rebellion of 1857, the Government of India Act 1858 transferred all Company powers to the Crown. **[verified]**
 5. Earth to Mars one-way light time runs from about 3 minutes at closest approach to about 22 minutes at greatest separation, averaging around 12 and a half. Round trip is therefore roughly 6 to 44 minutes. An earlier draft gave 4 to 24 one way and 8 to 48 round trip; corrected. **[verified, and corrected]**
 6. Outer Space Treaty, 1967, Article II: outer space, including the moon and other celestial bodies, is not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means. **[verified]**
 7. US Commercial Space Launch Competitiveness Act, 2015, recognizing rights of US citizens to own, possess and sell resources obtained from asteroids and other celestial bodies. Luxembourg passed comparable legislation in 2017. The Artemis Accords, from 2020, set out resource extraction principles that some states regard as a unilateral reinterpretation of the treaty. **[verified]**
 
-## Chapter 10. The Serrata
+## Chapter 11. The Serrata
 
 1. The colleganza as a limited liability partnership contract enabling merchants without capital or collateral to enter long distance trade. **[verified as to its function and significance]**
-2. The Serrata of 1297 closed the Great Council to families not already represented, creating a hereditary nobility which then used its exclusive position to restrict participation in the most lucrative parts of long distance trade. Puga and Trefler, "International Trade and Institutional Change: Medieval Venice's Response to Globalization," Quarterly Journal of Economics, 2014, document this using a database of 8,178 parliamentarians and their families' use of the colleganza before and after 1297. **[verified]**
-3. The Libro d'Oro as the official register of families entitled to participate. Date of institution needs checking. **[unverified]**
+2. The Serrata of 1297 closed the Great Council to families not already represented, creating a hereditary nobility which then used its exclusive position to restrict participation in the most lucrative parts of long distance trade. Puga and Trefler, "International Trade and Institutional Change: Medieval Venice's Response to Globalization," Quarterly Journal of Economics, 2014, document this using a database of 8,178 parliamentarians and their families' use of the colleganza before and after 1297. An earlier draft said the Republic banned the colleganza outright. The record does not support that, and the text has been softened to what it does show: barriers erected around the most lucrative trades, and the instrument falling away beneath the families who had risen through it. **[verified, and corrected]**
+3. The Libro d'Oro. A precursor register of families eligible for the Great Council was compiled in 1315, eighteen years after the Serrata, and that is the object the chapter calls the Golden Book. The Libro d'Oro proper, recording all births in the Venetian nobility and kept by the Avogadori de Comun, was established by law in 1506. The chapter's phrasing, that the arrangement was formalised further within a few decades, matches the 1315 register, and the two dates should not be conflated. **[verified]**
 4. Venice's declining share of Mediterranean trade and its response to the opening of the Atlantic routes. **[unverified]**
-5. Napoleon's ending of the Republic in 1797. **[unverified]**
-6. Acemoglu and Robinson's treatment of the Serrata in Why Nations Fail, 2012. **[unverified]**
+5. The fall of the Republic. Ludovico Manin, the hundred and twentieth and last doge, put the end of the aristocratic government to the Great Council on 12 May 1797 and abdicated under threat of French military action, ending roughly eleven centuries of the Republic. He left the Doge's Palace on 14 May. **[verified]**
+6. Acemoglu and Robinson treat the Serrata in Why Nations Fail, 2012, as their case of a society moving from inclusive to extractive institutions, with the colleganza as the inclusive instrument and the register of 1315 as the formal closure. One divergence matters and is left visible deliberately: their account states that the colleganza was eventually banned. This chapter does not follow them on that point, for the reason recorded at note 2 above. The disagreement runs against the direction of this book's own argument, which is why it is printed rather than smoothed over. **[verified as to their treatment; the divergence is deliberate]**
 7. The Ming treasure voyages, seven expeditions between 1405 and 1433 under Zheng He, some exceeding three hundred ships and tens of thousands of men, reaching Ceylon, Hormuz and the East African coast including Mogadishu and Malindi. The court ended support after 1433 on grounds of cost and the northern frontier threat, and Chinese pre-eminence in shipbuilding, navigation and seamanship withered quickly thereafter. European seaborne expansion into the same waters began roughly fifty years later. The text deliberately avoids the popular claims about deliberate destruction of records, which are contested. **[verified]**
-8. The Venetian Arsenal. **[unverified]**
+8. The Venetian Arsenal. At its height it employed thousands of workers, the arsenalotti, rising far higher in wartime, and used standardised parts, prefabrication and a moving assembly sequence in which hulls were drawn past fixed stations. The frequently quoted capability of completing and fitting out a galley in a single day is well attested for the Arsenal at its peak, and is what the chapter refers to. Employment figures vary widely by source and by date, so cite one. **[verified]**
 
-## Chapter 11. Reinventing the Funeral
+## Chapter 12. Reinventing the Funeral
 
 1. Hong Kong's land tenure. All land in the territory is held on government lease except a single plot granted to St John's Cathedral. New leases run fifty years at a premium, with annual rent set at three percent of rateable value. Approximately 300,000 leases expire on 30 June 2047, and the Extension of Government Leases Ordinance provides for automatic extension by a further fifty years through gazette notice, without owners executing new documents. The British leasehold sector and the documented under-maintenance problem near expiry still need a source. **[verified for Hong Kong; British leasehold unverified]**
-2. Land value taxation. George, Progress and Poverty, 1879. The claim that a land value tax is comparatively insensitive to the discount rate should be stated carefully and checked. **[unverified]**
+2. Land value taxation. Henry George, Progress and Poverty, 1879, drawing on Ricardo and Mill, argued for a single tax on the unimproved value of land. On the discount rate point the claim in the text holds only with a qualification that should be made explicit: a levy assessed on annual ground rent, which is a flow, is indifferent to the discount rate, while a levy assessed on capital land value, which is a stock equal to rent divided by the rate, is not. Hong Kong's ground rent at three percent of rateable value is of the first kind, and the chapter should be read as recommending the flow base. This is my argument about tax design rather than a result reported in the Georgist literature. **[verified as to George; the discount rate argument is my own]**
 3. The common ownership self-assessed tax, also called a Harberger tax. Owners periodically self-assess the value of their property, pay tax on the declared figure, and must sell to anyone offering that price. First proposed by Arnold Harberger and popularised by Eric Posner and Glen Weyl in Radical Markets, 2018. **[verified]**
 4. Interstate competition for trust business as the driver of perpetuities repeal. See Chapter 4, note 4. **[verified]**
 5. Rawls, A Theory of Justice, 1971, for the original position and the veil of ignorance. The reading of mortality as the mechanism that actually enforces the veil is my own argument, not Rawls's, and the text should make that clear. **[my argument]**
 
-## Chapter 12. Terminal Value
+## Chapter 13. Terminal Value
 
 1. Terminal value as a share of enterprise value in discounted cash flow analysis. Commonly around three quarters in a standard five year forecast, falling to roughly half in a ten year forecast, and reaching 85 to 95 percent for companies whose cash flows are mostly ahead of them. Practitioners are advised to flag valuations where it exceeds 80 percent. **[verified]**
-2. Cologne Cathedral: foundation stone laid 1248, work halted in 1473 leaving a wooden crane on the unfinished south tower where it stood for roughly four hundred years as a landmark of the skyline, construction resumed in the nineteenth century, completed 1880. Total 632 years. **[verified]**
-3. Notre-Dame de Paris construction dates, if retained in the final draft. **[unverified]**
+2. Cologne Cathedral: foundation stone laid 1248, work halted in 1473 leaving a wooden crane on the unfinished south tower where it stood for roughly four hundred years as a landmark of the skyline, construction resumed in the nineteenth century, completed 1880. Total 632 years. An earlier draft called the stoppage three centuries. It was four. Corrected in the text. **[verified, and corrected]**
+3. Notre-Dame de Paris. The first stone was laid in 1163 under Bishop Maurice de Sully, the choir, west front and nave were substantially complete by the middle of the thirteenth century, and the building is generally described as largely finished by 1345, a span of about 182 years. Retained as a secondary example to Cologne. **[verified]**
 4. The two observed failure modes of perpetual charitable foundations. Faithful irrelevance, the dead hand: Julius Rosenwald, "Principles of Public Giving," The Atlantic, May 1929. "while charity tends to do good, perpetual charities tend to do evil." Drift and professional capture: Heather Higgins, "Should Foundations Exist in Perpetuity?" Philanthropy Roundtable, 1996. Higgins argues that perpetual foundations tend to share a shift from donor intent, driven by time, reliance on professional staff, and the absence of accountability. The observation of those two directions is sourced. The chapter's claim that there is no third outcome, and that this is a general law, is my reading, not a demonstrated result in those sources. **[verified]**
 
 ---
 
 ## Verification status
 
-Verified against sources: 56 items.
-Still unverified: 22 items.
-Flagged as my own calculation or argument rather than a reported finding: 4 items.
+Counting rule, so these numbers can be reproduced. An item counts as verified if
+its marker begins "verified", which includes items verified with a caveat and
+items verified and corrected. An item counts as unverified only if its marker is
+exactly "unverified". Items whose marker begins "my" are the author's own
+calculation or argument rather than anything reported by a source.
 
-Six claims were found to be wrong or overstated during verification and have been corrected in the text. They are recorded at the relevant notes above rather than quietly fixed: the life expectancy decomposition in Chapter 2, the partial reprogramming result in Chapter 2, the r-star figures in Chapter 3, the consols provenance in Chapter 3, the colleganza prohibition in Chapter 10, the Mars light lag in Chapter 9, and the Cologne stoppage in Chapter 12.
+Verified against sources: 84 items, of which 14 carry a caveat recorded on the item itself.
+Still unverified: 8 items.
+Flagged as my own calculation or argument rather than a reported finding: 12 items.
 
-What remains unverified is now almost entirely secondary literature attribution rather than factual assertion: whether a particular idea is correctly credited to a particular paper. Those should still be checked, but an error among them is a citation error rather than a false claim in the text.
+Seven claims were found to be wrong or overstated during verification and have been corrected in the text. They are recorded at the relevant notes above rather than quietly fixed: the life expectancy decomposition in Chapter 2, the partial reprogramming result in Chapter 2, the r-star figures in Chapter 3, the consols provenance in Chapter 3, the Mars light lag in Chapter 10, the colleganza prohibition in Chapter 11, and the Cologne stoppage in Chapter 13.
 
-The two load bearing items previously flagged as unsourced are now sourced. Chapter 1 uses Blanchard and Fischer for the no-Ponzi-game condition and Kamihigashi for the transversality condition, kept distinct. Chapter 12 sources the two observed directions in Rosenwald and Higgins. The claim that there is no third outcome remains my reading, not a general law those sources demonstrate.
+One further correction was made to the notes rather than to the text. The note on the life expectancy decomposition in Chapter 1 had continued to assert the error that Chapter 2 corrects, so the two notes contradicted each other. It now points at the correction.
+
+What remains unverified is almost entirely secondary literature attribution rather than factual assertion: whether a particular idea is correctly credited to a particular paper. Those should still be checked, but an error among them is a citation error rather than a false claim in the text. Two items are of a different kind and cannot be closed by reading. The description of how agent systems are instantiated, checkpointed, forked and terminated in Chapter 9 should be reviewed by somebody who builds them. The per-flight denominator for wingsuit fatality rates in Chapter 6 is weak because the number of flights is not systematically recorded anywhere, and no amount of searching will fix that.
+
+The two load bearing items previously flagged as unsourced are now sourced. Chapter 1 uses Blanchard and Fischer for the no-Ponzi-game condition and Kamihigashi for the transversality condition, kept distinct, and the expanded treatment in that chapter turns on the distinction between them. Chapter 13 sources the two observed directions in Rosenwald and Higgins. The claim that there is no third outcome remains my reading, not a general law those sources demonstrate, and Chapter 4 now prints the strongest case against it.
+
+Where a source disagrees with the text, the disagreement is recorded rather than resolved silently. Acemoglu and Robinson state that Venice banned the colleganza outright. This book does not follow them, and the note says so.

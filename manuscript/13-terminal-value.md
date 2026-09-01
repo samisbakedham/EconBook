@@ -1,4 +1,4 @@
-# Chapter 12
+# Chapter 13
 
 ## Terminal Value
 
@@ -40,7 +40,7 @@ That is the sixth job, and I have saved it for last because it is the one I am l
 
 So: what happens when you will be there to collect?
 
-The optimistic answer is genuinely optimistic and I gave a version of it in Chapter 10. Patient capital builds things impatient capital cannot justify. A society that discounts the future at nearly zero will construct seawalls, restore ecosystems, fund research with fifty year payoffs, and take climate seriously in a way that no amount of moral argument has achieved. Alignment between the decision maker and the person who lives with the decision is the thing every long term policy problem has been missing, and long lives supply it automatically.
+The optimistic answer is genuinely optimistic and I gave a version of it in Chapter 11. Patient capital builds things impatient capital cannot justify. A society that discounts the future at nearly zero will construct seawalls, restore ecosystems, fund research with fifty year payoffs, and take climate seriously in a way that no amount of moral argument has achieved. Alignment between the decision maker and the person who lives with the decision is the thing every long term policy problem has been missing, and long lives supply it automatically.
 
 I believe that. It may be the single largest benefit in the entire ledger, and any honest version of this argument has to hold it alongside everything else.
 
@@ -68,7 +68,7 @@ On this reading there is no third outcome. There is no version where the founder
 
 Now notice that a very long lived founder does not solve this. It makes it worse in the specific way that matters. The foundation that drifts at least ends up responsive to living people, however unaccountably. A foundation whose founder is present, engaged, and permanently in charge does not drift and does not become a fiction. It simply applies one person's judgment, formed in one era, for as long as the endowment lasts.
 
-That is the thing Chapter 11 is trying to replace, and it is why every proposal in it takes the same form. Not confiscation, and not a scheme for making anyone give anything away. A term. Ownership that has to be renewed, authority that has to be re-earned, control that reverts on a schedule rather than on a death.
+That is the thing Chapter 12 is trying to replace, and it is why every proposal in it takes the same form. Not confiscation, and not a scheme for making anyone give anything away. A term. Ownership that has to be renewed, authority that has to be re-earned, control that reverts on a schedule rather than on a death.
 
 We already know that permanent control fails, because we ran the experiment with foundations and watched it fail twice over. What we have not yet done is notice that the experiment is about to be run on everything.
 
@@ -78,7 +78,7 @@ I do not know, and I want to be careful at the end of a book not to pretend to a
 
 The five mechanisms in Part II are, I think, solidly argued. Death sets the discount rate, turns over capital, turns over ideas, prices risk and creates vacancy, and none of those five has a backup. That much I will defend.
 
-Whether the result is the frozen world of Chapter 10 or the patient, building, long horizon civilization that the same premises also permit is not determined by the economics. It is determined by whether anyone does the work in Chapter 11.
+Whether the result is the frozen world of Chapter 11 or the patient, building, long horizon civilization that the same premises also permit is not determined by the economics. It is determined by whether anyone does the work in Chapter 12.
 
 That is why the shape of this book is what it is. It is not a prediction. Predictions about this are worthless, and the people making confident ones in either direction are not doing analysis. It is an argument that a specific set of load bearing functions is about to lose its supplier, that the functions are identifiable, and that substitutes are constructible right now and only right now, while nobody yet knows which side of the divide they will be standing on.
 

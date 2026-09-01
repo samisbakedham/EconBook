@@ -15,7 +15,7 @@ import { mkdtemp } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import path from 'node:path';
 
-import { loadBook, ROOT } from './lib/book.mjs';
+import { loadBook, ROOT, chapterWord } from './lib/book.mjs';
 import { renderBlocks, openingParagraph, escapeHtml, smarten } from './lib/md.mjs';
 import { embeddedFontCss } from './lib/fonts.mjs';
 import { bookCss } from './lib/print-css.mjs';
@@ -27,8 +27,6 @@ import { buildEpub } from './lib/epub.mjs';
 const run = promisify(execFile);
 const OUT = path.join(ROOT, 'build', 'book');
 
-const ROMAN = { 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six',
-  7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten', 11: 'Eleven', 12: 'Twelve' };
 
 export const EPIGRAPHS = [
   {
@@ -118,7 +116,7 @@ function bodySections(book) {
   const chapterSection = (c) => `
 <section class="chapter">
   <header>
-    <p class="num">Chapter ${ROMAN[c.n] || c.n}</p>
+    <p class="num">Chapter ${chapterWord(c.n)}</p>
     <h2>${escapeHtml(c.title)}</h2>
     <div class="flourish"></div>
   </header>

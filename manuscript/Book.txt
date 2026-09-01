@@ -5,9 +5,10 @@
 05-the-funeral-principle.md
 06-nobody-goes-to-space.md
 07-vacancy.md
-08-the-forkable-worker.md
-09-the-mortal-class.md
-10-the-serrata.md
-11-reinventing-the-funeral.md
-12-terminal-value.md
-13-notes.md
+08-the-last-chain-letter.md
+09-the-forkable-worker.md
+10-the-mortal-class.md
+11-the-serrata.md
+12-reinventing-the-funeral.md
+13-terminal-value.md
+14-notes.md

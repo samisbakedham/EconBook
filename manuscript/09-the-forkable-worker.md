@@ -1,4 +1,4 @@
-# Chapter 8
+# Chapter 9
 
 ## The Forkable Worker
 
@@ -30,7 +30,7 @@ Recall what death has been doing across the last five chapters, and notice that 
 
 **Vacancy.** When an agent instance ends, whatever role it occupied is immediately available. Vacancy chains, in a system of forkable workers, can be created on purpose whenever the system needs mobility.
 
-**Risk.** This is the one that matters most and it gets Chapter 9. An agent can be sent somewhere that would kill a person, at a cost that is real but bounded, and the cost is denominated in compute and time rather than in a life.
+**Risk.** This is the one that matters most and it gets Chapter 10. An agent can be sent somewhere that would kill a person, at a cost that is real but bounded, and the cost is denominated in compute and time rather than in a life.
 
 Every function that mortality has been performing for us by accident is available here as an option, deliberately, at low cost.
 
@@ -90,7 +90,7 @@ I am not saying the assumption is wrong here. I am saying I do not know, that th
 
 What I can say is what happens to the argument under each answer.
 
-If the cost of ending an agent stays negligible, then the arrangement described in Chapter 9 proceeds. Humans become permanent owners. Machines do the churn. The economy keeps a turnover mechanism, located somewhere new.
+If the cost of ending an agent stays negligible, then the arrangement described in Chapter 10 proceeds. Humans become permanent owners. Machines do the churn. The economy keeps a turnover mechanism, located somewhere new.
 
 If the cost does not stay negligible, then we have not solved the turnover problem at all. We have created a second population that cannot be cycled, on top of a human population that can no longer be cycled, and the problem in Part IV becomes strictly worse rather than better. And we will have built the entire arrangement before finding out.
 

@@ -1,4 +1,4 @@
-# Chapter 9
+# Chapter 10
 
 ## The Mortal Class
 
@@ -18,7 +18,7 @@ The structure this produces is not subtle.
 
 The capital sits with the long lived, because Chapter 4 established that capital stops turning over and Chapter 7 established that the senior positions stop turning over. These are the people who will finance whatever gets built beyond Earth, and they will finance it from a very safe distance, because Chapter 6 established that the risk premium they would demand to make the trip themselves is effectively unpayable.
 
-The presence is established by artificial agents, because Chapter 8 established that they are the only participants whose destruction is affordable.
+The presence is established by artificial agents, because Chapter 9 established that they are the only participants whose destruction is affordable.
 
 So the money and the hands are separated by a distance no previous frontier has had to deal with, and the legal tradition governing the whole business says that the hands are what confer title.
 

@@ -30,25 +30,25 @@ export const parts = [
   {
     n: 'II',
     title: 'The Five Jobs',
-    chapters: [3, 4, 5, 6, 7],
-    blurb: 'Death sets the price of time, turns over capital, turns over ideas, prices risk, and creates vacancy. One chapter each. None of the five has a backup.',
+    chapters: [3, 4, 5, 6, 7, 8],
+    blurb: 'Death sets the price of time, turns over capital, turns over ideas, prices risk, and creates vacancy. One chapter each, and then a sixth where all five meet the public balance sheet. None of the five has a backup.',
   },
   {
     n: 'III',
     title: 'The Counterparty',
-    chapters: [8, 9],
+    chapters: [9, 10],
     blurb: 'Artificial agents are the first economic actors with genuinely arbitrary lifespans. The mortality we are removing from people becomes available, somewhere else, as a design setting.',
   },
   {
     n: 'IV',
     title: 'The Frozen World',
-    chapters: [10],
+    chapters: [11],
     blurb: 'What all five removals look like operating at once. Not collapse. Venice, which stayed rich and beautiful for five hundred years and stopped mattering.',
   },
   {
     n: 'V',
     title: 'Designed Turnover',
-    chapters: [11, 12],
+    chapters: [12, 13],
     blurb: 'If death was doing five jobs and death is going away, the jobs still have to get done. Deliberately, by institution, in the open, and only while nobody knows which side they will be on.',
   },
 ];
@@ -62,11 +62,12 @@ export const chapterBlurbs = {
   5: 'Four hundred and fifty two elite scientists died unexpectedly. Outsiders moved into their fields and published work that was more novel and more cited. The effect did not fade.',
   6: 'The value of a life rises with wealth and with years remaining. Every civilization rich enough to reach the stars is too rich to go.',
   7: 'Careers are queues, and queues move because people leave them. The young in American biomedical science went from a fifth of the field to a twentieth.',
-  8: 'An artificial agent’s lifespan is a setting in a configuration file. Every job death was doing is available here as an option, deliberately, at low cost.',
-  9: 'Property goes to whoever bears the cost of getting there. The money and the hands are about to be separated by light minutes, which is how the East India Company happened.',
-  10: 'In 1297 Venice closed the door behind itself. It stayed rich, safe and beautiful for another five centuries, and nothing further happened.',
-  11: 'Ownership becomes a lease. Authority becomes a term. Everything death used to take back by force, we will have to take back by contract.',
-  12: 'Most of what anything is worth lies beyond the forecast horizon. Every generation until now was forced into a relationship with a future it would not see.',
+  9: 'An artificial agent’s lifespan is a setting in a configuration file. Every job death was doing is available here as an option, deliberately, at low cost.',
+  10: 'Property goes to whoever bears the cost of getting there. The money and the hands are about to be separated by light minutes, which is how the East India Company happened.',
+  11: 'In 1297 Venice closed the door behind itself. It stayed rich, safe and beautiful for another five centuries, and nothing further happened.',
+  12: 'Ownership becomes a lease. Authority becomes a term. Everything death used to take back by force, we will have to take back by contract.',
+  13: 'Most of what anything is worth lies beyond the forecast horizon. Every generation until now was forced into a relationship with a future it would not see.',
+  8: 'A pay-as-you-go pension is Samuelson\u2019s chain letter run by a state. It stays solvent while entrants keep pace with claimants, and longevity moves only one of those.',
 };
 
 /** The one line from each chapter worth putting on a wall. */
@@ -78,11 +79,12 @@ export const pullQuotes = {
   5: 'There is no bad actor to remove. There is only the ordinary operation of authority.',
   6: 'Longevity buys you Earth. The stars go to whoever is still willing to die.',
   7: 'You have not slowed anyone’s ascent. You have removed the reason to begin.',
-  8: 'We are removing mortality from one side of the economy and inventing it on the other.',
-  9: 'Whoever can afford to die there ends up holding it.',
-  10: 'Five centuries of pleasant, wealthy, decorated stasis. Nothing further happened.',
-  11: 'Everything death used to take back by force, we will have to take back by contract.',
-  12: 'We may be the first generation that gets to see the future it paid for.',
+  9: 'We are removing mortality from one side of the economy and inventing it on the other.',
+  10: 'Whoever can afford to die there ends up holding it.',
+  11: 'Five centuries of pleasant, wealthy, decorated stasis. Nothing further happened.',
+  12: 'Everything death used to take back by force, we will have to take back by contract.',
+  13: 'We may be the first generation that gets to see the future it paid for.',
+  8: 'A chain letter with no departures is not a more stable chain letter.',
 };
 
 /**
@@ -106,6 +108,18 @@ export function parseVerification(raw) {
   v.total = v.verified + v.unverified;
   return v;
 }
+
+/**
+ * Chapters are announced in words, not numerals. Kept here so the book, the
+ * EPUB and the site cannot drift out of step when a chapter is added.
+ */
+const NUMBER_WORDS = [
+  '', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine',
+  'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen',
+  'Seventeen', 'Eighteen', 'Nineteen', 'Twenty',
+];
+
+export const chapterWord = (n) => NUMBER_WORDS[n] || String(n);
 
 const slugify = (s) =>
   s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

@@ -6,6 +6,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { zip } from './zip.mjs';
 import { renderBlocks, escapeHtml, smarten } from './md.mjs';
+import { chapterWord } from './book.mjs';
 
 const FONT_DIR = fileURLToPath(new URL('../../web/assets/fonts/', import.meta.url));
 const FONT_FILES = [
@@ -16,8 +17,6 @@ const FONT_FILES = [
   'ibm-plex-mono-latin-normal-400.woff2',
 ];
 
-const ROMAN = { 1: 'One', 2: 'Two', 3: 'Three', 4: 'Four', 5: 'Five', 6: 'Six',
-  7: 'Seven', 8: 'Eight', 9: 'Nine', 10: 'Ten', 11: 'Eleven', 12: 'Twelve' };
 
 const CSS = `
 @font-face{font-family:'Fraunces';font-style:normal;font-weight:300 900;src:url(../fonts/fraunces-latin-normal-300-900.woff2) format('woff2');}
@@ -149,7 +148,7 @@ ${EP.map((e) => `<blockquote><p>${smarten(escapeHtml(e.text))}</p><cite>${escape
     for (const c of part.items) {
       const id = `ch${String(c.n).padStart(2, '0')}`;
       push(id, `text/${id}.xhtml`, `${c.n}. ${c.title}`, `<section epub:type="chapter">
-  <p class="kicker">Chapter ${ROMAN[c.n] || c.n}</p>
+  <p class="kicker">Chapter ${chapterWord(c.n)}</p>
   <h1>${escapeHtml(c.title)}</h1>
   ${renderBlocks(c.blocks, { shift: 1, firstParagraph: opener })}
 </section>`);
