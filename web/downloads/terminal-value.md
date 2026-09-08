@@ -1279,6 +1279,44 @@ An artificial agent's lifespan is a setting. It runs until something stops it, a
 
 For the first time, we have made an economic participant whose mortality is a design parameter.
 
+### What the operation actually looks like
+
+The vocabulary above is worth making concrete, because the argument of this chapter depends on the costs being what I claim they are, and a reader who has never run one of these systems has no reason to take that on trust.
+
+So here is the shape of the thing, described at the level of detail that matters economically rather than technically.
+
+A system is given a task with a stated objective and a budget. It reads the task, decides the work divides into some number of independent pieces, and creates a worker for each piece. Each worker receives a copy of the relevant context: the objective, the material it needs, the constraints, and whatever has been established so far. From that moment the workers are separate. They do not share memory. They proceed in parallel, each producing a result and a record of how it got there.
+
+Some of them fail. A worker may go down an unproductive path, or misread the objective, or produce something that does not survive checking. When that happens the ordinary response is not to correct it. It is to discard the result and start another worker from the same saved state, because reconstructing where a failed attempt went wrong is usually more expensive than simply running the attempt again.
+
+That last sentence is the whole chapter in operational form. The cheapest repair is replacement.
+
+Now the numbers that matter, kept general because the specific ones change every few months and the argument does not depend on them.
+
+The marginal cost of an additional worker is the cost of renting the compute it consumes. There is no recruitment, no negotiation, no notice period, and no onboarding, because the second worker begins with exactly the context the first one had. The time to acquire one is measured in seconds.
+
+The variance between two workers created from the same state is, at the moment of creation, zero. Anyone who has hired people will recognise how strange that property is. A large part of the difficulty of building a team is that two people with identical training are not interchangeable, and the ways they differ are not knowable in advance. Here the differences appear only after divergence and are attributable to what each worker encountered, not to what it is.
+
+The cost of ending one is the compute already spent plus whatever work was not saved. There is no severance. There is no effect on the others, because they have no relationship with it and, in the ordinary case, no representation of it at all. There is no reputational consequence to the operator, no notification requirement, and no process. The instruction to stop is an ordinary instruction, and it is issued by software, on a schedule, at volume.
+
+And the state can be saved. A worker's position can be written down and restored later, which means the sequence of events that constitutes its working life is not a single unbroken line. It can be branched, so that two futures proceed from one past. It can be rewound, so that an hour of work is unmade. Neither operation has any counterpart in a human career, and neither is remarkable to anyone who builds these systems.
+
+### What is absent from that description
+
+Read the list again and notice what is missing, because the absences are more informative than the capabilities.
+
+Every friction that makes human labour markets behave the way they do is a consequence, directly or at one remove, of the fact that a person is a single continuous irreplaceable thing with a finite life.
+
+Notice periods exist because a person needs time to find another income. Severance exists because the loss is concentrated on one household. Training is expensive because it cannot be copied out of the trained person and into another. Institutional memory is fragile because it lives in individuals who leave. Morale exists as a management concern because workers observe what happens to other workers and draw conclusions about themselves. Employment law exists because the asymmetry between an employer and a person who needs the job is severe and permanent.
+
+None of that is a regulation that could be repealed. All of it is downstream of the structure of a human life.
+
+Remove the structure and the entire apparatus becomes unnecessary, not because anyone abolished it but because there is nothing left for it to attach to. What remains is a supply of labour with no notice period, no severance, no training cost after the first, no morale, no representation, and no continuity that anybody is obliged to protect.
+
+I said in the opening of this chapter that the vocabulary is aggressively mundane. That is the point worth holding onto. The people using these words are not making a claim about the moral status of anything. They are describing operations, accurately, in the plainest available language, and the language is plain because the operations genuinely are routine.
+
+Whether they should remain routine is the subject of the section further on that I cannot resolve. What can be established here is narrower and is not in dispute among people who build these systems: the operations are cheap, they are frequent, and every one of them is a decision that in a human context would require a process.
+
 ### The five jobs, on demand
 
 Recall what death has been doing across the last five chapters, and notice that every one of those functions can be performed deliberately on something forkable.
@@ -1419,6 +1457,98 @@ The consequence is one of the strangest episodes in economic history. The Englis
 That arrangement lasted until it broke catastrophically. After the rebellion of 1857, the Government of India Act of the following year transferred every power the Company held to the Crown. The principal had to nationalize its own agent, two and a half centuries after chartering it, having long since lost any ability to direct it.
 
 The mechanism that produced all of this was latency. Not greed, not ideology. The simple fact that instructions took longer to arrive than events took to unfold.
+
+### The same questions, being answered this year
+
+There is an obvious objection to leaning on a chartered company from 1600, which is that it proves nothing about software. Trading companies had ambitious men on ships. What is being described here is code running on hardware, and the analogy might be doing all the work.
+
+It is a fair objection, and the answer is that the questions are not historical. They are being decided right now, in three industries, by people who are not thinking about any of this, and the answers they are arriving at are stranger than the analogy.
+
+Start with ships, because shipping got there first and because its answer is the most revealing.
+
+In May 2026 the International Maritime Organization approved a code for maritime autonomous surface ships, the first global framework for operating vessels with reduced crews or no crew at all. It is non-mandatory for the moment, with a mandatory phase expected in the early 2030s, which is the ordinary way maritime rules mature.
+
+Read the code for its central design decision and you find something worth sitting with.
+
+It keeps the master.
+
+Not the crew. The crew can go. What the framework preserves is the legal concept of a master of the vessel, a person answerable for it, even when that person is not aboard and may be in an office on another continent watching a screen. Responsibility shifts from the deck to a shore based control centre, and the law goes to some trouble to ensure that somewhere in the arrangement there is still a human being who can be named.
+
+Consider why. It is not because a person on shore makes better decisions than the system does. It is because the entire structure of maritime law, built over centuries, requires a responsible party, and a responsible party has to be a person or a company. There is no legal category for an unowned decision. So when the crew leaves the ship, the law does not abolish the master. It relocates him.
+
+That is the chartered company running in reverse, and the reversal is the interesting part.
+
+The East India Company was given local authority because London could not decide in time. Distance forced the delegation. The maritime autonomous code does the opposite: it retains distant authority because the law cannot function without a person to hold, and it can do this because the distance is small. A shore operator is milliseconds away. The fiction of the absent master survives because, at that latency, it is not entirely a fiction. The man on shore really can intervene.
+
+Hold that, because it is the hinge of this chapter.
+
+### Who pays, and what that decides
+
+Regulation is not what determines whether an activity happens. Insurance is. Chapter 6 argued that the frontier closes at the underwriting layer rather than at the recruitment layer, and shipping is where that claim can be checked against something real.
+
+The relevant institutions are the protection and indemnity clubs, mutual associations that have covered third party maritime liability since the nineteenth century and that between them pool the large risks across the industry. They are conservative by construction, since every member's exposure is every other member's exposure.
+
+The clubs have confirmed that liabilities arising from autonomous vessels, including fully unmanned ones, can be brought inside those shared pooling arrangements. A collision involving a remote operator or an autonomous system can fall within standard mutual cover, subject to the ordinary underwriting judgement of each club and to compliance with flag and class requirements.
+
+That is a significant thing to have happened quietly. The industry that prices maritime catastrophe has looked at ships with nobody aboard and decided the risk is writable.
+
+But look at the boundary they drew, because the boundary is more instructive than the decision.
+
+Injuries to workers at a shore based remote operations centre are not marine risks. Damage to that facility is not a marine risk. Those exposures fall outside the pooling arrangements and require separate cover, from different insurers, under different policies.
+
+Nothing about the total quantity of risk changed. What changed is where it sits. The hazard has come off the vessel and reappeared on land, in an office, attached to a different contract held by a different party. A structure that used to be one thing, a ship with its crew and its risks in a single place, is being decomposed into a machine that carries the physical hazard and a building full of people who carry the legal one.
+
+That decomposition is the subject of this book, arriving early and in a form that has nothing to do with longevity.
+
+### The question the code did not answer
+
+There is one more feature of the maritime framework that matters more than everything above.
+
+It addressed operations and safety. It did not resolve legal liability.
+
+The rules for how these vessels may be run arrived first. The question of who pays when one of them destroys something was left open, to be worked out later, presumably by courts.
+
+This should be familiar. Chapter 9 argued that frontiers are settled by presence first and by legal argument assembled afterward, and that the doctrine of discovery was a rationale constructed to justify what explorers had already done rather than a principle that guided them. Here is the same sequence, in a treaty organisation, in the present decade. The activity is authorised before the liability is allocated, because the activity is commercially urgent and the liability question is hard.
+
+And the direction in which liability is drifting is worth stating precisely, because it is not the intuitive one.
+
+Where responsibility for an autonomous system has been assigned so far, in shipping and in the parallel arguments now running in road vehicles, it tends to land not on the machine, which cannot hold it, and not on the remote operator, who is an employee following a procedure, but on the organisation that employed, trained, scheduled and supervised that operator. Liability attaches to the entity with the deepest balance sheet and the greatest capacity to insure.
+
+Notice what that produces.
+
+The thing on the scene bears the physical risk and can be destroyed. The entity carrying the legal risk is the one furthest from the event, most able to absorb it financially, and least likely ever to be present. That is the arrangement this chapter has been describing, and it is being assembled by insurers and regulators for reasons of pure practicality, with no view about artificial agents at all.
+
+### Where the fiction breaks
+
+Now take the whole apparatus and move it away from Earth.
+
+Every framework above rests on one assumption that nobody states, because on this planet it has never needed stating. The assumption is that supervision is possible in real time. The shore operator can see the ship now and act now. The company that trained the operator can be held responsible because the operator could, in the moment, have done otherwise.
+
+Responsibility of that kind is built on the ability to intervene. Remove the ability and the responsibility becomes something else, though the law will keep using the same word for it.
+
+Light takes minutes to reach Mars. A supervisor who learns of a situation twenty minutes after it began, and whose instruction arrives twenty minutes after that, has not supervised anything. They have read a report and filed a response to a world that has moved on. The legal fiction of the absent master, which survives at millisecond latency because the master really can act, does not survive at forty minutes, because there is nothing for the master to do.
+
+There are only two ways out, and both are the argument of this chapter.
+
+Either the law insists on a responsible human anyway, in which case it is holding somebody accountable for decisions they demonstrably could not have made, and the responsibility is a formality that transfers money without transferring control. Or the law grants genuine local discretion, which is what the chartered companies received, for the same reason they received it, and which is how a company came to field an army twice the size of the British Army while remaining formally a firm with shareholders in London.
+
+There is no third arrangement, because the constraint is not legal. It is the speed of light.
+
+And note which of the two is more likely, because it is not the dramatic one. Nobody will grant sovereignty to a machine. What will happen is the first option: a chain of formal responsibility running back to an insurer on Earth, honoured in the courts, settled in cash, and increasingly disconnected from any actual decision. The paperwork will say a company in Delaware is responsible for what happens on Mars. The paperwork will be correct and it will describe nothing.
+
+### What this does and does not show
+
+It would be easy to overclaim here, so let me mark the limits.
+
+None of the developments above involves artificial systems with goals, preferences or interests. A cargo ship with no crew is not a moral patient and nobody has suggested it is. The maritime code is a piece of technical regulation and the pooling decision is an underwriting judgement, and neither was made by anyone thinking about the questions in this book.
+
+That is exactly why they are useful evidence.
+
+If the structure this chapter describes only appeared once artificial systems became sophisticated enough to be interesting, it would be reasonable to suspect the argument of smuggling in assumptions about capability. It does not. It appears at the current level, with today's systems, for reasons of insurance law and treaty drafting. The separation of the thing that bears physical risk from the entity that bears legal responsibility is happening now, in shipping, because it is administratively convenient.
+
+The East India Company is not an analogy borrowed to make software sound dramatic. It is the last time this structure was assembled at scale, and it is worth studying because we know how that one ended, which was with the principal nationalising its own agent two and a half centuries later, having long since lost the ability to direct it.
+
+The difference this time is that the latency is going to be worse, and that the party at the far end will be cheaper to replace and less able to be recalled.
 
 ### Latency is not a policy problem
 
@@ -1708,6 +1838,86 @@ The design detail that matters is that the term should attach to the seat rather
 
 **The answer.** Pair rotation with genuinely open selection, and accept that this objection identifies a real risk rather than a fatal one. A system that rotates badly is still better than one that does not rotate, because the first has a mechanism that can be improved and the second does not have a mechanism.
 
+### Two places this was actually tried
+
+Everything above is a proposal, and every proposal has had its strongest objection printed next to it. But those objections were arguments. Two of these mechanisms have been enacted somewhere, by real legislatures, against real property and real careers, and the record is available.
+
+It is not encouraging. It is also the most useful material in this chapter, because both cases fail in the same specific way, and the way they fail is not the way the objections predicted.
+
+**California, 1990.**
+
+In November of that year the state's voters passed a ballot initiative limiting service in the Assembly to six years and in the Senate to eight, with no possibility of return. It was the strongest legislative term limit adopted by a large American state, and it was sold on exactly the reasoning set out earlier in this chapter: the seats had stopped turning over, incumbency had become self perpetuating, and forcing exits would open the system.
+
+The measure did what it said. Members left on schedule. The legislature turned over.
+
+Now the part that matters.
+
+The same initiative also cut the legislature's operating budget by roughly two fifths, and that cut fell hardest on professional staff. The independent analytical office that served the legislature lost around half its people. The committees lost the long serving specialists who had made them function.
+
+So the state removed the experienced legislators and, in the same stroke, removed the experienced people who advised legislators.
+
+The consequences are documented and they are consistent across the studies. Committees began screening out fewer of the bills sent to them, and more of their work was rewritten at later stages by others. Legislative oversight of the executive branch declined. Bills sponsored by organised interests became more likely to pass than bills without such backing. Newly elected members, asked how their legislation came to exist, described a large majority of it arriving already drafted, from outside.
+
+Understand what happened, because the mechanism is general and the chapter above missed it.
+
+Term limits did not reduce the amount of expertise the legislature needed. A state still has to write budgets, regulate utilities, and understand water rights, and those tasks require somebody who knows how they work. What the limits did was remove that knowledge from inside the institution while leaving the requirement in place.
+
+The requirement was then met from outside, by the parties who had the knowledge and were not term limited.
+
+Nobody term limits a lobbyist. Nobody term limits the executive branch, or the permanent civil service, or the industry association that has employed the same three specialists for twenty years. The reform bound one institution and left every institution adjacent to it untouched, and power moved, as it always does, to whatever is still standing.
+
+This is the objection this chapter already printed, that forced churn advantages the already connected. It was correct. What the chapter did not say is why, and the why is not about networks or social capital. It is about where the expertise ends up living once you have evicted it from the place it used to live.
+
+So the proposal has to be revised, and the revision is not cosmetic.
+
+A term limit on a position is only a turnover mechanism if the surrounding ecology is also term limited. Applied to a single institution it is not a rotation device. It is a transfer, from the body that was limited to the bodies that were not, and it is likely to make the underlying problem worse while appearing to address it. Any serious version of this has to cover the advisory layer, the regulatory staff, the standing consultancies and the permanent interests, or it will simply relocate the incumbency it was meant to break.
+
+That is a much larger and much less appealing proposal than the one made a few pages ago, and it should be stated at its real size rather than at the size that is easy to argue for.
+
+**Taiwan, and a mechanism that was adopted and then hollowed out.**
+
+The second case concerns self assessment, and it is stranger, because on paper it succeeded.
+
+Sun Yat-sen, whose political programme became the founding doctrine of the Republic of China, proposed a land system with four connected parts. Owners declare the value of their own land. They are taxed on the value they declare. The state reserves the right to buy the land at the declared price. And increases in value created by society rather than by the owner accrue to the public.
+
+Read those four again and notice that the first three are precisely the mechanism this chapter described as its serious version, the one associated in modern economics with Posner and Weyl. Declare low and invite a purchase. Declare high and pay for it. The system does not need to know who you are or whether you deserve to keep the land, which is the property that makes it a candidate for replacing something that death used to do without judgement.
+
+This was not a thought experiment. It was written into the political foundations of a state and carried into its constitutional order, and Taiwan built its land taxation around the doctrine.
+
+Here is what the system actually runs on today.
+
+Official assessed values, set by local government authorities and revised on a fixed cycle.
+
+The self assessment survives in the framing and in the name. The operative number is an official valuation, produced the way property valuations are produced everywhere else, by assessors. The distinctive component, the one that made the design self enforcing, is not what determines anybody's tax bill.
+
+It was not repealed in a dramatic reversal. It was adopted, and then the hard part quietly stopped being the part that mattered, and the label stayed on.
+
+Why that happened is not mysterious and it generalises well beyond Taiwan.
+
+A self assessment scheme is self enforcing only if the purchase right is real. The threat has to be exercised occasionally, on somebody, publicly, or declared values drift downward and the whole thing becomes an honour system with extra steps. But exercising it means a government taking a family's land at a price the family named, which is intolerable to almost any electorate, and becomes more intolerable the more sympathetic the owner.
+
+So the enforcement is not used. And once it is not used, the mechanism has no teeth, and an ordinary assessment process moves in to do the work, because the tax still has to be collected.
+
+The mechanism did not lose an argument. It was never defeated on the merits. It was simply never exercised, and a mechanism that is never exercised is decoration.
+
+### What the two cases share
+
+Put them together, because they fail the same way and the pattern is the most important thing in this chapter.
+
+Neither mechanism was repealed. Neither was defeated in open political combat. In both cases the institution kept its name, kept its formal description, and kept being cited as an example of the reform working.
+
+What happened instead is that the component doing the actual work was hollowed out, while the shell remained. California still has term limits and they still force exits, and the power that used to sit with experienced legislators now sits with people nobody elected. Taiwan still has a land system founded on self declared values, and the values that matter are declared by assessors.
+
+That is what happens to any mechanism that forces turnover: it is eroded continuously by the people it binds, and the erosion is invisible because the name does not change.
+
+Which sharpens what this chapter is actually claiming, and makes it harder rather than easier.
+
+The difficulty is not designing a device that does what death did. Both of these devices work as designed. The difficulty is that a turnover mechanism has to keep being enforced, forever, against parties who are permanently motivated to weaken it and who are, by construction, the people in a position to do so. Death required no enforcement. That was its entire advantage, and it is the property none of these proposals reproduce.
+
+An honest version of this chapter has to say that both of its two most concrete mechanisms have been tried in weakened form and both were hollowed out within a generation, in a democracy, with mortality still fully operative and the affected parties still eventually leaving.
+
+Which is the strongest available argument for the section that follows, and against the idea that any of this gets easier later.
+
 ### The problem with all of it
 
 Every proposal above shares a defect, and I would rather end this chapter on the defect than on the proposals.
@@ -1965,6 +2175,8 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 
 1. The description of agent instantiation, checkpointing, forking and termination should be reviewed by someone who builds these systems, to confirm the vocabulary and mechanics are accurate as of the date of publication. **[unverified]**
 2. The claim that the supply curve for copyable labor becomes near-perfectly elastic at the cost of compute is my own argument rather than a result I am citing. It should be stated as such, and it deserves engagement with the existing literature on automation and factor shares, which reaches related conclusions by other routes. **[my argument]**
+3. The worked description of how a multi-agent run is structured, added in response to a review note asking for one. It is written at the level of detail that bears on the economics rather than the engineering: marginal cost equal to rented compute, acquisition time in seconds, zero variance between two workers at the moment of a fork, and termination cost equal to sunk compute plus unsaved work. It is accurate to how these systems are built at the time of writing, and it is still the item in this book most in need of review by somebody who builds them, because it is the one claim a practitioner could falsify from memory. **[unverified]**
+4. The claim that the frictions of human labour markets, notice periods, severance, training cost, institutional memory, morale and employment law, are each downstream of a person being a single continuous irreplaceable thing with a finite life, is my argument. It is not a proposition from labour economics and should be read as a framing rather than a finding. **[my argument]**
 
 ## Chapter 10. The Mortal Class
 
@@ -1975,6 +2187,10 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 5. Earth to Mars one-way light time runs from about 3 minutes at closest approach to about 22 minutes at greatest separation, averaging around 12 and a half. Round trip is therefore roughly 6 to 44 minutes. An earlier draft gave 4 to 24 one way and 8 to 48 round trip; corrected. **[verified, and corrected]**
 6. Outer Space Treaty, 1967, Article II: outer space, including the moon and other celestial bodies, is not subject to national appropriation by claim of sovereignty, by means of use or occupation, or by any other means. **[verified]**
 7. US Commercial Space Launch Competitiveness Act, 2015, recognizing rights of US citizens to own, possess and sell resources obtained from asteroids and other celestial bodies. Luxembourg passed comparable legislation in 2017. The Artemis Accords, from 2020, set out resource extraction principles that some states regard as a unilateral reinterpretation of the treaty. **[verified]**
+8. The IMO Code for Maritime Autonomous Surface Ships, approved in May 2026 as the first global framework for vessels operating with reduced or no crew, non-mandatory in its first phase with a mandatory phase expected in the early 2030s. Its retention of a master, and the shift of responsibility to shore based control centres, is the feature the chapter relies on. The Code addresses operations and safety and does not resolve legal liability, which is the second feature the chapter relies on. Cite the adopted text rather than press coverage before typesetting. **[verified]**
+9. The International Group of P&I Clubs confirmed that liabilities arising from autonomous vessels, including fully unmanned ones, can fall within its shared pooling arrangements, subject to individual club underwriting and to flag and class compliance. Injuries at shore based remote operations centres, and damage to those facilities, are not treated as marine risks and require separate cover. That boundary, rather than the decision itself, is what the chapter uses. **[verified]**
+10. The observation that liability for autonomous systems is drifting toward the organisation that employed, trained, scheduled and supervised the remote operator, rather than toward the operator or the machine, is drawn from how the question is being discussed in shipping and in parallel road vehicle regimes. It is a direction of travel rather than a settled rule, and the chapter says so. **[verified as to the direction; not a settled legal rule]**
+11. The claim that the legal fiction of an absent master survives at millisecond latency because intervention remains possible, and fails at interplanetary latency because it does not, is my argument. So is the conclusion that the likelier outcome is formal responsibility disconnected from actual control rather than any grant of autonomy to a machine. **[my argument]**
 
 ## Chapter 11. The Serrata
 
@@ -1994,6 +2210,11 @@ Items marked **[verified]** have been checked against a source. Items marked **[
 3. The common ownership self-assessed tax, also called a Harberger tax. Owners periodically self-assess the value of their property, pay tax on the declared figure, and must sell to anyone offering that price. First proposed by Arnold Harberger and popularised by Eric Posner and Glen Weyl in Radical Markets, 2018. **[verified]**
 4. Interstate competition for trust business as the driver of perpetuities repeal. See Chapter 4, note 4. **[verified]**
 5. Rawls, A Theory of Justice, 1971, for the original position and the veil of ignorance. The reading of mortality as the mechanism that actually enforces the veil is my own argument, not Rawls's, and the text should make that clear. **[my argument]**
+6. California Proposition 140, passed November 1990, limiting service to three two-year Assembly terms and two four-year Senate terms, with a lifetime ban on return. The same measure cut the legislature's operating budget by roughly forty percent, which fell heavily on professional staff; the Legislative Analyst's Office lost about half its personnel. Subsequent research documents reduced committee screening, more bills rewritten at later stages, weaker oversight of the executive, and a higher passage rate for interest-group sponsored bills. The reports of newly elected members receiving the large majority of their legislation pre-drafted from outside are testimony collected in that literature rather than a measured average, and should be attributed as such. The Public Policy Institute of California's work on adapting to term limits, and Garlick in Legislative Studies Quarterly, 2025, on legislative capacity and interest group influence, are the standard sources. **[verified]**
+7. The generalisation drawn from that case, that a term limit applied to one institution transfers power to whatever adjacent institution is not term limited rather than producing rotation, is my argument. The California evidence is consistent with it and does not establish it as a law. **[my argument]**
+8. Sun Yat-sen's land programme and its four connected components: owner declared land value, taxation on the declared value, a state right to purchase at the declared value, and the socially created increment accruing to the public. Carried into the constitutional order of the Republic of China and the basis of Taiwan's land taxation doctrine. In present practice the operative figure is an officially assessed land value set by local authorities on a fixed revision cycle, not an owner's declaration, so the self-assessing component is not what determines liability. Cite the Department of Land Administration's own description alongside the secondary literature on the scheme. **[verified]**
+9. The explanation offered for why the self-assessment component lapsed, that the purchase right must be exercised occasionally to stay credible and that exercising it is politically intolerable, is my argument and not a finding reported in that literature. **[my argument]**
+10. The claim that both mechanisms were hollowed out rather than repealed, and that this is the general fate of turnover devices because they require continuous enforcement against the parties they bind, is the chapter's central revision and is my argument. It is offered as the strongest available case against the chapter's own proposals. **[my argument]**
 
 ## Chapter 13. Terminal Value
 
@@ -2012,9 +2233,9 @@ items verified and corrected. An item counts as unverified only if its marker is
 exactly "unverified". Items whose marker begins "my" are the author's own
 calculation or argument rather than anything reported by a source.
 
-Verified against sources: 84 items, of which 14 carry a caveat recorded on the item itself.
-Still unverified: 8 items.
-Flagged as my own calculation or argument rather than a reported finding: 12 items.
+Verified against sources: 89 items, of which 15 carry a caveat recorded on the item itself.
+Still unverified: 9 items.
+Flagged as my own calculation or argument rather than a reported finding: 17 items.
 
 Seven claims were found to be wrong or overstated during verification and have been corrected in the text. They are recorded at the relevant notes above rather than quietly fixed: the life expectancy decomposition in Chapter 2, the partial reprogramming result in Chapter 2, the r-star figures in Chapter 3, the consols provenance in Chapter 3, the Mars light lag in Chapter 10, the colleganza prohibition in Chapter 11, and the Cologne stoppage in Chapter 13.
 

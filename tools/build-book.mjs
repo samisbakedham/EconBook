@@ -21,7 +21,7 @@ import { embeddedFontCss } from './lib/fonts.mjs';
 import { bookCss } from './lib/print-css.mjs';
 import { launchChrome, htmlToPdf, htmlToPng } from './lib/chrome.mjs';
 import { recto, countPages } from './lib/paginate.mjs';
-import { coverHtml } from './lib/cover.mjs';
+import { coverHtml, coverWrapHtml } from './lib/cover.mjs';
 import { buildEpub } from './lib/epub.mjs';
 
 const run = promisify(execFile);
@@ -264,6 +264,23 @@ async function main() {
       console.log('  ! pdfunite not found: front matter and body written as separate PDFs.');
       console.log('    brew install poppler   to get one merged interior.');
     }
+
+    // The KDP wrap can only be built once the interior exists, because the
+    // spine width is a function of the page count.
+    const totalPages = frontPages + countPages(body);
+    const evenPages = totalPages % 2 === 0;
+    const wrapPages = evenPages ? totalPages : totalPages + 1;
+    const spineIn = wrapPages * 0.0025;
+    const wrap = await htmlToPng(browser, coverWrapHtml({
+      meta: book.meta, fontCss, pages: wrapPages,
+    }), {
+      tmpHtmlPath: path.join(tmp, 'wrap.html'),
+      width: Math.round((6 + spineIn + 6 + 0.25) * 300),
+      height: Math.round(9.25 * 300),
+    });
+    await writeFile(path.join(OUT, 'terminal-value-kdp-cover.png'), wrap);
+    console.log(`  terminal-value-kdp-cover.png     ${Math.round((6 + spineIn + 6 + 0.25) * 300)} x 2775, ${spineIn.toFixed(3)}in spine at ${wrapPages} pages (cream)`);
+    if (!evenPages) console.log(`  ! interior is ${totalPages} pages (odd); KDP will add a blank, so the spine is sized for ${wrapPages}`);
 
     await buildEpub({ book, out: path.join(OUT, 'terminal-value.epub'), cover });
     console.log('  terminal-value.epub              EPUB 3, embedded fonts and cover');

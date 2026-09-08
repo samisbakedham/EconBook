@@ -104,6 +104,86 @@ The design detail that matters is that the term should attach to the seat rather
 
 **The answer.** Pair rotation with genuinely open selection, and accept that this objection identifies a real risk rather than a fatal one. A system that rotates badly is still better than one that does not rotate, because the first has a mechanism that can be improved and the second does not have a mechanism.
 
+### Two places this was actually tried
+
+Everything above is a proposal, and every proposal has had its strongest objection printed next to it. But those objections were arguments. Two of these mechanisms have been enacted somewhere, by real legislatures, against real property and real careers, and the record is available.
+
+It is not encouraging. It is also the most useful material in this chapter, because both cases fail in the same specific way, and the way they fail is not the way the objections predicted.
+
+**California, 1990.**
+
+In November of that year the state's voters passed a ballot initiative limiting service in the Assembly to six years and in the Senate to eight, with no possibility of return. It was the strongest legislative term limit adopted by a large American state, and it was sold on exactly the reasoning set out earlier in this chapter: the seats had stopped turning over, incumbency had become self perpetuating, and forcing exits would open the system.
+
+The measure did what it said. Members left on schedule. The legislature turned over.
+
+Now the part that matters.
+
+The same initiative also cut the legislature's operating budget by roughly two fifths, and that cut fell hardest on professional staff. The independent analytical office that served the legislature lost around half its people. The committees lost the long serving specialists who had made them function.
+
+So the state removed the experienced legislators and, in the same stroke, removed the experienced people who advised legislators.
+
+The consequences are documented and they are consistent across the studies. Committees began screening out fewer of the bills sent to them, and more of their work was rewritten at later stages by others. Legislative oversight of the executive branch declined. Bills sponsored by organised interests became more likely to pass than bills without such backing. Newly elected members, asked how their legislation came to exist, described a large majority of it arriving already drafted, from outside.
+
+Understand what happened, because the mechanism is general and the chapter above missed it.
+
+Term limits did not reduce the amount of expertise the legislature needed. A state still has to write budgets, regulate utilities, and understand water rights, and those tasks require somebody who knows how they work. What the limits did was remove that knowledge from inside the institution while leaving the requirement in place.
+
+The requirement was then met from outside, by the parties who had the knowledge and were not term limited.
+
+Nobody term limits a lobbyist. Nobody term limits the executive branch, or the permanent civil service, or the industry association that has employed the same three specialists for twenty years. The reform bound one institution and left every institution adjacent to it untouched, and power moved, as it always does, to whatever is still standing.
+
+This is the objection this chapter already printed, that forced churn advantages the already connected. It was correct. What the chapter did not say is why, and the why is not about networks or social capital. It is about where the expertise ends up living once you have evicted it from the place it used to live.
+
+So the proposal has to be revised, and the revision is not cosmetic.
+
+A term limit on a position is only a turnover mechanism if the surrounding ecology is also term limited. Applied to a single institution it is not a rotation device. It is a transfer, from the body that was limited to the bodies that were not, and it is likely to make the underlying problem worse while appearing to address it. Any serious version of this has to cover the advisory layer, the regulatory staff, the standing consultancies and the permanent interests, or it will simply relocate the incumbency it was meant to break.
+
+That is a much larger and much less appealing proposal than the one made a few pages ago, and it should be stated at its real size rather than at the size that is easy to argue for.
+
+**Taiwan, and a mechanism that was adopted and then hollowed out.**
+
+The second case concerns self assessment, and it is stranger, because on paper it succeeded.
+
+Sun Yat-sen, whose political programme became the founding doctrine of the Republic of China, proposed a land system with four connected parts. Owners declare the value of their own land. They are taxed on the value they declare. The state reserves the right to buy the land at the declared price. And increases in value created by society rather than by the owner accrue to the public.
+
+Read those four again and notice that the first three are precisely the mechanism this chapter described as its serious version, the one associated in modern economics with Posner and Weyl. Declare low and invite a purchase. Declare high and pay for it. The system does not need to know who you are or whether you deserve to keep the land, which is the property that makes it a candidate for replacing something that death used to do without judgement.
+
+This was not a thought experiment. It was written into the political foundations of a state and carried into its constitutional order, and Taiwan built its land taxation around the doctrine.
+
+Here is what the system actually runs on today.
+
+Official assessed values, set by local government authorities and revised on a fixed cycle.
+
+The self assessment survives in the framing and in the name. The operative number is an official valuation, produced the way property valuations are produced everywhere else, by assessors. The distinctive component, the one that made the design self enforcing, is not what determines anybody's tax bill.
+
+It was not repealed in a dramatic reversal. It was adopted, and then the hard part quietly stopped being the part that mattered, and the label stayed on.
+
+Why that happened is not mysterious and it generalises well beyond Taiwan.
+
+A self assessment scheme is self enforcing only if the purchase right is real. The threat has to be exercised occasionally, on somebody, publicly, or declared values drift downward and the whole thing becomes an honour system with extra steps. But exercising it means a government taking a family's land at a price the family named, which is intolerable to almost any electorate, and becomes more intolerable the more sympathetic the owner.
+
+So the enforcement is not used. And once it is not used, the mechanism has no teeth, and an ordinary assessment process moves in to do the work, because the tax still has to be collected.
+
+The mechanism did not lose an argument. It was never defeated on the merits. It was simply never exercised, and a mechanism that is never exercised is decoration.
+
+### What the two cases share
+
+Put them together, because they fail the same way and the pattern is the most important thing in this chapter.
+
+Neither mechanism was repealed. Neither was defeated in open political combat. In both cases the institution kept its name, kept its formal description, and kept being cited as an example of the reform working.
+
+What happened instead is that the component doing the actual work was hollowed out, while the shell remained. California still has term limits and they still force exits, and the power that used to sit with experienced legislators now sits with people nobody elected. Taiwan still has a land system founded on self declared values, and the values that matter are declared by assessors.
+
+That is what happens to any mechanism that forces turnover: it is eroded continuously by the people it binds, and the erosion is invisible because the name does not change.
+
+Which sharpens what this chapter is actually claiming, and makes it harder rather than easier.
+
+The difficulty is not designing a device that does what death did. Both of these devices work as designed. The difficulty is that a turnover mechanism has to keep being enforced, forever, against parties who are permanently motivated to weaken it and who are, by construction, the people in a position to do so. Death required no enforcement. That was its entire advantage, and it is the property none of these proposals reproduce.
+
+An honest version of this chapter has to say that both of its two most concrete mechanisms have been tried in weakened form and both were hollowed out within a generation, in a democracy, with mortality still fully operative and the affected parties still eventually leaving.
+
+Which is the strongest available argument for the section that follows, and against the idea that any of this gets easier later.
+
 ### The problem with all of it
 
 Every proposal above shares a defect, and I would rather end this chapter on the defect than on the proposals.

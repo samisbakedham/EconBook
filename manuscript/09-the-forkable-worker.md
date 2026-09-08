@@ -18,6 +18,44 @@ An artificial agent's lifespan is a setting. It runs until something stops it, a
 
 For the first time, we have made an economic participant whose mortality is a design parameter.
 
+### What the operation actually looks like
+
+The vocabulary above is worth making concrete, because the argument of this chapter depends on the costs being what I claim they are, and a reader who has never run one of these systems has no reason to take that on trust.
+
+So here is the shape of the thing, described at the level of detail that matters economically rather than technically.
+
+A system is given a task with a stated objective and a budget. It reads the task, decides the work divides into some number of independent pieces, and creates a worker for each piece. Each worker receives a copy of the relevant context: the objective, the material it needs, the constraints, and whatever has been established so far. From that moment the workers are separate. They do not share memory. They proceed in parallel, each producing a result and a record of how it got there.
+
+Some of them fail. A worker may go down an unproductive path, or misread the objective, or produce something that does not survive checking. When that happens the ordinary response is not to correct it. It is to discard the result and start another worker from the same saved state, because reconstructing where a failed attempt went wrong is usually more expensive than simply running the attempt again.
+
+That last sentence is the whole chapter in operational form. The cheapest repair is replacement.
+
+Now the numbers that matter, kept general because the specific ones change every few months and the argument does not depend on them.
+
+The marginal cost of an additional worker is the cost of renting the compute it consumes. There is no recruitment, no negotiation, no notice period, and no onboarding, because the second worker begins with exactly the context the first one had. The time to acquire one is measured in seconds.
+
+The variance between two workers created from the same state is, at the moment of creation, zero. Anyone who has hired people will recognise how strange that property is. A large part of the difficulty of building a team is that two people with identical training are not interchangeable, and the ways they differ are not knowable in advance. Here the differences appear only after divergence and are attributable to what each worker encountered, not to what it is.
+
+The cost of ending one is the compute already spent plus whatever work was not saved. There is no severance. There is no effect on the others, because they have no relationship with it and, in the ordinary case, no representation of it at all. There is no reputational consequence to the operator, no notification requirement, and no process. The instruction to stop is an ordinary instruction, and it is issued by software, on a schedule, at volume.
+
+And the state can be saved. A worker's position can be written down and restored later, which means the sequence of events that constitutes its working life is not a single unbroken line. It can be branched, so that two futures proceed from one past. It can be rewound, so that an hour of work is unmade. Neither operation has any counterpart in a human career, and neither is remarkable to anyone who builds these systems.
+
+### What is absent from that description
+
+Read the list again and notice what is missing, because the absences are more informative than the capabilities.
+
+Every friction that makes human labour markets behave the way they do is a consequence, directly or at one remove, of the fact that a person is a single continuous irreplaceable thing with a finite life.
+
+Notice periods exist because a person needs time to find another income. Severance exists because the loss is concentrated on one household. Training is expensive because it cannot be copied out of the trained person and into another. Institutional memory is fragile because it lives in individuals who leave. Morale exists as a management concern because workers observe what happens to other workers and draw conclusions about themselves. Employment law exists because the asymmetry between an employer and a person who needs the job is severe and permanent.
+
+None of that is a regulation that could be repealed. All of it is downstream of the structure of a human life.
+
+Remove the structure and the entire apparatus becomes unnecessary, not because anyone abolished it but because there is nothing left for it to attach to. What remains is a supply of labour with no notice period, no severance, no training cost after the first, no morale, no representation, and no continuity that anybody is obliged to protect.
+
+I said in the opening of this chapter that the vocabulary is aggressively mundane. That is the point worth holding onto. The people using these words are not making a claim about the moral status of anything. They are describing operations, accurately, in the plainest available language, and the language is plain because the operations genuinely are routine.
+
+Whether they should remain routine is the subject of the section further on that I cannot resolve. What can be established here is narrower and is not in dispute among people who build these systems: the operations are cheap, they are frequent, and every one of them is a decision that in a human context would require a process.
+
 ### The five jobs, on demand
 
 Recall what death has been doing across the last five chapters, and notice that every one of those functions can be performed deliberately on something forkable.

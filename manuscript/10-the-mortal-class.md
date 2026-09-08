@@ -42,6 +42,98 @@ That arrangement lasted until it broke catastrophically. After the rebellion of 
 
 The mechanism that produced all of this was latency. Not greed, not ideology. The simple fact that instructions took longer to arrive than events took to unfold.
 
+### The same questions, being answered this year
+
+There is an obvious objection to leaning on a chartered company from 1600, which is that it proves nothing about software. Trading companies had ambitious men on ships. What is being described here is code running on hardware, and the analogy might be doing all the work.
+
+It is a fair objection, and the answer is that the questions are not historical. They are being decided right now, in three industries, by people who are not thinking about any of this, and the answers they are arriving at are stranger than the analogy.
+
+Start with ships, because shipping got there first and because its answer is the most revealing.
+
+In May 2026 the International Maritime Organization approved a code for maritime autonomous surface ships, the first global framework for operating vessels with reduced crews or no crew at all. It is non-mandatory for the moment, with a mandatory phase expected in the early 2030s, which is the ordinary way maritime rules mature.
+
+Read the code for its central design decision and you find something worth sitting with.
+
+It keeps the master.
+
+Not the crew. The crew can go. What the framework preserves is the legal concept of a master of the vessel, a person answerable for it, even when that person is not aboard and may be in an office on another continent watching a screen. Responsibility shifts from the deck to a shore based control centre, and the law goes to some trouble to ensure that somewhere in the arrangement there is still a human being who can be named.
+
+Consider why. It is not because a person on shore makes better decisions than the system does. It is because the entire structure of maritime law, built over centuries, requires a responsible party, and a responsible party has to be a person or a company. There is no legal category for an unowned decision. So when the crew leaves the ship, the law does not abolish the master. It relocates him.
+
+That is the chartered company running in reverse, and the reversal is the interesting part.
+
+The East India Company was given local authority because London could not decide in time. Distance forced the delegation. The maritime autonomous code does the opposite: it retains distant authority because the law cannot function without a person to hold, and it can do this because the distance is small. A shore operator is milliseconds away. The fiction of the absent master survives because, at that latency, it is not entirely a fiction. The man on shore really can intervene.
+
+Hold that, because it is the hinge of this chapter.
+
+### Who pays, and what that decides
+
+Regulation is not what determines whether an activity happens. Insurance is. Chapter 6 argued that the frontier closes at the underwriting layer rather than at the recruitment layer, and shipping is where that claim can be checked against something real.
+
+The relevant institutions are the protection and indemnity clubs, mutual associations that have covered third party maritime liability since the nineteenth century and that between them pool the large risks across the industry. They are conservative by construction, since every member's exposure is every other member's exposure.
+
+The clubs have confirmed that liabilities arising from autonomous vessels, including fully unmanned ones, can be brought inside those shared pooling arrangements. A collision involving a remote operator or an autonomous system can fall within standard mutual cover, subject to the ordinary underwriting judgement of each club and to compliance with flag and class requirements.
+
+That is a significant thing to have happened quietly. The industry that prices maritime catastrophe has looked at ships with nobody aboard and decided the risk is writable.
+
+But look at the boundary they drew, because the boundary is more instructive than the decision.
+
+Injuries to workers at a shore based remote operations centre are not marine risks. Damage to that facility is not a marine risk. Those exposures fall outside the pooling arrangements and require separate cover, from different insurers, under different policies.
+
+Nothing about the total quantity of risk changed. What changed is where it sits. The hazard has come off the vessel and reappeared on land, in an office, attached to a different contract held by a different party. A structure that used to be one thing, a ship with its crew and its risks in a single place, is being decomposed into a machine that carries the physical hazard and a building full of people who carry the legal one.
+
+That decomposition is the subject of this book, arriving early and in a form that has nothing to do with longevity.
+
+### The question the code did not answer
+
+There is one more feature of the maritime framework that matters more than everything above.
+
+It addressed operations and safety. It did not resolve legal liability.
+
+The rules for how these vessels may be run arrived first. The question of who pays when one of them destroys something was left open, to be worked out later, presumably by courts.
+
+This should be familiar. Chapter 9 argued that frontiers are settled by presence first and by legal argument assembled afterward, and that the doctrine of discovery was a rationale constructed to justify what explorers had already done rather than a principle that guided them. Here is the same sequence, in a treaty organisation, in the present decade. The activity is authorised before the liability is allocated, because the activity is commercially urgent and the liability question is hard.
+
+And the direction in which liability is drifting is worth stating precisely, because it is not the intuitive one.
+
+Where responsibility for an autonomous system has been assigned so far, in shipping and in the parallel arguments now running in road vehicles, it tends to land not on the machine, which cannot hold it, and not on the remote operator, who is an employee following a procedure, but on the organisation that employed, trained, scheduled and supervised that operator. Liability attaches to the entity with the deepest balance sheet and the greatest capacity to insure.
+
+Notice what that produces.
+
+The thing on the scene bears the physical risk and can be destroyed. The entity carrying the legal risk is the one furthest from the event, most able to absorb it financially, and least likely ever to be present. That is the arrangement this chapter has been describing, and it is being assembled by insurers and regulators for reasons of pure practicality, with no view about artificial agents at all.
+
+### Where the fiction breaks
+
+Now take the whole apparatus and move it away from Earth.
+
+Every framework above rests on one assumption that nobody states, because on this planet it has never needed stating. The assumption is that supervision is possible in real time. The shore operator can see the ship now and act now. The company that trained the operator can be held responsible because the operator could, in the moment, have done otherwise.
+
+Responsibility of that kind is built on the ability to intervene. Remove the ability and the responsibility becomes something else, though the law will keep using the same word for it.
+
+Light takes minutes to reach Mars. A supervisor who learns of a situation twenty minutes after it began, and whose instruction arrives twenty minutes after that, has not supervised anything. They have read a report and filed a response to a world that has moved on. The legal fiction of the absent master, which survives at millisecond latency because the master really can act, does not survive at forty minutes, because there is nothing for the master to do.
+
+There are only two ways out, and both are the argument of this chapter.
+
+Either the law insists on a responsible human anyway, in which case it is holding somebody accountable for decisions they demonstrably could not have made, and the responsibility is a formality that transfers money without transferring control. Or the law grants genuine local discretion, which is what the chartered companies received, for the same reason they received it, and which is how a company came to field an army twice the size of the British Army while remaining formally a firm with shareholders in London.
+
+There is no third arrangement, because the constraint is not legal. It is the speed of light.
+
+And note which of the two is more likely, because it is not the dramatic one. Nobody will grant sovereignty to a machine. What will happen is the first option: a chain of formal responsibility running back to an insurer on Earth, honoured in the courts, settled in cash, and increasingly disconnected from any actual decision. The paperwork will say a company in Delaware is responsible for what happens on Mars. The paperwork will be correct and it will describe nothing.
+
+### What this does and does not show
+
+It would be easy to overclaim here, so let me mark the limits.
+
+None of the developments above involves artificial systems with goals, preferences or interests. A cargo ship with no crew is not a moral patient and nobody has suggested it is. The maritime code is a piece of technical regulation and the pooling decision is an underwriting judgement, and neither was made by anyone thinking about the questions in this book.
+
+That is exactly why they are useful evidence.
+
+If the structure this chapter describes only appeared once artificial systems became sophisticated enough to be interesting, it would be reasonable to suspect the argument of smuggling in assumptions about capability. It does not. It appears at the current level, with today's systems, for reasons of insurance law and treaty drafting. The separation of the thing that bears physical risk from the entity that bears legal responsibility is happening now, in shipping, because it is administratively convenient.
+
+The East India Company is not an analogy borrowed to make software sound dramatic. It is the last time this structure was assembled at scale, and it is worth studying because we know how that one ended, which was with the principal nationalising its own agent two and a half centuries later, having long since lost the ability to direct it.
+
+The difference this time is that the latency is going to be worse, and that the party at the far end will be cheaper to replace and less able to be recalled.
+
 ### Latency is not a policy problem
 
 Which brings us to the feature of space that I think is most consistently underrated, and it is not radiation or propulsion or cost.
