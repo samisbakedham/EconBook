@@ -76,7 +76,7 @@ The second component is to route a defined fraction of research funding specific
 
 This is the ugly one.
 
-**The problem.** Chapter 6 established that the risk premium demanded by the very long lived becomes unpayable, and Chapters 8 and 9 established that the consequence is a frontier settled by whatever can afford to die on it. In practice: artificial agents, and people who are poor or who have declined longevity treatment.
+**The problem.** Chapter 6 established that the risk premium demanded by the very long lived becomes unpayable, and Chapters 9 and 10 established that the consequence is a frontier settled by whatever can afford to die on it. In practice: artificial agents, and people who are poor or who have declined longevity treatment.
 
 **The mechanism people will reach for.** A legal category for consented high risk activity. Genuine informed consent, insulation from the liability cascade that would otherwise make the insurance unwritable, and a compensation floor.
 
@@ -104,7 +104,7 @@ The design detail that matters is that the term should attach to the seat rather
 
 **The answer.** Pair rotation with genuinely open selection, and accept that this objection identifies a real risk rather than a fatal one. A system that rotates badly is still better than one that does not rotate, because the first has a mechanism that can be improved and the second does not have a mechanism.
 
-### Two places this was actually tried
+### Where two of these were actually tried
 
 Everything above is a proposal, and every proposal has had its strongest objection printed next to it. But those objections were arguments. Two of these mechanisms have been enacted somewhere, by real legislatures, against real property and real careers, and the record is available.
 

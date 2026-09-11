@@ -52,7 +52,7 @@ Both things were true at once in his case. The objection was legitimate and the 
 
 That is the uncomfortable part. In the Semmelweis case we can say cleanly that the field was wrong. In the Wegener case we cannot, and most real cases look like Wegener rather than Semmelweis.
 
-Barry Marshall is the third kind. He could not persuade anyone that stomach ulcers were caused by bacteria rather than by stress and acid, so in 1984 he drank a culture of the organism and gave himself gastritis. He received the Nobel Prize in 2005.
+Barry Marshall is the third kind. He could not persuade anyone that stomach ulcers were caused by bacteria rather than by stress and acid, so in 1984 he drank a culture of the organism and gave himself gastritis. He shared the Nobel Prize in 2005.
 
 Marshall found a way around the problem that did not require waiting for anybody to die. It required an act so dramatic that it could not be refereed away, could not be declined by a grant panel, and could not be politely ignored at a conference. That worked. It is also not a mechanism. You cannot build a scientific establishment on the assumption that people with correct unpopular ideas will poison themselves to get a hearing, and the ones who are unwilling to are not thereby wrong.
 

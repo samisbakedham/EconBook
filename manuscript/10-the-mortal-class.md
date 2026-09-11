@@ -92,7 +92,7 @@ It addressed operations and safety. It did not resolve legal liability.
 
 The rules for how these vessels may be run arrived first. The question of who pays when one of them destroys something was left open, to be worked out later, presumably by courts.
 
-This should be familiar. Chapter 9 argued that frontiers are settled by presence first and by legal argument assembled afterward, and that the doctrine of discovery was a rationale constructed to justify what explorers had already done rather than a principle that guided them. Here is the same sequence, in a treaty organisation, in the present decade. The activity is authorised before the liability is allocated, because the activity is commercially urgent and the liability question is hard.
+This is the sequence this chapter sets out below. Frontiers are settled by presence first and by legal argument assembled afterward, and the doctrine of discovery was a rationale constructed to justify what explorers had already done rather than a principle that guided them. Here is the same sequence, in a treaty organisation, in the present decade. The activity is authorised before the liability is allocated, because the activity is commercially urgent and the liability question is hard.
 
 And the direction in which liability is drifting is worth stating precisely, because it is not the intuitive one.
 
@@ -178,7 +178,7 @@ The East India Company did not begin with a plan to govern Bengal. It accumulate
 
 Now add the specific feature this book has been building toward. The principals in this arrangement are, by construction, the most risk averse population that has ever existed. They cannot go there. They cannot credibly threaten to go there. Any contest over control conducted at a distance of light minutes, between a party that is present and a party that cannot afford to arrive, is not an even contest.
 
-Whoever can afford to die there ends up holding it. That was the last line of Chapter 6, arrived at through the pricing of risk. It arrives again here through property law and communication latency, which is the sort of convergence that makes me more confident in a conclusion rather than less.
+Whoever can afford to die there ends up holding it. That is where Chapter 6 ended, arrived at through the pricing of risk: the stars go to whoever is still willing to die. It arrives again here through property law and communication latency, which is the sort of convergence that makes me more confident in a conclusion rather than less.
 
 ### What this chapter is not claiming
 

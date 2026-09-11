@@ -6,33 +6,33 @@ A short book arguing that mortality is load bearing economic infrastructure. It 
 
 ## Status
 
-Complete draft. Thirteen chapters plus notes, about 35,612 words of body text, roughly 160 printed pages at 6 x 9.
+Complete draft. Thirteen chapters plus notes, about 39,684 words of body text, 177 printed pages at 6 x 9.
 
 | # | Chapter | Words |
 |---|---------|-------|
-|  | [Outline](manuscript/00-outline.md) | 2,699 |
+|   | [Outline](manuscript/00-outline.md) | 2,699 |
 | 1 | [The Boundary Condition](manuscript/01-the-boundary-condition.md) | 2,728 |
 | 2 | [Assume a Longer Life](manuscript/02-assume-a-longer-life.md) | 2,438 |
 | 3 | [The Price of Time](manuscript/03-the-price-of-time.md) | 2,788 |
 | 4 | [The Estate](manuscript/04-the-estate.md) | 3,402 |
 | 5 | [The Funeral Principle](manuscript/05-the-funeral-principle.md) | 2,047 |
-| 6 | [Nobody Goes to Space](manuscript/06-nobody-goes-to-space.md) | 4,693 |
+| 6 | [Nobody Goes to Space](manuscript/06-nobody-goes-to-space.md) | 4,694 |
 | 7 | [Vacancy](manuscript/07-vacancy.md) | 2,312 |
-| 8 | [The Last Chain Letter](manuscript/08-the-last-chain-letter.md) | 4,032 |
-| 9 | [The Forkable Worker](manuscript/09-the-forkable-worker.md) | 2,192 |
-| 10 | [The Mortal Class](manuscript/10-the-mortal-class.md) | 1,891 |
+| 8 | [The Last Chain Letter](manuscript/08-the-last-chain-letter.md) | 4,038 |
+| 9 | [The Forkable Worker](manuscript/09-the-forkable-worker.md) | 3,085 |
+| 10 | [The Mortal Class](manuscript/10-the-mortal-class.md) | 3,634 |
 | 11 | [The Serrata](manuscript/11-the-serrata.md) | 2,181 |
-| 12 | [Reinventing the Funeral](manuscript/12-reinventing-the-funeral.md) | 2,774 |
+| 12 | [Reinventing the Funeral](manuscript/12-reinventing-the-funeral.md) | 4,203 |
 | 13 | [Terminal Value](manuscript/13-terminal-value.md) | 2,134 |
-|  | [Notes](manuscript/14-notes.md) | 7,234 |
+|   | [Notes](manuscript/14-notes.md) | 8,467 |
 
 ## Verification
 
-84 claims verified against sources. 8 still unverified and individually marked. 12 items flagged as the author's own calculation or argument rather than a reported finding.
+91 claims verified against sources. 7 still unverified and individually marked. 17 items flagged as the author's own calculation or argument rather than a reported finding.
 
 These counts are not maintained by hand. They are read out of the "Verification status" section of `manuscript/14-notes.md`, which states the counting rule, and the book, the working paper and the website all quote them from there at build time.
 
-Seven claims were found wrong or overstated and corrected. They are recorded in the notes rather than quietly fixed:
+Nine claims were found wrong or overstated and corrected. They are recorded in the notes rather than quietly fixed:
 
 - **Chapter 2 claimed the rise in life expectancy since 1850 was "almost entirely a story about children." False.** Mortality fell at every age. A five-year-old in 1841 England could expect to reach sixty; today, eighty-two. Rewritten around what actually did not move, which is the ceiling.
 - **The partial reprogramming result was overstated.** Ocampo's thirty percent lifespan extension was in a progeria disease model, not normal aged mice.
@@ -41,10 +41,12 @@ Seven claims were found wrong or overstated and corrected. They are recorded in 
 - **Venice did not ban the colleganza outright.** Softened to what the record shows. Note that Acemoglu and Robinson say it was banned; the disagreement is printed in the notes rather than smoothed over.
 - **Mars light lag is 3 to 22 minutes one way**, not 4 to 24.
 - **The Cologne Cathedral stoppage was four centuries**, not three.
+- **"Chain letter" is Karl Shell's phrase, not Samuelson's.** Chapter 8 and its note credited it to Samuelson while the Chapter 1 note correctly credited Shell. The two now agree, and the chapter title still stands.
+- **Two forked agent workers do not diverge only because of what they encounter.** They also diverge because the model samples. Chapter 9 overstated this and now says sampling and encounter.
 
 A NASA early-flight risk figure could not be confirmed and was removed. The effects of ending mandatory faculty retirement are genuinely disputed, and Chapters 5 and 7 now say so.
 
-Two of the remaining open items cannot be closed by reading and say so on their face. The description of how agent systems are instantiated, forked and terminated in Chapter 9 needs review by somebody who builds them. The per-flight denominator for wingsuit fatality rates in Chapter 6 is weak because nobody records how many flights happen.
+The Chapter 9 description of how agent systems are instantiated, forked and terminated has now been reviewed by a practitioner who runs them; it held, with one overstatement corrected. One open item still cannot be closed by reading and says so on its face: the per-flight denominator for wingsuit fatality rates in Chapter 6 is weak because nobody records how many flights happen.
 
 ## Style rules
 

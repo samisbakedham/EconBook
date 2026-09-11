@@ -20,7 +20,7 @@ It is made of the thing described in Chapter 1.
 
 Recall the model. Paul Samuelson, 1958. People live two periods. The young work and earn. The old do not work and need to eat. Goods cannot be stored between periods, so the old cannot simply save real output and consume it later.
 
-The old eat because the young give them things, and the young do this because they expect the next cohort of young to do the same for them. The whole arrangement is sustained by the arrival of new participants. Samuelson himself compared it to a chain letter.
+The old eat because the young give them things, and the young do this because they expect the next cohort of young to do the same for them. The whole arrangement is sustained by the arrival of new participants. Karl Shell, writing on the model in 1971, called that its chain letter aspect.
 
 Chapter 1 introduced this as a curiosity, a workhorse model whose engine happens to be generational replacement. That was an understatement, and it is worth correcting now, because the model is not a metaphor for anything.
 

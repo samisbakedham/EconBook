@@ -138,13 +138,13 @@ So the model appears to be wrong. Not marginally. By an order of magnitude, in t
 
 Take that at full strength before answering it, because a paradox that only survives the weak version of an objection is not worth the pages.
 
-### Four answers, and one concession
+### Five answers, and one concession
 
 The first answer is that the wingsuit flyer is not the constraint, and never was.
 
 Consider what a person needs in order to jump off a cliff in a nylon suit. They need the suit, a mountain, and their own consent. There is no underwriter. There is no launch licence. There is no board approving the expenditure, no supply chain, no regulator signing off on a flight readiness review, and no institution that carries liability when it goes wrong. BASE jumping is legal in most places precisely because the entire cost of the failure lands on the person who chose it, and no third party is exposed.
 
-The frontier is not like this and cannot be made like this. Getting to orbit requires capital that somebody has to commit, insurance somebody has to write, launch permission somebody has to grant, and a supply chain of firms each of which carries its own exposure. This chapter's argument was never that volunteers would run out. It said so explicitly: frontiers are opened by financing, not by volunteers, and Magellan sailed because a crown could absorb a loss it expected to take. The wingsuit case demonstrates the availability of the volunteer. It says nothing about the availability of the underwriter, which is the thing that was scarce.
+The frontier is not like this and cannot be made like this. Getting to orbit requires capital that somebody has to commit, insurance somebody has to write, launch permission somebody has to grant, and a supply chain of firms each of which carries its own exposure. This chapter's argument was never that volunteers would run out. It says so explicitly below: frontiers are opened by financing, not by volunteers, and Magellan sailed because a crown could absorb a loss it expected to take. The wingsuit case demonstrates the availability of the volunteer. It says nothing about the availability of the underwriter, which is the thing that was scarce.
 
 The second answer is about scale. There are perhaps a few thousand active wingsuit BASE flyers in the world. That population is sufficient to sustain a sport. It is not sufficient to crew, supply, service and govern a presence on another planet, and the difference is not one of degree. A sport requires that some people are willing. An industry requires that enough people are willing, at a price, repeatedly, with replacements available when they are lost, and with somebody prepared to carry the cost of losing them.
 

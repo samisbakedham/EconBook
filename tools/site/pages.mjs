@@ -58,7 +58,7 @@ const footer = (book) => `
       <div>
         <h4>Terminal Value</h4>
         <p class="colophon">${escapeHtml(book.meta.subtitle)}<br>
-        Twelve chapters and a set of notes, by ${escapeHtml(book.meta.author)}.
+        Thirteen chapters and a set of notes, by ${escapeHtml(book.meta.author)}.
         Complete draft: ${book.verification.verified} claims checked against sources, ${book.verification.unverified} not, each one marked.</p>
       </div>
       <div>
@@ -162,7 +162,7 @@ export function homePage(book) {
     <p class="hero-sub">${escapeHtml(book.meta.subtitle)}</p>
     <div class="hero-meta">
       <a class="btn btn-primary" href="#argument">Read the argument</a>
-      <a class="btn" href="/read">All twelve chapters</a>
+      <a class="btn" href="/read">All thirteen chapters</a>
     </div>
     <p class="label" style="margin-top:2rem">${escapeHtml(book.meta.author)}
       <span class="dot">&middot;</span> ${book.chapters.length} chapters
@@ -728,7 +728,7 @@ export function contentsPage(book) {
   return layout({
     book,
     title: 'Contents',
-    description: `All twelve chapters of ${book.meta.title}, plus the notes.`,
+    description: `All thirteen chapters of ${book.meta.title}, plus the notes.`,
     path: '/read',
     current: 'read',
     body,
