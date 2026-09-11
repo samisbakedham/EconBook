@@ -12,7 +12,9 @@ export const meta = {
   title: 'Terminal Value',
   subtitle: 'What Death Was Doing for the Economy, and What Happens When We Stop It',
   author: 'Samuel Safahi',
-  year: new Date().getFullYear(),
+  // Pinned, not derived. A book's copyright year is the year of publication,
+  // and a build in 2027 must not stamp 2027 on a book published in 2026.
+  year: 2026,
   siteUrl: 'https://econ-book.vercel.app',
   repo: 'https://github.com/samisbakedham/EconBook',
   isbn: '',
@@ -103,7 +105,7 @@ export function parseVerification(raw) {
     flagged: num(/Flagged as my own calculation[^:]*:\s*([\d,]+)\s*items?/i),
   };
   if (v.verified == null || v.unverified == null) {
-    throw new Error('Could not read the verification tally from manuscript/13-notes.md');
+    throw new Error('Could not read the verification tally from manuscript/14-notes.md');
   }
   v.total = v.verified + v.unverified;
   return v;
